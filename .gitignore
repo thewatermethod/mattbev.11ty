@@ -1,0 +1,11 @@
+.cache/
+_site/
+img/
+node_modules/
+package-lock.json
+
+# Local Netlify folder
+.netlify
+
+# these fookin guys
+.DS_Store

@@ -1,0 +1,9 @@
+<ul class="postlist">
+{% for post in postslist | reverse %}
+  {% if post.data.type == "link" %}
+    {% include "linkpost.njk" %}
+  {% else %}
+    {% include "postpost.njk" %}
+  {% endif %}
+{% endfor %}
+</ul>

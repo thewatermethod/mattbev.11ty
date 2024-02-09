@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+---
+
+<h1 class="page-title">{{ title }}</h1>
+
+{{ content | safe }}
+
+{% if collections.books %}
+<div class="bookshelf">
+    {% for book in collections.books | reverse %}
+        <div class="book">
+            <img src="{{ book.data.thumbnail | url }}" loading="lazy" alt="{{ book.data.title }}" />
+            <p>{{ book.data.date | readableDate }}</p>
+        </div>
+    {% endfor %}
+</div>
+{% endif %}
+

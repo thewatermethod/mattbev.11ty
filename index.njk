@@ -1,0 +1,15 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
+---
+{% set maxPosts = 3 %}
+
+<h2 class="page-title">Latest Writing</h2>
+
+{% set postslist = collections.posts | head(-5) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p>More posts and links can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+  {% include "htmlhead.njk" %}
+  <body>
+    <header class="site-header {% if templateClass %}header-{{ templateClass }}{% endif %}">
+      {% include "navigation.njk" %}
+    </header>
+
+    <main{% if templateClass %} class="main-{{ templateClass }}"{% endif %}>
+      <section class="content-section">
+          {{ content | safe }}
+      </section>
+
+    </main>
+
+    {% include "footer.njk" %}
+
+    <!-- Current page: {{ page.url | url }} -->
+
+    {# <script src="{{ '/js/theme.js' | url }}" async></script> #}
+</html>

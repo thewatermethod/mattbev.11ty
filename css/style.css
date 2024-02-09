@@ -1,0 +1,241 @@
+/**
+
+1. Reset CSS
+
+2. Typography
+
+3. Basic layout
+
+4. Header
+
+*/
+
+:root {
+  --blackest-pitch: #000;
+  --moderate-pitch: #222;
+  --curdled-cream: #fffff7;
+  --hardenend-blood: #8b0000;
+  --murky-depths: #0b2275;
+  --haunted-smoke: #ddd;
+}
+
+/**
+ * Reset CSS
+ */
+
+html,
+body,
+ul,
+li,
+ol,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul li.triangle::marker {
+  content: "▶  ";
+}
+
+/**
+* Typography
+*/
+html {
+  /** basic font reset **/
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html * {
+  font-family: inherit;
+}
+
+body {
+  background: var(--curdled-cream);
+  color: var(--moderate-pitch);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@font-face {
+  font-family: "Ultimate Black Metal";
+  src: url("/assets/XXII-Ultimate-Black-Metal.ttf");
+}
+
+.metal {
+  font-family: "Ultimate Black Metal";
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: var(--murky-depths);
+}
+
+a:hover {
+  color: var(--hardenend-blood);
+  text-decoration-color: var(--moderate-pitch);
+}
+
+/**
+basic layout
+**/
+
+main:not(.main-bookshelf) {
+  margin: auto;
+  max-width: 580px;
+  padding: 0.5em;
+}
+
+/** header **/
+header {
+  background: var(--blackest-pitch);
+  color: var(--curdled-cream);
+  margin: 0;
+  text-align: center;
+}
+
+header a {
+  color: var(--white);
+}
+
+header a:hover {
+  color: var(--haunted-smoke);
+  text-decoration-color: var(--murky-depths);
+}
+
+header nav ul {
+  display: flex;
+  gap: 1.25em;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+/** home page **/
+@media (min-width: 840px) {
+  .site-header--header-inner {
+    display: grid;
+    text-align: left;
+    font-size: 1em;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    max-width: 800px;
+  }
+}
+
+@keyframes scary-web-developer {
+  0% {
+    transform: rotateX(0deg);
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    transform: rotateX(10deg);
+    filter: hue-rotate(180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+    filter: hue-rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  [alt="scary web developer"] {
+    animation: scary-web-developer 7s infinite cubic-bezier(0.1, 0.7, 1, 0.1);
+  }
+}
+
+.site-header--header-inner h1 {
+  font-size: 3em;
+}
+.site-header--header-inner h1 a {
+  transition: all 0.67s ease;
+}
+.site-header--header-inner h1 a:hover {
+  color: var(--hardenend-blood);
+}
+
+.site-header--header-inner > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-title {
+  font-size: 2em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+/**
+postlist component
+**/
+.postlist {
+  list-style: none;
+  padding: 0;
+}
+.postlist-date {
+  display: block;
+}
+
+.postlist-link {
+  display: block;
+  font-size: 1.25em;
+}
+
+.postlist-item {
+  margin-bottom: 1.5em;
+}
+
+.postlist-link {
+  color: var(--murky-depths);
+}
+
+.bookshelf {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  padding: 1em;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.book img {
+  height: auto;
+  width: 320px;
+}
+
+.post-tag {
+  background: var(--murky-depths);
+  border-radius: 6px;
+  color: white;
+  display: inline-block;
+  font-size: 0.75em;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.post-tag:hover {
+  background: var(--hardenend-blood);
+  color: white;
+  transform: rotate(5deg);
+}
+
+footer {
+  display: flex;
+  padding: 0.5em;
+  justify-content: space-between;
+  margin-top: 4em;
+}
