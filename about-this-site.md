@@ -5,6 +5,8 @@ title: About this site
 
 The site is produced by typing into Markdown files, compiled using ~~Nuxt~~ [Eleventy](https://11ty.dev), and hosted on Netlify.
 
+Why Eleventy? [Read this](/posts/javascript-ecosystem).
+
 The code is on [GitHub](https://github.com/thewatermethod/mattbev.11ty).
 
 The homepage illustration is by Gino Vasconcelos
