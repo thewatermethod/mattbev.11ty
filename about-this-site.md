@@ -3,9 +3,9 @@ layout: layouts/page.njk
 title: About this site
 ---
 
-The site is produced by typing into Markdown files, compiled using ~Nuxt~ <a href="https://11ty.com">Eleventy</a>, and hosted on Netlify.
+The site is produced by typing into Markdown files, compiled using ~~Nuxt~~ [Eleventy](https://11ty.dev), and hosted on Netlify.
 
-The code is on Gitlab.
+The code is on [GitHub](https://github.com/thewatermethod/mattbev.11ty).
 
 The homepage illustration is by Gino Vasconcelos
 

@@ -17,6 +17,7 @@
   --hardenend-blood: #8b0000;
   --murky-depths: #0b2275;
   --haunted-smoke: #ddd;
+  --screaming-star: #ff4500;
 }
 
 /**
@@ -42,6 +43,10 @@ h2 {
 
 ul li.triangle::marker {
   content: "▶  ";
+}
+
+:focus {
+  outline: 2px solid var(--screaming-star);
 }
 
 /**
@@ -233,9 +238,53 @@ postlist component
   transform: rotate(5deg);
 }
 
-footer {
+.req {
+  color: var(--hardenend-blood);
+}
+
+[name="contact"] > * {
+  display: block;
+}
+
+[name="contact"] input,
+[name="contact"] textarea {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  width: 100%;
+}
+
+[name="contact"] [type="submit"] {
+  background: var(--hardenend-blood);
+  border: none;
+  color: var(--curdled-cream);
+  cursor: pointer;
+  margin: auto;
+  padding: 0.5em;
+  width: 50%;
+}
+
+[name="contact"] [type="submit"]:hover,
+[name="contact"] [type="submit"]:focus {
+  transform: rotate(-1deg);
+}
+
+footer ul {
   display: flex;
   padding: 0.5em;
   justify-content: space-between;
-  margin-top: 4em;
+  list-style: none;
+  margin: 4em auto 0;
+  max-width: 580px;
+}
+
+footer li.gideon:before {
+  content: "💀 ";
+}
+
+footer li.books:before {
+  content: "📚 ";
+}
+
+footer li.hash:before {
+  content: "#️⃣ ";
 }
