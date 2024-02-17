@@ -36,7 +36,7 @@ Cloudinary has a great free image plan. TinyMCE works just fine. Sendgrid for em
 
 Finally, my friend [Gino](https://twitter.com/kiwimonsta) was able to whip me up a sweet logo/header image.
 
-![the brew wizard logo](/images/brwzrd1.jpg)
+![the brew wizard logo](/assets/brwzrd1.jpg)
 
 ## The Links
 
