@@ -117,6 +117,10 @@ header a:hover {
   text-decoration-color: var(--murky-depths);
 }
 
+header nav {
+  padding: 1em 0 2em;
+}
+
 header nav ul {
   display: flex;
   gap: 1.25em;
