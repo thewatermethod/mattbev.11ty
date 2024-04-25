@@ -11,6 +11,6 @@ excerpt:
 
 just so I don't forget, the syntax is like so
 
-```
+```sh
 magick mogrify -format jpg *.HEIC
 ```
