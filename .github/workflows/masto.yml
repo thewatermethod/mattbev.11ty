@@ -11,7 +11,7 @@ jobs:
       - name: Feed to Mastodon
         uses: nhoizey/github-action-feed-to-mastodon@v2
         with:
-          feedUrl: "https://mattbev.ccom/follow.json"
+          feedUrl: "https://mattbev.com/follow.json"
           mastodonInstance: "https://dice.camp"
           mastodonToken: ${{ secrets.MASTODON_TOKEN }}
           testMode: true
