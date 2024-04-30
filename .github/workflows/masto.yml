@@ -15,7 +15,3 @@ jobs:
           mastodonInstance: "https://dice.camp"
           mastodonToken: ${{ secrets.MASTODON_TOKEN }}
           testMode: true
-      - name: Pull any changes from Git
-        run: git pull
-      - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v4
