@@ -8,7 +8,7 @@ type: post
 
 DuckDB is fast. It took me a minute to figure out how to do this, but here it is, in case it helps someone else:
 
-```
+```sql
 SELECT
   events.*
   FROM (
