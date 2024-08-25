@@ -9,3 +9,5 @@ package-lock.json
 
 # these fookin guys
 .DS_Store
+
+.env

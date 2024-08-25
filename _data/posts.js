@@ -4,8 +4,9 @@ const TurndownService = require("turndown");
 const turndownService = new TurndownService();
 const { imageAttributes } = require("../constants");
 
-const tumblrUrl =
-  "https://api.tumblr.com/v2/blog/thewatermethod.tumblr.com/posts/?tag=public+publish&api_key=nYKZNYuz85gRkIogKLrOR90qMr1yM7MvwKae6rlJyWqmvFtTsH";
+const { TUMBLR_API_KEY, TUMBLR_BLOG_NAME } = process.env;
+
+const tumblrUrl = `https://api.tumblr.com/v2/blog/${TUMBLR_BLOG_NAME}.tumblr.com/posts/?tag=public+publish&api_key=${TUMBLR_API_KEY}`;
 
 const parseTumblrPost = async (post) => {
   switch (post.type) {
@@ -58,6 +59,10 @@ const parseTumblrPost = async (post) => {
 };
 
 const fetchTumblrPosts = async () => {
+  if (!TUMBLR_API_KEY || !TUMBLR_BLOG_NAME) {
+    console.error("Missing TUMBLR_API_KEY or TUMBLR_BLOG_NAME");
+    return [];
+  }
   const data = await EleventyFetch(tumblrUrl, {
     duration: "1d",
     type: "json",

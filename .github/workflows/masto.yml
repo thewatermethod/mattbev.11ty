@@ -1,7 +1,10 @@
 name: Scheduled follow feed to Mastodon
 on:
-  schedule:
-    - cron: "0 12 * * 1,3,5"
+  # schedule:
+  #   - cron: "0 12 * * 1,3,5"
+  push:
+    branches:
+      - develop
 jobs:
   JSONFeed2Mastodon:
     runs-on: ubuntu-latest
