@@ -1,5 +1,8 @@
 name: Scheduled follow feed to Mastodon
 on:
+  # push:
+  #   branches:
+  #     - main
   workflow_dispatch:
   # schedule:
   # - cron: "0 12 * * 1,3,5"
@@ -9,6 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Feed to Mastodon
         uses: nhoizey/github-action-feed-to-mastodon@v2
         with:
@@ -16,7 +20,9 @@ jobs:
           mastodonInstance: "https://dice.camp"
           mastodonToken: ${{ secrets.MASTODON_TOKEN }}
           testMode: true
+
       - name: Pull any changes from Git
         run: git pull
+
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v4
