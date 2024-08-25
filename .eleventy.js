@@ -13,6 +13,25 @@ module.exports = function (eleventyConfig) {
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
 
+  eleventyConfig.addCollection("posts", (collection) => {
+    // This is typical Collection by Tag call
+    const posts = collection.getFilteredByTag("posts");
+
+    // Map over all the posts
+    const postsWithUpdatedDates = posts.map((item) => {
+      // If the item has a data.post object (from external Data)
+      // Then set a new date based on the date property
+      // Else return the original date (takes care of the Markdown)
+      item.date = item.data.post ? new Date(item.data.post.date) : item.date;
+      return item;
+    });
+    // Now we need to re-sort based on the date (since our posts keep their index in the array otherwise)
+    const sortedPosts = postsWithUpdatedDates.sort((a, b) => a.date - b.date);
+    // Make sortedPosts the array for the collection
+    return sortedPosts;
+  });
+
+  // add filters
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
       "dd LLLL yyyy"
@@ -77,22 +96,20 @@ module.exports = function (eleventyConfig) {
     ghostMode: false,
   });
 
-  eleventyConfig.addShortcode("image", async function (src, alt, sizes) {
-    let metadata = await Image(src, {
-      widths: [300, 600],
-      formats: ["avif", "jpeg", "webp"],
-    });
+  eleventyConfig.addShortcode(
+    "image",
+    async function (src, alt, sizes = "100vh") {
+      let metadata = await Image(src, {
+        widths: [300, 600],
+        formats: ["avif", "jpeg", "webp"],
+      });
 
-    let imageAttributes = {
-      alt,
-      sizes,
-      loading: "lazy",
-      decoding: "async",
-    };
+      const attributes = imageAttributes(alt, sizes);
 
-    // You bet we throw an error on a missing alt (alt="" works okay)
-    return Image.generateHTML(metadata, imageAttributes);
-  });
+      // You bet we throw an error on a missing alt (alt="" works okay)
+      return Image.generateHTML(metadata, attributes);
+    }
+  );
 
   return {
     // Control which files Eleventy will process
