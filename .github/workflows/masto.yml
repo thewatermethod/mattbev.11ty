@@ -14,7 +14,7 @@ jobs:
         with:
           feedUrl: "https://mattbev.com/follow.json"
           mastodonInstance: "https://dice.camp"
-          # mastodonToken: ${{ secrets.MASTODON_TOKEN }}
+          mastodonToken: ${{ secrets.MASTODON_TOKEN }}
           testMode: true
       - name: Pull any changes from Git
         run: git pull
