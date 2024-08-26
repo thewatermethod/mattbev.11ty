@@ -471,5 +471,36 @@
       "Assuming this item as already been shared before automation (see `ignoreFirstRun` input)"
     ],
     "lastTootTimestamp": 1714493287225
+  },
+  "/posts/a-book-and-a-film-summer-2024/": {
+    "id": "/posts/a-book-and-a-film-summer-2024/",
+    "title": "A book and a film, summer 2024",
+    "content_text": "Have really enjoyed a couple things I watched and/or read lately.Perfect Days, dir. Wim Wenders (movie)The premise (a few days in the life of a public toilet cleaner in Tokyo) is going to polarize; if you are immediately interested, you are primed for the film you are about to see. One incredible performance anchors this moving, meditative movie.The Wheel of Doll, by Jonathan Ames (book)The Doll series is about as hard-boiled of a crime novel as you can get, except Jonathan Ames writes with the beauty of Fitzgerald and with a protagonist who is basically a more sensitive and neurotic Bukowski. I couldn&#39;t put it down. Also definitely written by a man who owns a small dog.",
+    "url": "/posts/a-book-and-a-film-summer-2024/",
+    "date_published": "2024-07-23T00:00:00+0000",
+    "tags": [
+      "posts",
+      "film",
+      "bookshelf",
+      "for fun"
+    ],
+    "toots": []
+  },
+  "/posts/jsonb-to-rdb-duckdb/": {
+    "id": "/posts/jsonb-to-rdb-duckdb/",
+    "title": "Recipe for converting a postgres JSONB column to a table in DuckDB",
+    "content_text": "DuckDB is fast. It took me a minute to figure out how to do this, but here it is, in case it helps someone else:SELECT  events.*  FROM (    SELECT      from_json(data, &#39;{ &amp;quot;id&amp;quot;: &amp;quot;INT&amp;quot;, &amp;quot;goal&amp;quot;: &amp;quot;TEXT&amp;quot; }&#39;) as events    FROM postgres_scan(      &#39;host=localhost port=5432 dbname=dbname user=postgres password=something_secret&#39;, &#39;public&#39;, &#39;EventsWithJSONData&#39;    )  );",
+    "url": "/posts/jsonb-to-rdb-duckdb/",
+    "date_published": "2024-07-21T00:00:00+0000",
+    "tags": [
+      "posts",
+      "dev",
+      "duckdb",
+      "postgres"
+    ],
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113025718821336265"
+    ],
+    "lastTootTimestamp": 1724635602198
   }
 }
