@@ -11,7 +11,7 @@ permalink: '/follow.json'
             "id": "{{ metadata.url }}{{ post.url }}",
             "title": "{{ post.data.title | escape }}",
             {% if post.data.summary %}
-                "content_text": "{{ post.data.summary | escape }}",
+                "content_text": "{{ post.data.summary | escape }}\n\n{{ metadata.url }}{{ post.url }}",
             {% else %}
                 "content_text": "{{ post.templateContent | strip_html | strip_newlines | escape }}",
             {% endif %}
