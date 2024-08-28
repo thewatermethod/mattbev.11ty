@@ -3,8 +3,6 @@ const Image = require("@11ty/eleventy-img");
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
-require("dotenv").config();
-
 module.exports = function (eleventyConfig) {
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");

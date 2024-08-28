@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "@11ty/eleventy-fetch": "^4.0.1",
-    "dotenv": "^16.4.5",
     "html-entities": "^2.5.2",
     "tough-cookie": "^4.1.4",
     "turndown": "^7.2.0"
