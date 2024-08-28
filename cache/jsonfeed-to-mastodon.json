@@ -1,6 +1,6 @@
 {
   "/posts/magick-bulk-convert/": {
-    "id": "/posts/magick-bulk-convert/",
+    "id": "https://mattbev.com/posts/magick-bulk-convert/",
     "title": "Bulk convert images with magick CLI",
     "content_text": "just so I don&#39;t forget, the syntax is like somagick mogrify -format jpg *.HEIC",
     "url": "/posts/magick-bulk-convert/",
@@ -15,7 +15,7 @@
     "lastTootTimestamp": 1714493287224
   },
   "/posts/the-analog-web/": {
-    "id": "/posts/the-analog-web/",
+    "id": "https://mattbev.com/posts/the-analog-web/",
     "title": "The Analog Web",
     "content_text": "",
     "url": "/posts/the-analog-web/",
@@ -30,7 +30,7 @@
     "lastTootTimestamp": 1714493287224
   },
   "/posts/creating-the-innocent-killer/": {
-    "id": "/posts/creating-the-innocent-killer/",
+    "id": "https://mattbev.com/posts/creating-the-innocent-killer/",
     "title": "Creating the innocent killer",
     "content_text": "Found via the excellent Pluralistic blog",
     "url": "/posts/creating-the-innocent-killer/",
@@ -46,7 +46,7 @@
     "lastTootTimestamp": 1714493287224
   },
   "/posts/megadungeons-a-model-for-media-complexity/": {
-    "id": "/posts/megadungeons-a-model-for-media-complexity/",
+    "id": "https://mattbev.com/posts/megadungeons-a-model-for-media-complexity/",
     "title": "Megadungeon: A Model for Media Complexity",
     "content_text": "Spend a lot of time thinking about megadungeons, but not in this context",
     "url": "/posts/megadungeons-a-model-for-media-complexity/",
@@ -62,7 +62,7 @@
     "lastTootTimestamp": 1714493287224
   },
   "/posts/javascript-ecosystem/": {
-    "id": "/posts/javascript-ecosystem/",
+    "id": "https://mattbev.com/posts/javascript-ecosystem/",
     "title": "Opting out of the JavaScript ecosystem (sort of)",
     "content_text": "Ok. Not opting out of anything. tldr: this site moved from Nuxt to 11ty.This site went dark for some time, first because I was busy, and secondly because it became too onerous to update. Conflicting versions of Node, Vue, and Nuxt basically meant it was time to update the site, and with that meant updating the Nuxt plugins that supported the content flow, and once I realized what a project it would be, I started to wonder why I should bother.I first considered switching this back to a simple WordPress theme. It&#39;s not that the tech involved in a WordPress is simpler than a Nuxt site but I do have WordPress sites that have worked for approaching a decade, with the host or the app itself automatically updating the core files, php, plugins, etc. That&#39;s really something else, that level of stability.Meanwhile, on my very fancy JavaScript site, I couldn&#39;t update a post without implementing a new API and debugging npm install.WordPress, at the end of the day, is a very large instrument for this use case, and 11ty exists. The title of this post is therefore a bit misleading. I am on 11ty now, which frankly is a much better fit for updating Markdown files to generate HTML than Nuxt, no shade on an otherwise fine tool. I&#39;ve also recently worked on an Astro site, which was a consideration, but Astro also feels like a bit too much for what is HTML &amp;amp; CSS compiled from markdown. And it also feels extremely &amp;quot;bought in&amp;quot; to the ecosystem, where 11ty is more like a single purpose tool. At least that&#39;s the way it feels.The best part of the move is the nice clean package.json. I struggle to imagine a situation where it might grow.",
     "url": "/posts/javascript-ecosystem/",
@@ -78,7 +78,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/outlaw-chic/": {
-    "id": "/posts/outlaw-chic/",
+    "id": "https://mattbev.com/posts/outlaw-chic/",
     "title": "Outlaw Kings and Rebellion Chic",
     "content_text": "",
     "url": "/posts/outlaw-chic/",
@@ -93,7 +93,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/counting-ghosts/": {
-    "id": "/posts/counting-ghosts/",
+    "id": "https://mattbev.com/posts/counting-ghosts/",
     "title": "Counting Ghosts: A case for abandoning web analytics",
     "content_text": "",
     "url": "/posts/counting-ghosts/",
@@ -108,7 +108,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/horror-movies-2023/": {
-    "id": "/posts/horror-movies-2023/",
+    "id": "https://mattbev.com/posts/horror-movies-2023/",
     "title": "Horror Movies I watched in October 2023",
     "content_text": "Here&#39;s my list, seperated into three categories. The Best, Great, and Good because 1) every movie is a special baby and 2) if I didn&#39;t like it at all I wouldn&#39;t put it here. Also, horror movies is a loose category that encompasses generally spooky or macabre things even if the movie is not a SCARY movie.The BestThe Addiction (1995)The Black Cat (1934) (rewatch)GreatThe Autopsy of Jane DoeThe Fly (1958) (rewatch)The Creature from the Black Lagoon (rewatch)The Wolfman (1941) (rewatch)Angry Black Girl and Her Monster (2023)Dust Devil (1994)Trick `r Treat (2007)Dog SoldiersGoodNight of the Demons (rewatch)Bubba Ho-Tep (2002)(rewatch)Return of the Living Dead 3 (1993)RenfieldArsenic and Old Lace (1944)",
     "url": "/posts/horror-movies-2023/",
@@ -125,7 +125,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/satanic-panic/": {
-    "id": "/posts/satanic-panic/",
+    "id": "https://mattbev.com/posts/satanic-panic/",
     "title": "Satanic Panics and the Death of Mythos",
     "content_text": "The idea of mythos vs logos explored in this piece, and the connection between those ideas, prosperity gospel, and even toxic fandoms - well, I keep thinking about it",
     "url": "/posts/satanic-panic/",
@@ -140,7 +140,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/sabotage-reissue/": {
-    "id": "/posts/sabotage-reissue/",
+    "id": "https://mattbev.com/posts/sabotage-reissue/",
     "title": "Black Sabbath&#39;s Sabotage Super Deluxe Reviewed",
     "content_text": "First time I heard Hole in the Sky it was mind-blowing. Nevermind that late-period Ozzy/Sabbath has some clunkers, this is a great review about the indisputable GOATs.",
     "url": "/posts/sabotage-reissue/",
@@ -157,7 +157,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/ghost-world-20-years-on/": {
-    "id": "/posts/ghost-world-20-years-on/",
+    "id": "https://mattbev.com/posts/ghost-world-20-years-on/",
     "title": "Never Growing Up - Terry Zwigoff&#39;s Ghost World At 20",
     "content_text": "It’s hard not to wonder how Enid’s aestheticism would be affected by all this. Would she still be into 1960s Bollywood movies now that anybody can get their hands on them? Would she be able to connect more with others, or would she have lost everything that defined who she was? If anybody can be Enid, does that mean that nobody can?",
     "url": "/posts/ghost-world-20-years-on/",
@@ -172,7 +172,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/on-job-hunting-and-interviews/": {
-    "id": "/posts/on-job-hunting-and-interviews/",
+    "id": "https://mattbev.com/posts/on-job-hunting-and-interviews/",
     "title": "On job hunting and interviews",
     "content_text": "So - I&#39;ve been job hunting for the past three months. Nothing against where I&#39;ve been working, but I can&#39;t imagine spending two hours a day in a car doing the commute thing again.I interviewed lots of different places. I have a lot of experience, but I also know the holes in my resume - specifically, I have largely worked on teams and in situations where I&#39;ve been the senior developer, and always small teams. Just due to the places I&#39;ve worked and the needs those places had, I&#39;ve been responsible for all the leveling up, both for myself and for the teams. This puts me somewhere between mid and senior level, in my opinion, despite technically having a Senior job title.Which is fine! And can be fun! But I know that this has left weird holes in my knowledge base. It&#39;s just one of those things. That said, I largely applied to places with a focused mission that could be interpeted as making the world a better place, either through large open source projects or because of the nature of the work itself. An incredible privilege to be able to have choices like that, and I say that as someone who spent plenty of time in his twenties cleaning toilets, sweeping floors, and retrieving carriages. Life can take you amazing places if you are lucky enough, and I feel incredibly lucky. I ended up with a new job, and it delivers on everything I wanted, at least on paper (haven&#39;t started yet.)Curious what the job is? It&#39;s on or will be soon on my resume.The interview processAs a result of this job search, I had a wide variety of interview experiences and processes. Companies, want a thorough accounting of your skills before they hire you. Ok. I think that&#39;s understandable given the salaries under discussion. There will usually be something like this:A phone screen with a person in their talent department, generally pretty quick, to explain the role and verify your resume. Every talent person who reached out was great this time around.A short interview with either a hiring manager or whomever the next level of gatekeeper is. This may include stock interview questions or be more resume verification.A coding test. These varied pretty widely, from a fifteen minute screen share where I did some very basic javascript and CSS, to a fairly involved React/Typescript demo that took close to eight hours to complete, with lots of in between.The virtual on-site. 2-4 hours with a rotating cast of managers and peers on a variety of subjects from group dynamics, technical subjects, and behavioral type interview questions.There are lots of things I find annoying about the interview process.Everyone asks the same questions. This is good and bad, as by week 4, I had a reasonable patter down for each question. I question the value of some of these beyond verifying the candidate has indeed had experiences and can talk about them. Maybe that&#39;s a sufficiently important thing to verify? There might be a better way.You are expected to ask 10 minutes of questions at the end of every interview. Sometimes I have questions; sometimes I don&#39;t. But you seem like a dull knife or like you don&#39;t care if you can&#39;t fill the entire interview.You are expected to find a way to be enthusiastic about specific mission of the organization and call that out specifically. I understand that&#39;s a good way to stand out, but also, I applied. I want to work there. And if you have 5 interviews in a week, this turns into a surprising amount of homework. This wasn&#39;t particularly hard for me, since I kind of picked and chose where I might want to work, but if you have a lot of interviews, it can be confusing.I don&#39;t understand what information I am supposed to glean from having all my interviewer&#39;s LinkedIn profiles.My biggest problem, however, is the technical portion of the onsite. I generally felt like I skated through the first three steps pretty easily (in all cases but one where I got a first interview, I got to the final stage). I am mindful to say again here that I do have lots of gaps in my knowledge (although I suspect everyone does) and I do think it&#39;s important to verify someone&#39;s skills before hiring them. Ok. A lot of salary, benefits, everyone&#39;s time is at stake. Got it. Agreed.But...I am definitely an introvert. I work pretty hard to not let that sabotage me, but let&#39;s just say I barely noticed we were in quarantine. (Kidding). That said, I do get nervous right before an interview starts, but once it does, I feel calm. No more stomach butterflies, at least, no thumping heart. Talking about web dev. I do it every day. Every day! I know this stuff. Except, in the midst of these interviews, I have discovered some facts about myself.My brain will just refuse to provide me with extremely basic information sometimes in an interview situation. Like... I was asked to reverse a string in JavaScript. Reasonably, this is a very simple task. I have gaps in my knowledge, but they don&#39;t include the most basic JavaScript string functions. I have split and joined and reversed plenty of strings and arrays. I typed str.reverse(), frowned because I knew that wasn&#39;t right, and then my brain refused to continue.I said &amp;quot;I know there is a function to turn a string into an array, but I can&#39;t remember what it is.&amp;quot;&amp;quot;Well, just do your best.&amp;quot;Now I was completely blank on split. Like... I had no idea. I was picturing something like [str].reverse(), and I could see that wasn&#39;t right. I didn&#39;t really know how to proceed, so I ended up with a really nightmarish mix of for loops. I could tell from the nice interviewer&#39;s manner what she thought of my solution, and I knew that I was toast. I mumbled my way through the rest of the interview, and that was that.Other things I forgot, on different occasions, that I definitely know: you can pass an object as a parameter in JavaScript instead of twelve different parameters. The difference between HTTP codes 401 and 403. How to catch an error in async/await. A content security policy. Basic prototypal inheritance. How to improve a page&#39;s performance based on Lighthouse scores. Sometimes I know that I should know it - other times, I wonder if I&#39;ve ever known anything.Now, this begs the question. Should a candidate be able to recall this stuff in an interview situation? I think in some of these cases, I was very well suited for these jobs. I think I would make a real positive difference at these organizations. I work very hard, I have a lot of knowledge, and I think hiring me is a good thing.I&#39;m obviously biased - and they probably found candidates who don&#39;t forget basic stuff in these cases. Well, ok.In the real world, I would have time to get this stuff right, I wouldn&#39;t have the pressure of recalling it on demand, and I could even Google if need be. Har-de-har-har Stack Overflow, whatever, but even though I use it less than ever, I do have all the world&#39;s knowledge at my fingertips and I know how to efficiently find the correct kind. So what are we testing exactly with these technical interviews? Is it the right stuff?Solutions?First of all, don&#39;t cry for me, I eventually got a job, and it&#39;s one I&#39;m excited for.I don&#39;t necessarily have solutions. I can&#39;t even say for sure that it&#39;s a problem. Maybe the process is working as desired. I can sort of see that. I also can&#39;t say that everyone has this same problem. People are getting jobs and succeeding in them. But I can&#39;t be the only one. I don&#39;t struggle with communication in general, verbal or written. Just sometimes, perhaps because I&#39;m under pressure, I find myself unable to demonstrate basic technical knowledge. Now, in some but not all of these cases, I also sincerely lacked some of the knowledge they were asking for.It seems to me the testing process in an interview should reflect the process of working. We&#39;ve come a long way - as a front end developer, I wasn&#39;t asked to talk about algorithms or reverse a binary tree. I wasn&#39;t even asked to talk about &amp;quot;this&amp;quot; in JavaScript, really. I never got any trick questions, although quizzes about specific HTTP status codes feel close given, again, front end developer.Why not take a candidate at their word as to their knowledge, given a successfully take home code-test completion, and give them a trial project? Automattic gives paid trial work. I see the potential for abuse, I&#39;m sure some companies would try to get free or discounted labor there. I&#39;m imagining that the project is not &amp;quot;for production&amp;quot; and also that it is more substantial then a take home test. It could loop in as much of the actual work processes of the job, and it could have a hard deadline, like a real bit of work would. Would this be fairer? Maybe if it was paid. Obviously, people who can&#39;t spend a week working on this imagined project (in the case they have a demanding job or substantial offline commitments like children or relatives) would be disadvantaged. This is a problem that would need to be solved, frankly, although in many cases, being available for several rounds of interviews including likely a three plus hour block is probably just as difficult as completing a large take-home project.Coming to a kind of conclusion here, I would say that job interviews are great opportunities for learning experiences. You&#39;ll learn, at the very least, what other teams are doing, and you may, as I have, noticed industry patterns specifically. A lot of companies, for example, are pretty concerned about accessibility, which is great to hear. You&#39;ll find out how your skills stack up and you&#39;ll see what companies are looking for. You&#39;ll talk to a lot of different folks, which is always a learning experience. Most people you talk to are pretty nice! I think that beyond that, the process is flawed and may always by necessity exclude a portion of great candidates, which is a bummer. I think people are constantly trying to improve this, and I hope that we do.",
     "url": "/posts/on-job-hunting-and-interviews/",
@@ -190,7 +190,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/japanese-wood-joinery/": {
-    "id": "/posts/japanese-wood-joinery/",
+    "id": "https://mattbev.com/posts/japanese-wood-joinery/",
     "title": "Japanese Carpenters Unearth 100-Year-Old Wood Joineries While Taking Apart a Traditional House",
     "content_text": "butterfly guy meme Is this... pornography?",
     "url": "/posts/japanese-wood-joinery/",
@@ -205,7 +205,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/commonwealth-inequalities/": {
-    "id": "/posts/commonwealth-inequalities/",
+    "id": "https://mattbev.com/posts/commonwealth-inequalities/",
     "title": "Stark differences make many Mass. communities neighbors in name only",
     "content_text": "A stark look at the differences between communities in Massachusetts",
     "url": "/posts/commonwealth-inequalities/",
@@ -220,7 +220,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/adding-transistor-fm-to-wordpress-oembed/": {
-    "id": "/posts/adding-transistor-fm-to-wordpress-oembed/",
+    "id": "https://mattbev.com/posts/adding-transistor-fm-to-wordpress-oembed/",
     "title": "Get Transistor.fm oEmbed HTML programatically in WordPress",
     "content_text": "I recently had a request to programatically embed Transistor.fm podcast links in a WordPress template.The block editor seems to handle these links just fine. However, this wasn&#39;t going to be embedded in the content area but generated dynamically based on a third party API response.WordPress has a built in set of oEmbed providers - for one of those, you can can get the HTML with wp_oembed_get$html = wp_oembed_get($link);Transistor wasn&#39;t one of them so that was returning false, but there&#39;s a function for that-//add transistor as an oEmbed providerwp_oembed_add_provider(&#39;https://share.transistor.fm/*&#39;, &#39;https://share.transistor.fm/oembed&#39;);Transistor&#39;s docs didn&#39;t seem to have any oembed provider info but an endpoint exists!RTFM if you wantwp_oembed_getoembed_providerswp_oembed_add_provider",
     "url": "/posts/adding-transistor-fm-to-wordpress-oembed/",
@@ -236,7 +236,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/building-an-rss-with-nuxt-content/": {
-    "id": "/posts/building-an-rss-with-nuxt-content/",
+    "id": "https://mattbev.com/posts/building-an-rss-with-nuxt-content/",
     "title": "Building an RSS Feed in Nuxt with Nuxt/Content",
     "content_text": "Needed to do this exact thing, so I found this pretty useful",
     "url": "/posts/building-an-rss-with-nuxt-content/",
@@ -254,7 +254,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/delicious/": {
-    "id": "/posts/delicious/",
+    "id": "https://mattbev.com/posts/delicious/",
     "title": "Bringing delicious back",
     "content_text": "Does anyone else remember del.icio.us? It was basically the Twitter heart button but you could do it privately and also it was a lot easier to search and taxonomize. I believe at the time it was called &amp;quot;social bookmarking.&amp;quot; It was one of the many casualities of Yahoo&#39;s purchasing power and the transition to, as the tweet says, the internet becoming six websites consisting entirely of screenshots of and links to the other five (I&#39;m paraphrasing here).Anyways, a month or so ago (maybe longer, I&#39;m writing this in March of 2021), the creator of Pinboard bought it back and stood it up so that if you had an account you could reclaim it. I downloaded my archive as a big old JSON file and with a little Node magic I&#39;ve created a little archive of it on this site.I&#39;m honestly struggling to remember why I liked this better than browser bookmarks - but it&#39;s a great snapshot of I don&#39;t know, what I was into in 2007? Definitely still beer and computers, also Sherlock Holmes.The less said about steampunk, the better.",
     "url": "/posts/delicious/",
@@ -270,7 +270,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/aws-api-within-a-netlify-function/": {
-    "id": "/posts/aws-api-within-a-netlify-function/",
+    "id": "https://mattbev.com/posts/aws-api-within-a-netlify-function/",
     "title": "Setting AWS environmental variables in Netlify",
     "content_text": "Recently I had occasion to access the AWS API within a serverless function that I was deploying within a Next site on NetlifyAmazon&#39;s documentation on the subject indicated that you could authenticate via setting your environmental variables (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) which made sense to me because of the really cool interaction between the netlify dev command line tool and the Netlify console.However AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY are reserved by Netlify. There are other ways to authenticate, but if you want to use environmental variables, here is one way. You can set your id and key to whatever you like in the Netlify console and pass them to the client in the configuration object. I had to poke around in the Typescript definitions to get the exact syntax, so here it is.const client = new LightsailClient({  region: &amp;quot;us-east-1&amp;quot;,  credentials: {    accessKeyId: process.env.YOUR_ACCESS_KEY_ID,    secretAccessKey: process.env.YOUR_SECRET_ACCESS_KEY,  },});Obviously, you can sub out Lightsail client for S3 or whatever AWS service you need.Also big props to Amazon for putting that API in Typescript, made my day considerably easier.",
     "url": "/posts/aws-api-within-a-netlify-function/",
@@ -288,7 +288,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/web-components-at-work/": {
-    "id": "/posts/web-components-at-work/",
+    "id": "https://mattbev.com/posts/web-components-at-work/",
     "title": "Web Components at Work",
     "content_text": "Thinking a lot about web components lately",
     "url": "/posts/web-components-at-work/",
@@ -304,7 +304,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/layout-and-the-grid/": {
-    "id": "/posts/layout-and-the-grid/",
+    "id": "https://mattbev.com/posts/layout-and-the-grid/",
     "title": "Layout and the Grid",
     "content_text": "A great cross-section of things I like: RPGs, zines, pretty things, grids",
     "url": "/posts/layout-and-the-grid/",
@@ -320,7 +320,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/death-to-icon-fonts/": {
-    "id": "/posts/death-to-icon-fonts/",
+    "id": "https://mattbev.com/posts/death-to-icon-fonts/",
     "title": "Seren Davies - Death to icon fonts - EpicFEL 2015 (Youtube)",
     "content_text": "An old video, but something that I am thinking about a lot in my day to day lately",
     "url": "/posts/death-to-icon-fonts/",
@@ -335,7 +335,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/adding-a-sitemap-to-nuxt/": {
-    "id": "/posts/adding-a-sitemap-to-nuxt/",
+    "id": "https://mattbev.com/posts/adding-a-sitemap-to-nuxt/",
     "title": "Adding a Sitemap using Nuxt Content",
     "content_text": "I used the info in this article to build the sitemap for this site (as well as this cool package)",
     "url": "/posts/adding-a-sitemap-to-nuxt/",
@@ -352,7 +352,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/adding-environmental-variables-nuxt/": {
-    "id": "/posts/adding-environmental-variables-nuxt/",
+    "id": "https://mattbev.com/posts/adding-environmental-variables-nuxt/",
     "title": "Adding environmental variables into Nuxt",
     "content_text": "I&#39;ve forgotten this many times, so I am writing it down in attempt to etch it into my brain:prefix environmental variables with NUXT_APP or they won&#39;t workI&#39;ve also forgotten the corresponding create react app thing as well (prefix your env variables with REACT_APP)",
     "url": "/posts/adding-environmental-variables-nuxt/",
@@ -369,7 +369,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/newsletters-is-this-progress/": {
-    "id": "/posts/newsletters-is-this-progress/",
+    "id": "https://mattbev.com/posts/newsletters-is-this-progress/",
     "title": "Newsletters",
     "content_text": "Robin puts their finger on something about Substack that makes me uncomfortable very well.",
     "url": "/posts/newsletters-is-this-progress/",
@@ -385,7 +385,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/kate-bush-christmas-special/": {
-    "id": "/posts/kate-bush-christmas-special/",
+    "id": "https://mattbev.com/posts/kate-bush-christmas-special/",
     "title": "Revisit Kate Bush’s Peculiar Christmas Special, Featuring Peter Gabriel (1979)",
     "content_text": "This is what the children (hello fellow kids) call a collection of real bangers, a bunch of songs I can literally never get tired of, accompanied with great costumes and dancing.Not sure what it has to do with Christmas particularly.",
     "url": "/posts/kate-bush-christmas-special/",
@@ -400,7 +400,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/horror-movies-2020/": {
-    "id": "/posts/horror-movies-2020/",
+    "id": "https://mattbev.com/posts/horror-movies-2020/",
     "title": "Horror Movies I watched in October 2020",
     "content_text": "Hey the real horror movie is the news amirite guysNo for real, it&#39;s scary as hell out thereAnyways, I love horror movies and each year I make a point to watch a mix of old favorites and new to me movies.Here&#39;s my list, seperated into three categories.The BestDeath Line (a.k.a. Raw Meat)Mandy (rewatch)The Black Cat (rewatch)The Karloff/Lugosi one. This is my favorite horror film.BlissThe ChangelingWith George C Scott, not Angelina JolieGreatThe Masque of the Red Death (rewatch)Let&#39;s Scare Jessica to DeathThe Witch Who Came from the SeaThis was a tough one. Well acted, brutal. Upsetting.Frankenstein (rewatch)Watched this with my daughter. Trying to go gradual on the horror films.The Blob (1958) (rewatch)HauntThe Resurrected (rewatch)GoodHumanoids from the DeepNight of the DemonsThe Exorcist IIINot sure what this movie is about, but it had a truly amazing jump scare and a few other standout moments.Scare MeAya Cash is really good in this. Great premise as well.The Mortuary CollectionWNUF Halloween Special",
     "url": "/posts/horror-movies-2020/",
@@ -417,7 +417,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/roblox-is-the-90s-web/": {
-    "id": "/posts/roblox-is-the-90s-web/",
+    "id": "https://mattbev.com/posts/roblox-is-the-90s-web/",
     "title": "Roblox is the Web We Miss",
     "content_text": "Look - it&#39;s just accepted as fact by us olds that the internet used to be better, that the time before the Facebooks was an entirely different web.It&#39;s obvious what people miss - the unbridled creativity of the old web. Even if a lot of that was found on a Myspace page, which was it&#39;s own sort of walled garden. You can find products that explicitly try to hook into that creative charge (Glitch, for example, which I greatly enjoy).Kids won&#39;t be, by and large, using create-react-app though. Maybe some particularly ambitious teens. (Kids also won&#39;t be producing accessible or particularly usable websites, at least most kids).But remember, it was the ease of the process, and also the low standards, that made it possible for everyone to have their own website then. It was HTML with semantic inline attributes. Most people can read &amp;lt;bold&amp;gt; tags and &amp;lt;font&amp;gt; tags and can tell at least what they mean. Anyone who has worked at an organization with a lot of people having access to THIS IS JUST AN EXAMPLE a WordPress site understands that random &amp;quot;knows enough to be dangerous&amp;quot; types aren&#39;t likely to fire up JS but are entirely likely to stick some HTML in there.But I digress. My point - something is lacking from the modern web.There a new place on the Internet with some of that same creativity and energy. And that, as I&#39;ve found since the corona times began, is the decade or so old game ROBLOX!With quarantine came my introduction to this game, as my daughter and her friends were completely consumed by it. After a few weeks, she got me to play.In brief - Roblox is actually a series of mini games varying from Sims-lite neighborhood simulators and obstacle courses. There is obsessive, microtransaction drive customization. It is also very easy to download the content editor for Roblox and create your own games. I&#39;ve only played with my daughter a handful of times, but I&#39;ve seen some truly intricate and fun worlds that are entirely distinct and highly creative.What I really enjoy about Roblox, at least in the abstract, is the utter lack of care for sanitization. It&#39;s messy! Everything is trying to sell you something! A lot of it is ugly. But it feels, more than any number of Geocities clones, to be the place where young people are being creative on the web right now, and it just wasn&#39;t on my radar at all. This is not a sad elegy for my cultural relevance (never particularly sharp) but instead evidentiary of the cultural impact of Roblox.",
     "url": "/posts/roblox-is-the-90s-web/",
@@ -433,7 +433,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/overriding-wp-scripts-webpack/": {
-    "id": "/posts/overriding-wp-scripts-webpack/",
+    "id": "https://mattbev.com/posts/overriding-wp-scripts-webpack/",
     "title": "Overriding wp-scripts webpack",
     "content_text": "I recently used wp-create-block for the first time instead of my traditonal go-to create-guten-block.Love CGB, but I have to say the new script from WordPress core felt a little smoother. I went through my normal flow and built a very simple block for a friend&#39;s website. Tested it locally, everything worked fine. I went ahead and installed it on his website (a very close to vanilla install) and immediately nerfed the editor.I scowled, and set about finding the error, and then scowled again when I identified the culprit. It was Jetpack!I scowled first because I obviously should have been testing with all his plugins installed and second of all because it appeared to be something to do with my new block declaring a variable (in this case &amp;quot;j&amp;quot;) and Jetpack trying to use it.Not sure what else to do, I poked around for a moment and found that you can override the default wp-scripts webpack config. (Documentation here)My thought was to simply not minify the variable names in my code. Now - if you are anything like me, you use Webpack all the time, but very rarely do you write your own config file, especially recentlyAfter a few minutes, I figured out the exact setting to override. (It was in the TerserPlugin options). I&#39;ve reproduced my solution below.Note that the WP team advises that this is going to be a perpetually changing bit of solution - as the webpack config changes, so you will have to update your override file. In this case, I won&#39;t often be re-building this solution so I&#39;m not too worried about it.const defaultConfig = require(&amp;quot;@wordpress/scripts/config/webpack.config&amp;quot;);const TerserPlugin = require(&amp;quot;terser-webpack-plugin&amp;quot;);const isProduction = process.env.NODE_ENV === &amp;quot;production&amp;quot;;module.exports = {  ...defaultConfig,  optimization: {    minimizer: [      new TerserPlugin({        cache: true,        parallel: true,        sourceMap: !isProduction,        terserOptions: {          module: true,          output: {            comments: /translators:/i,          },        },        extractComments: false,      }),    ],  },};",
     "url": "/posts/overriding-wp-scripts-webpack/",
@@ -451,7 +451,7 @@
     "lastTootTimestamp": 1714493287225
   },
   "/posts/brwzrd/": {
-    "id": "/posts/brwzrd/",
+    "id": "https://mattbev.com/posts/brwzrd/",
     "title": "BRWZRD",
     "content_text": "I recently surveyed the Javascript landscape and realized that there were several technologies that I needed to go deeper on. I like to stay current (which I know feels impossible, at least to me) and I also have had this particular idea for an app for awhile.The IdeaI go through stretches where I am an avid homebrewer (of beer). It is an incredible extravagance to get a whole weekend day to sit and basically watch water boil. When I can, I do.There are some homebrewers who like the deeply mathematical nature of brewing, who love measuring and optimizing. I, on the other hand, do not. I want basically a recipe scratchpad. And I definitely don&#39;t want a bunch of social/sharing features, and I don&#39;t want to have another username and password out in the wild.The ProjectI created a working demo pretty quickly. I have written oodles of React but have only briefly touched on hooks. I also have written a fair amount of Typescript, but only under the auspices of the Sharepoint Framework. I wanted to use those, because I like the way the hooks syntax looks, and because Typescript, I have found, makes development fairly bugproof. I was somewhat agnostic about the data layer of my application. Knowing I would be making a static site in the end, I decided to try FaunaDB since it advertises itself as &amp;quot;for&amp;quot; the JAMstack.This led me to write some additional GraphQL. Between this and Typescript, I really liked how tightly everything was typed.At that point, the rest of the technology came together pretty quickly. Netlify was an obvious choice for hosting. Moreover, I was able to port over my node backend into serverless functions, which made for one nice neat repo.Cloudinary has a great free image plan. TinyMCE works just fine. Sendgrid for emails, ditto. Great API.Finally, my friend Gino was able to whip me up a sweet logo/header image.The LinksBRWZRDThe code on GithubWhat&#39;s NextObviously there is lots of cleanup and smoothing out of functionality. I want to style the transactional emails. I need to tighten up the form submission process. I need some content on the home page.",
     "url": "/posts/brwzrd/",
@@ -471,5 +471,39 @@
       "Assuming this item as already been shared before automation (see `ignoreFirstRun` input)"
     ],
     "lastTootTimestamp": 1714493287225
+  },
+  "/posts/a-book-and-a-film-summer-2024/": {
+    "id": "https://mattbev.com/posts/a-book-and-a-film-summer-2024/",
+    "title": "A book and a film, summer 2024",
+    "content_text": "Have really enjoyed a couple things I watched and/or read lately, I wrote about them on my personal site.",
+    "url": "/posts/a-book-and-a-film-summer-2024/",
+    "date_published": "2024-07-23T00:00:00+0000",
+    "tags": [
+      "posts",
+      "film",
+      "bookshelf",
+      "for fun"
+    ],
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113039571075136279"
+    ],
+    "lastTootTimestamp": 1724846970827
+  },
+  "/posts/jsonb-to-rdb-duckdb/": {
+    "id": "https://mattbev.com/posts/jsonb-to-rdb-duckdb/",
+    "title": "Recipe for converting a postgres JSONB column to a table in DuckDB",
+    "content_text": "DuckDB is fast. It took me a minute to figure out how to do this, but here it is, in case it helps someone else:SELECT  events.*  FROM (    SELECT      from_json(data, &#39;{ &amp;quot;id&amp;quot;: &amp;quot;INT&amp;quot;, &amp;quot;goal&amp;quot;: &amp;quot;TEXT&amp;quot; }&#39;) as events    FROM postgres_scan(      &#39;host=localhost port=5432 dbname=dbname user=postgres password=something_secret&#39;, &#39;public&#39;, &#39;EventsWithJSONData&#39;    )  );",
+    "url": "/posts/jsonb-to-rdb-duckdb/",
+    "date_published": "2024-07-21T00:00:00+0000",
+    "tags": [
+      "posts",
+      "dev",
+      "duckdb",
+      "postgres"
+    ],
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113025718821336265"
+    ],
+    "lastTootTimestamp": 1724635602198
   }
 }
