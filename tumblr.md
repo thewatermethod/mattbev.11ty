@@ -14,6 +14,7 @@
         permalink: data => `${data.post.permalink}/index.html`,
         date: data => data.post.date,
         type: 'tumblr',
+        url: data => data.post.url
     }
 }
 ---

@@ -8,12 +8,17 @@ permalink: '/follow.json'
     "feed_url": "{{ metadata.url }}{{ page.url }}",
     "items": [
         {% for post in postslist %}{
+            {% assign post_url = (metadata.url + post.url) %}
+            {% if post.data.url %}
+                {% assign post_url = post.data.url %}
+            {% endif %}
+
             "id": "{{ metadata.url }}{{ post.url }}",
             "title": "{{ post.data.title | escape }}",
             {% if post.data.summary %}
-                "content_text": "{{ post.data.summary | escape }}\n\n{{ metadata.url }}{{ post.url }}",
+                "content_text": "{{ post.data.summary | escape }}\n\n{{ post_url }}",
             {% else %}
-                "content_text": "{{ post.templateContent | strip_html | strip_newlines | escape }}",
+                "content_text": "{{ post.templateContent | strip_html | strip_newlines | escape }}\n\n{{ post_url }}",
             {% endif %}
             "url": "{{ site.url }}{{ post.url }}",
             "date_published": "{{ post.date | date: '%Y-%m-%dT%H:%M:%S%z' }}",
