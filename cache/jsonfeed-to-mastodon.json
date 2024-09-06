@@ -529,7 +529,10 @@
     "tags": [
       "posts"
     ],
-    "toots": []
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113090527545789425"
+    ],
+    "lastTootTimestamp": 1725624504868
   },
   "/posts/ex0skeletal-undead-fellowship-sound-haven-by/": {
     "id": "https://mattbev.com/posts/ex0skeletal-undead-fellowship-sound-haven-by/",
@@ -566,5 +569,16 @@
       "https://dice.camp/users/thewatermethod/statuses/113079206381327822"
     ],
     "lastTootTimestamp": 1725451757629
+  },
+  "/posts/2981a8/": {
+    "id": "https://mattbev.com/posts/2981a8/",
+    "title": "To Forget is an Ethical Act",
+    "content_text": "\n\nhttps://emilygorcenski.com/post/to-forget-is-an-ethical-act/",
+    "url": "/posts/2981a8/",
+    "date_published": "2024-09-03T00:00:00+0000",
+    "tags": [
+      "posts"
+    ],
+    "toots": []
   }
 }
