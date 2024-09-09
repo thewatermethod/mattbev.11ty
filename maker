@@ -28,5 +28,6 @@ date: $today
 tags: []
 type: 
 excerpt:
+eleventyExcludeFromCollections: true
 ---
 
