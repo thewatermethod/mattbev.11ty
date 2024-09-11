@@ -583,5 +583,33 @@
       "posts"
     ],
     "toots": []
+  },
+  "/posts/solo-rpg-playthrough-heinrich-s-guide-to-carcosa/": {
+    "id": "https://mattbev.com/posts/solo-rpg-playthrough-heinrich-s-guide-to-carcosa/",
+    "title": "Solo RPG playthrough: Heinrich&#39;s Guide to Carcosa",
+    "content_text": "Over on my, I started writing a solo playthough of Heinrich&#39;s Guide to Carcosa.\n\n",
+    "url": "/posts/solo-rpg-playthrough-heinrich-s-guide-to-carcosa/",
+    "date_published": "2024-09-09T00:00:00+0000",
+    "tags": [
+      "posts",
+      "Cthulhu Dice",
+      "rpg",
+      "Writing"
+    ],
+    "toots": []
+  },
+  "/posts/e0269c/": {
+    "id": "https://mattbev.com/posts/e0269c/",
+    "title": "Ritual by Jon Hopkins",
+    "content_text": "\n\nhttps://www.johncoulthart.com/feuilleton/2024/09/09/ritual-by-jon-hopkins/",
+    "url": "/posts/e0269c/",
+    "date_published": "2024-09-09T00:00:00+0000",
+    "tags": [
+      "posts"
+    ],
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113118841295753197"
+    ],
+    "lastTootTimestamp": 1726056538434
   }
 }
