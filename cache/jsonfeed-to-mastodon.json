@@ -582,7 +582,10 @@
     "tags": [
       "posts"
     ],
-    "toots": []
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113130163934159530"
+    ],
+    "lastTootTimestamp": 1726229308145
   },
   "/posts/solo-rpg-playthrough-heinrich-s-guide-to-carcosa/": {
     "id": "https://mattbev.com/posts/solo-rpg-playthrough-heinrich-s-guide-to-carcosa/",
