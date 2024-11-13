@@ -281,6 +281,10 @@ header nav ul {
   text-align: center;
 }
 
+.content-section ul {
+  margin-bottom: 1.5em;
+}
+
 /**
 postlist component
 **/
