@@ -599,7 +599,10 @@
       "rpg",
       "Writing"
     ],
-    "toots": []
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113143383331927201"
+    ],
+    "lastTootTimestamp": 1726431020156
   },
   "/posts/e0269c/": {
     "id": "https://mattbev.com/posts/e0269c/",
@@ -614,5 +617,21 @@
       "https://dice.camp/users/thewatermethod/statuses/113118841295753197"
     ],
     "lastTootTimestamp": 1726056538434
+  },
+  "/posts/citizens-and-spinning-wheels/": {
+    "id": "https://mattbev.com/posts/citizens-and-spinning-wheels/",
+    "title": "Citizens and spinning wheels",
+    "content_text": "\n\nhttps://aeon.co/essays/on-the-varna-system-gandhis-plan-to-empower-the-workers",
+    "url": "/posts/citizens-and-spinning-wheels/",
+    "date_published": "2024-09-15T00:00:00+0000",
+    "tags": [
+      "posts",
+      "aeon.co",
+      "essay"
+    ],
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113158477781344284"
+    ],
+    "lastTootTimestamp": 1726661343179
   }
 }
