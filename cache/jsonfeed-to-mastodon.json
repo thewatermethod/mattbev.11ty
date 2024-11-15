@@ -633,5 +633,33 @@
       "https://dice.camp/users/thewatermethod/statuses/113158477781344284"
     ],
     "lastTootTimestamp": 1726661343179
+  },
+  "/posts/horror-movies-2024/": {
+    "id": "https://mattbev.com/posts/horror-movies-2024/",
+    "title": "Horror Movies I watched in October 2024",
+    "content_text": "Trying to do this every year, with limited success so far.20202023The BestTitaneCureHorror Express (rewatch)Gretel and HanselGreatArmy of Darkness (rewatch)Wishmaster (rewatch)Lisa FrankensteinStrip Nude for Your KillerGoodAll the Colors of the DarkImmaculateCurse of the WerewolfThe Velvet Vampire\n\n",
+    "url": "/posts/horror-movies-2024/",
+    "date_published": "2024-11-12T00:00:00+0000",
+    "tags": [
+      "posts",
+      "film",
+      "horror",
+      "for fun"
+    ],
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113486893093555068"
+    ],
+    "lastTootTimestamp": 1731672563138
+  },
+  "/posts/4268b5/": {
+    "id": "https://mattbev.com/posts/4268b5/",
+    "title": "Pluralistic: Ian McDonald&#39;s &#34;The Wilding&#34; (25 Oct 2024)",
+    "content_text": "\n\nhttps://pluralistic.net/2024/10/25/bogman/",
+    "url": "/posts/4268b5/",
+    "date_published": "2024-10-25T00:00:00+0000",
+    "tags": [
+      "posts"
+    ],
+    "toots": []
   }
 }
