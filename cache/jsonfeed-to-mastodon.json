@@ -660,6 +660,20 @@
     "tags": [
       "posts"
     ],
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113503883471503192"
+    ],
+    "lastTootTimestamp": 1731931815736
+  },
+  "/posts/b1839e/": {
+    "id": "https://mattbev.com/posts/b1839e/",
+    "title": "The Greatest Book in the History of Books",
+    "content_text": "\n\nhttp://monstersandmanuals.blogspot.com/2024/11/the-greatest-book-in-history-of-books.html",
+    "url": "/posts/b1839e/",
+    "date_published": "2024-11-14T00:00:00+0000",
+    "tags": [
+      "posts"
+    ],
     "toots": []
   }
 }
