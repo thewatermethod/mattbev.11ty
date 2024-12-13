@@ -678,5 +678,20 @@
       "https://dice.camp/users/thewatermethod/statuses/113515205310863047"
     ],
     "lastTootTimestamp": 1732104573290
+  },
+  "/posts/updating-resume/": {
+    "id": "https://mattbev.com/posts/updating-resume/",
+    "title": "Updating my resume and...",
+    "content_text": "...immediately ran into Javascript ecosystem problems. Foolishly merged some dependabot alerts into my previously rock-solid 11ty derived resume and have a panoply of failing builds. npm was a mistake.Just kidding. But now, back to it -- this knot won&#39;t untangle itself.\n\n",
+    "url": "/posts/updating-resume/",
+    "date_published": "2024-12-07T00:00:00+0000",
+    "tags": [
+      "posts",
+      "better web"
+    ],
+    "toots": [
+      "https://dice.camp/users/thewatermethod/statuses/113645439817564559"
+    ],
+    "lastTootTimestamp": 1734091794167
   }
 }
