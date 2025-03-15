@@ -17,11 +17,16 @@ eleventyExcludeFromCollections: true
   "items": [
     {%- for post in collections.posts | reverse %}
     {%- set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset -%}
+    {% if post.data.url %}
+    {%- set absoluteUrl %}{{ post.data.url | url | absoluteUrl(metadata.url) }}{% endset -%}
+    {% endif %}
     {
       "id": "{{ absolutePostUrl }}",
       "url": "{{ absolutePostUrl }}",
       "title": "{{ post.data.title }}",
-      "link": "{{ post.data.link || absolutePostUrl }}",
+      {% if post.data.url %}
+      "link": "{{ absoluteUrl }}",
+      {% endif %}
       "content_html": {% if post.templateContent %}{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | dump | safe }}{% else %}""{% endif %},
       "date_published": "{{ post.date | rssDate }}"
     }
