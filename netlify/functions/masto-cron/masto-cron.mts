@@ -65,6 +65,8 @@ export default async (req: Request) => {
     title: post.title,
   }));
 
+  console.info("No new posts!");
+
   if (newPosts.length === 0) {
     return;
   }
@@ -79,6 +81,7 @@ export default async (req: Request) => {
   next_post.setHours(next_post.getHours() + 1);
 
   const promises = newPosts.map((post) => {
+    console.info("Posting:", post.title, post.url, next_post);
     // schedule mastodon post for 1 hour from now
     return Promise.all([
       mastodon.postStatus({
@@ -91,8 +94,6 @@ export default async (req: Request) => {
   });
 
   await Promise.all(promises);
-
-  console.log("Received event! Next invocation at:", next_run);
 };
 
 export const config: Config = {
