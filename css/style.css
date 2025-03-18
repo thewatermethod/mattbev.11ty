@@ -159,6 +159,10 @@ html * {
   font-family: inherit;
 }
 
+html code {
+  font-family: monospace;
+}
+
 body {
   background: var(--curdled-cream);
   color: var(--moderate-pitch);
