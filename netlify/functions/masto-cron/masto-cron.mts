@@ -6,8 +6,6 @@ import { fetchSelfJson } from "../../../lib/jsonSelf";
 import { fetchNewsblurStarredStories } from "../../../lib/newsblur";
 
 export default async (req: Request) => {
-  const { next_run } = await req.json();
-
   const {
     MASTODON_ACCESS_TOKEN,
     MASTODON_API_URL,
@@ -17,12 +15,16 @@ export default async (req: Request) => {
   } = process.env;
 
   if (!MASTODON_ACCESS_TOKEN || !MASTODON_API_URL || !MASTODON_ACCOUNT_ID) {
+    console.error(
+      "Missing MASTODON_ACCESS_TOKEN or MASTODON_API_URL or MASTODON_ACCOUNT_ID"
+    );
     throw new Error(
       "Missing MASTODON_ACCESS_TOKEN or MASTODON_API_URL or MASTODON_ACCOUNT_ID"
     );
   }
 
   if (!TURSO_URL || !TURSO_TOKEN) {
+    console.error("Missing TURSO_URL or TURSO_TOKEN");
     throw new Error("Missing TURSO_URL or TURSO_TOKEN");
   }
 
@@ -46,9 +48,13 @@ export default async (req: Request) => {
     urls.add(`"${link || url}"`);
   });
 
-  const { rows } = await turso.execute(
-    `SELECT id, url FROM sites WHERE url IN (${Array.from(urls).join(", ")})`
-  );
+  const query = `SELECT id, url FROM sites WHERE url IN (${Array.from(
+    urls
+  ).join(", ")})`;
+
+  console.info(`Executing query: ${query}`);
+
+  const { rows } = await turso.execute(query);
 
   const existingUrls = new Set(rows.map((row) => row.url));
 
@@ -65,11 +71,12 @@ export default async (req: Request) => {
     title: post.title,
   }));
 
-  console.info("No new posts!");
-
   if (newPosts.length === 0) {
+    console.info("No new posts!");
     return;
   }
+
+  console.info(`Posting ${newPosts.length} new posts`);
 
   const mastodon = new Mastodon.API({
     access_token: MASTODON_ACCESS_TOKEN,
@@ -77,19 +84,18 @@ export default async (req: Request) => {
   });
 
   // set next post for 1 hour from now
-  let next_post = new Date();
-  next_post.setHours(next_post.getHours() + 1);
+  let nextPost = new Date();
+  nextPost.setHours(nextPost.getHours() + 1);
 
   const promises = newPosts.map((post) => {
-    console.info("Posting:", post.title, post.url, next_post);
-    // schedule mastodon post for 1 hour from now
+    console.info("Posting:", post.title, post.url, nextPost);
+    nextPost.setHours(nextPost.getHours() + 1);
     return Promise.all([
       mastodon.postStatus({
         status: `${post.title}\n\n${post.url}`,
-        scheduled_at: next_post,
+        scheduled_at: nextPost,
       }),
       turso.execute(`INSERT INTO sites (url) VALUES ('${post.url}')`),
-      next_post.setHours(next_post.getHours() + 1),
     ]);
   });
 
