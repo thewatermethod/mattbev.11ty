@@ -8,7 +8,8 @@
     "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
     "dev": "npx @11ty/eleventy --serve",
-    "start": "npx @11ty/eleventy --serve"
+    "start": "npx @11ty/eleventy --serve",
+    "maker": "./maker"
   },
   "keywords": [],
   "author": "",
