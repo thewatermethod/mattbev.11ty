@@ -53,7 +53,7 @@ export default async (req: Request) => {
       urls
     ).join(", ")})`;
 
-    console.info(`Executing query: ${query}`);
+    console.log(`Executing query: ${query}`);
 
     const { rows } = await turso.execute(query);
 
@@ -73,11 +73,11 @@ export default async (req: Request) => {
     }));
 
     if (newPosts.length === 0) {
-      console.info("No new posts!");
+      console.log("No new posts!");
       return;
     }
 
-    console.info(`Posting ${newPosts.length} new posts`);
+    console.log(`Posting ${newPosts.length} new posts`);
 
     const mastodon = new Mastodon.API({
       access_token: MASTODON_ACCESS_TOKEN,
@@ -89,7 +89,7 @@ export default async (req: Request) => {
     nextPost.setHours(nextPost.getHours() + 1);
 
     const promises = newPosts.map((post) => {
-      console.info("Posting:", post.title, post.url, nextPost);
+      console.log("Posting:", post.title, post.url, nextPost);
       nextPost.setHours(nextPost.getHours() + 1);
       return Promise.all([
         mastodon.postStatus({
