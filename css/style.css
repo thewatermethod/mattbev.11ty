@@ -196,7 +196,7 @@ a:hover {
 basic layout
 **/
 
-main:not(.main-bookshelf) {
+main {
   margin: auto;
   max-width: 580px;
   padding: 0.5em;
@@ -284,6 +284,16 @@ header nav ul {
   margin: 1em 0;
   text-align: center;
 }
+.main-tmpl-home .page-title {
+  margin: 1em 0 0;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 1.25em;
+  margin: 0 0 1em;
+  text-align: center;
+}
 
 .content-section ul {
   margin-bottom: 1.5em;
@@ -311,24 +321,6 @@ postlist component
 
 .postlist-link {
   color: var(--murky-depths);
-}
-
-.bookshelf {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
-  padding: 1em;
-}
-
-.book {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.book img {
-  height: auto;
-  width: 320px;
 }
 
 .post-tag {

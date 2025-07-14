@@ -1,7 +1,9 @@
 const fs = require("fs");
 const Image = require("@11ty/eleventy-img");
+var groupBy = require('object.groupby');
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 module.exports = function (eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -12,8 +14,8 @@ module.exports = function (eleventyConfig) {
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);
-
-  eleventyConfig.addCollection("posts", (collection) => {
+  eleventyConfig.addPlugin(embedYouTube);
+   eleventyConfig.addCollection("posts", (collection) => {
     // This is typical Collection by Tag call
     const posts = collection.getFilteredByTag("posts");
 
@@ -31,6 +33,22 @@ module.exports = function (eleventyConfig) {
     return sortedPosts;
   });
 
+  eleventyConfig.addCollection("booksByYear", (collection) => {
+    const books = collection.getFilteredByTag("books").map(book => ({
+      title: book.data.title,
+      author: book.data.author,
+      reread: book.data.reread,
+      year: DateTime.fromJSDate(book.date, { zone: "utc" }).toFormat("yyyy")
+    }));   
+
+    const groupedBooks = groupBy(books, ({ year }) => year);    
+    return Object.entries(groupedBooks).sort((a, b) => b[0] - a[0]);
+  });
+
+  eleventyConfig.addCollection("currentlyReading", (collection) => {
+    return collection.getFilteredByTag("books").filter(book => book.data.currentlyReading);
+  });
+
   // add filters
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
@@ -41,6 +59,10 @@ module.exports = function (eleventyConfig) {
   // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
   eleventyConfig.addFilter("htmlDateString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+  });
+
+  eleventyConfig.addFilter("year", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy");
   });
 
   // Get the first `n` elements of a collection.
