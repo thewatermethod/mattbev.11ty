@@ -8,5 +8,6 @@ eleventyNavigation:
 
 <h1 class="page-title">Archive</h1>
 
+{% set shouldCombine = true %}
 {% set postslist = collections.posts  %}
 {% include "postslist.njk" %}

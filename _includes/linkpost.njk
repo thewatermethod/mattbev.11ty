@@ -1,6 +1,7 @@
   <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
 
     <a href="{{ post.data.url | url }}" class="postlist-link"> 🔗  {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.data.url }}</code>{% endif %}</a>
+    <small><em>{{post.data.url}}</em></small>
     <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
     
     {% for tag in post.data.tags | filterTagList %}
