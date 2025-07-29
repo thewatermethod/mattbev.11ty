@@ -31,6 +31,20 @@ module.exports = function (eleventyConfig) {
     return sortedPosts;
   });
 
+  eleventyConfig.addCollection("currentlyReading", (collection) => {
+    const books = collection
+      .getFilteredByTag("books")
+      .filter((book) => book.data.currentlyReading);
+    return books;
+  });
+
+  eleventyConfig.addCollection("currentProjects", (collection) => {
+    const projects = collection
+      .getFilteredByTag("projects")
+      .filter((project) => project.data.currentProject);
+    return projects;
+  });
+
   // add filters
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(

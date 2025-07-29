@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-project
+---
+<h1 class="page-title">{{ title }}</h1>
+
+<div><time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></div>
+
+{{ content | safe }}
+
