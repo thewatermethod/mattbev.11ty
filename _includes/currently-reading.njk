@@ -1,0 +1,13 @@
+{% set currentlyReading = collections.currentlyReading %}
+{% if currentlyReading.length > 0 %}
+<div class="sidebar--current currently-reading">
+    <h2>Currently Reading</h2>
+    <ul>
+    {% for book in currentlyReading %}
+        <li>
+            <strong>{{ book.data.title }}</strong><br /> {{ book.data.author }}
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}
