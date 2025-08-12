@@ -335,24 +335,6 @@ postlist component
   color: var(--murky-depths);
 }
 
-.bookshelf {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1em;
-  padding: 1em;
-}
-
-.book {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.book img {
-  height: auto;
-  width: 320px;
-}
-
 .sidebar {
   background: var(--blackest-pitch);
   border-radius: 6px;
@@ -365,6 +347,14 @@ postlist component
 
 .sidebar--current ul {
   list-style: none;
+}
+
+.current-project-list li {
+  margin-bottom: 1.5em;
+}
+
+.current-project-list a {
+  color: var(--haunted-smoke);
 }
 
 .post-tag {
