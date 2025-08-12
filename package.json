@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
-    "dev": "npx @11ty/eleventy --serve",
+    "dev": "netlify dev",
     "start": "npx @11ty/eleventy --serve",
     "maker": "./maker"
   },

@@ -27,9 +27,14 @@ templateClass: tmpl-home
     </header>
 
     <main{% if templateClass %} class="main-{{ templateClass }}"{% endif %}>
-    <div class="content-section">
-        {{ content | safe }}        
-      </div>
+    
+        <div class="content-section">
+            {{ content | safe }}        
+        </div>
+        <div class="sidebar">
+            {% include "currently-reading.njk" %}
+            {% include "current-project.njk" %}
+        </div>
     </main>
 
     {% include "footer.njk" %}

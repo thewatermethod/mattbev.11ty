@@ -1,0 +1,9 @@
+<ul class="postlist postlist-linkslist">
+{% for post in postslist | reverse %}
+  {% if post.data.type == "link" or post.data.type == "tumblr"  %}
+    {% include "linkpost.njk" %}
+  {% elseif post.data.type == "tumblr" %}
+    {% include "tumblrpost.njk" %}
+  {% endif %}
+{% endfor %}
+</ul>

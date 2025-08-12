@@ -1,0 +1,13 @@
+{% set currentProjects = collections.currentProjects %}
+{% if currentProjects.length > 0 %}
+<div class="sidebar--current current-project">
+    <h2>Current Projects</h2>
+    <ul>
+    {% for project in currentProjects | reverse %}
+        <li>
+            <strong>{{ project.data.title }}</strong>
+        </li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}
