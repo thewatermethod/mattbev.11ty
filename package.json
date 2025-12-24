@@ -10,7 +10,8 @@
     "dev": "netlify dev",
     "start": "npx @11ty/eleventy --serve",
     "maker": "./maker",
-    "refresh-books": "node ./refresh-books.js"
+    "refresh-books": "node ./refresh-books.js",
+    "postinstall": "npx playwright install"
   },
   "keywords": [],
   "author": "",
