@@ -5,7 +5,7 @@
     <ul>
     {% for project in currentProjects | reverse %}
         <li>
-            <strong>{{ project.data.title }}</strong>
+            <h3 class="sidebar--current__title">{{ project.data.title }}</h3>
         </li>
     {% endfor %}
     </ul>
