@@ -1,4 +1,6 @@
 const fs = require("node:fs");
+const { exec } = require("node:child_process");
+const { DateTime } = require("luxon");
 const { refreshBookshelf } = require("./lib/storyGraph.js");
 
 async function getCurrentBookshelf() {
@@ -14,9 +16,33 @@ async function getCurrentBookshelf() {
 }
 
 async function main() {
-  // const booksRead = await refreshBookshelf();
+  // check to see if bookshelf.json exists
+  const bookshelfExists = await fs.promises
+    .access("./bookshelf.json")
+    .then(() => true)
+    .catch(() => false);
+  let newBooks = [];
+  if (!bookshelfExists) {
+    newBooks = await refreshBookshelf();
+    await fs.promises.writeFile("./bookshelf.json", JSON.stringify(newBooks));
+  } else {
+    newBooks = await fs.promises.readFile("./bookshelf.json", "utf8");
+    newBooks = JSON.parse(newBooks);
+  }
+
+  const date = DateTime.now().toFormat("y-MM-dd");
+
   const currentShelf = await getCurrentBookshelf();
   console.log({ currentShelf });
+  for (const book of newBooks) {
+    if (!currentShelf.has(book.slug)) {
+      console.log(`New book found: ${book.title}`);
+
+      // pass the title to the "book" shell script
+      // params: title, author, date in YYYY-MM-DD format
+      exec(`sh book "${book.title}" "${book.author}" ${date}`);
+    }
+  }
 }
 
 main();
