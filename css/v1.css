@@ -298,16 +298,6 @@ header nav ul {
     margin: 1em 0;
     text-align: center;
 }
-.main-tmpl-home .page-title {
-  margin: 1em 0 0;
-}
-
-.subtitle {
-  font-style: italic;
-  font-size: 1.25em;
-  margin: 0 0 1em;
-  text-align: center;
-}
 
 .content-section ul {
     margin-bottom: 1.5em;
@@ -337,8 +327,6 @@ postlist component
     color: var(--murky-depths);
 }
 
-<<<<<<< HEAD
-=======
 .bookshelf {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -357,7 +345,6 @@ postlist component
     width: 320px;
 }
 
->>>>>>> main
 .sidebar {
     background: var(--blackest-pitch);
     border-radius: 6px;
@@ -379,14 +366,6 @@ postlist component
 
 .sidebar--current__description {
     margin: 0;
-}
-
-.current-project-list li {
-  margin-bottom: 1.5em;
-}
-
-.current-project-list a {
-  color: var(--haunted-smoke);
 }
 
 .post-tag {

@@ -4,6 +4,7 @@ var groupBy = require("object.groupby");
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
+const { fetchCurrentlyReading } = require("./lib/storyGraph");
 
 module.exports = function (eleventyConfig) {
   // Copy the `img` and `css` folders to the output
@@ -62,7 +63,7 @@ module.exports = function (eleventyConfig) {
   // add filters
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "dd LLLL yyyy"
+      "dd LLLL yyyy",
     );
   });
 
@@ -94,7 +95,7 @@ module.exports = function (eleventyConfig) {
 
   function filterTagList(tags) {
     return (tags || []).filter(
-      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1
+      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1,
     );
   }
 
@@ -140,7 +141,7 @@ module.exports = function (eleventyConfig) {
 
       // You bet we throw an error on a missing alt (alt="" works okay)
       return Image.generateHTML(metadata, attributes);
-    }
+    },
   );
 
   return {
