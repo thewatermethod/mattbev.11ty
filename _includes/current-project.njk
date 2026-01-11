@@ -2,10 +2,19 @@
 {% if currentProjects.length > 0 %}
 <div class="sidebar--current current-project">
     <h2>Current Projects</h2>
-    <ul>
+    <ul class="current-project-list">
     {% for project in currentProjects | reverse %}
         <li>
-            <h3 class="sidebar--current__title">{{ project.data.title }}</h3>
+            {% if project.data.link %}
+                <a href="{{ project.data.link }}">
+            {% endif %}
+            <strong>{{ project.data.title }}</strong>
+            {% if project.data.link %}
+                </a>
+            {% endif %}
+            {% if project.data.status %}
+                <br /><em>{{ project.data.status }}</em>
+            {% endif %}
         </li>
     {% endfor %}
     </ul>

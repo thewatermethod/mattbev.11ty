@@ -1,0 +1,26 @@
+#! /bin/bash
+
+# we need to confirm three positional arguments are provided
+if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
+  echo "Usage: book <book title> <author> <date>"
+  exit 1
+fi
+
+# slugify the title
+script_name=$(echo "$1" | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr '[:upper:]' '[:lower:]')
+
+echo "Creating new post: $1"
+echo "Slug: $script_name"
+echo "Author: $2"
+echo "Date: $3"
+
+touch ./books/"$script_name".md
+
+cat > ./books/"$script_name".md <<EOF
+---
+title: "$1"
+author: "$2"
+date: $3
+---
+
+EOF
