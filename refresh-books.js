@@ -22,18 +22,11 @@ async function main() {
     .then(() => true)
     .catch(() => false);
   let newBooks = [];
-  if (!bookshelfExists) {
-    newBooks = await refreshBookshelf();
-    await fs.promises.writeFile("./bookshelf.json", JSON.stringify(newBooks));
-  } else {
-    newBooks = await fs.promises.readFile("./bookshelf.json", "utf8");
-    newBooks = JSON.parse(newBooks);
-  }
+  newBooks = await refreshBookshelf();
 
   const date = DateTime.now().toFormat("y-MM-dd");
 
   const currentShelf = await getCurrentBookshelf();
-  console.log({ currentShelf });
   for (const book of newBooks) {
     if (!currentShelf.has(book.slug)) {
       console.log(`New book found: ${book.title}`);
