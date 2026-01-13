@@ -3,7 +3,8 @@ templateClass: tmpl-home
 ---
 <!doctype html>
 <html lang="{{ metadata.language }}">
-  {% include "htmlhead.njk" %}
+    {% include "htmlhead.njk" %}
+    <link rel="stylesheet" href="{{ '/css/home.css' | url }}">
   <body>
     <header class="site-header {% if templateClass %}header-{{ templateClass }}{% endif %}">
         {% include "navigation.njk" %}
@@ -16,13 +17,11 @@ templateClass: tmpl-home
                 <ul class="who">
                     <li class="triangle"><a href="mailto:matt@mattbev.com">matt@mattbev.com</a></li>
                     <li class="triangle">
-                    You can find me on
                         <a href="https://github.com/thewatermethod">Github</a> or
                         <a href="https://gitlab.com/thewatermethod">Gitlab</a>.
                     </li>
                 </ul>
             </div>
-        <div><img src="{{ '/assets/matt.jpg' | url }}" alt="scary web developer" /></div>
       </div>
     </header>
 

@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Lemon Days";
+    src:
+        url("../assets/Lemon-Days.otf") format("opentype"),
+        url("../assets/Lemon-Days.ttf") format("truetype");
+}
+
+:root {
+    --background-green: #96cd58;
+    --grass: #669d28;
+    --lemon-days: "Lemon Days";
+}
+
+@media (min-width: 1200px) {
+    main.main-tmpl-home {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        max-width: 100%;
+    }
+
+    main.main-tmpl-home .page-title {
+        text-align: left;
+    }
+}
+
+main.main-tmpl-home:not(.main-bookshelf) {
+    padding: 0;
+}
+
+.sidebar--current {
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.sidebar--current ul {
+    list-style: none;
+}
+
+.sidebar--current__title {
+    font-size: 1em;
+    margin-bottom: 0em;
+}
+
+.sidebar--current__description {
+    margin: 0;
+}
+
+.site-header,
+.sidebar {
+    background: var(--background-green);
+    color: var(--moderate-pitch);
+    font-family: var(--lemon-days);
+}

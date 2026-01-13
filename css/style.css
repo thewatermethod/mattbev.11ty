@@ -345,29 +345,6 @@ postlist component
     width: 320px;
 }
 
-.sidebar {
-    background: var(--blackest-pitch);
-    border-radius: 6px;
-    color: var(--curdled-cream);
-}
-.sidebar--current {
-    margin: 1em 0;
-    padding: 1em;
-}
-
-.sidebar--current ul {
-    list-style: none;
-}
-
-.sidebar--current__title {
-    font-size: 1em;
-    margin-bottom: 0em;
-}
-
-.sidebar--current__description {
-    margin: 0;
-}
-
 .post-tag {
     background: var(--murky-depths);
     border-radius: 6px;
