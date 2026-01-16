@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Lemon Days";
+    src:
+        url("../assets/Lemon-Days.otf") format("opentype"),
+        url("../assets/Lemon-Days.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Adventure Time";
+    src: url("../assets/Adventure-Time-Logo.ttf") format("truetype");
+}
+
+@media (min-width: 1200px) {
+    main.main-tmpl-home {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 3fr 1fr;
+        max-width: 100%;
+    }
+
+    main.main-tmpl-home .page-title {
+        text-align: left;
+    }
+}
+
+.home--title {
+    font-family: "Adventure Time";
+    font-size: 3.5em;
+    line-height: 1;
+    margin: 0.25em 0;
+    text-decoration: none;
+    color: var(--hardenend-blood);
+    text-shadow:
+        /* 3D depth effect */
+        1px 1px 0 var(--at-depth-1),
+        2px 2px 0 var(--at-depth-2),
+        3px 3px 0 var(--at-depth-3),
+        4px 4px 0 var(--at-depth-4),
+        /* black drop shadow */ 5px 5px 0 var(--moderate-pitch),
+        6px 6px 0 var(--moderate-pitch),
+        /* subtle outer glow for weathered look */ 0 0 2px rgba(0, 0, 0, 0.3);
+    -webkit-text-stroke: 1px (--at-depth-4);
+    paint-order: stroke fill;
+}
+
+main.main-tmpl-home:not(.main-bookshelf) {
+    padding: 0;
+}
+
+.content-section {
+    padding-inline: 1em;
+}
+
+.sidebar {
+    margin-block-start: 1em;
+}
+
+.sidebar--current {
+    margin-bottom: 1em;
+    max-width: max-content;
+}
+
+.sidebar--current ul {
+    list-style: none;
+}
+
+.sidebar--current__title {
+    font-size: 1em;
+    margin-block: 0em;
+}
+
+.sidebar--current__description {
+    margin: 0;
+}
+
+.site-header {
+    padding-bottom: 2em;
+}
+
+.site-header {
+    background: var(--background-green);
+    color: var(--moderate-pitch);
+    font-family: var(--lemon-days);
+}
+
+@media (min-width: 900px) {
+    .site-header {
+        position: relative;
+        padding-bottom: 6em;
+        overflow-y: hidden;
+    }
+
+    .grass {
+        position: absolute;
+    }
+
+    /* Row 1 - top */
+    .grass:nth-of-type(1) {
+        top: 5%;
+        left: 8%;
+    }
+    .grass:nth-of-type(2) {
+        top: 5%;
+        left: 35%;
+    }
+    .grass:nth-of-type(3) {
+        top: 5%;
+        left: 62%;
+    }
+    .grass:nth-of-type(4) {
+        top: 5%;
+        left: 89%;
+    }
+
+    /* Row 2 - middle */
+    .grass:nth-of-type(5) {
+        top: 35%;
+        left: 3%;
+    }
+    .grass:nth-of-type(6) {
+        top: 35%;
+        left: 22%;
+    }
+    .grass:nth-of-type(7) {
+        top: 35%;
+        left: 48%;
+    }
+    .grass:nth-of-type(8) {
+        top: 35%;
+        left: 75%;
+    }
+    .grass:nth-of-type(9) {
+        top: 35%;
+        left: 94%;
+    }
+
+    /* Row 3 - bottom */
+    .grass:nth-of-type(10) {
+        bottom: 5%;
+        left: 10%;
+    }
+    .grass:nth-of-type(11) {
+        bottom: 5%;
+        left: 30%;
+    }
+    .grass:nth-of-type(12) {
+        bottom: 5%;
+        left: 55%;
+    }
+    .grass:nth-of-type(13) {
+        bottom: 5%;
+        left: 72%;
+    }
+    .grass:nth-of-type(14) {
+        bottom: 5%;
+        left: 92%;
+    }
+
+    .grass span,
+    .grass::before,
+    .grass::after {
+        display: inline-block;
+        content: "";
+        background: var(--grass);
+        margin: 2px;
+        width: 5px;
+    }
+
+    .grass span {
+        height: 17px;
+        transform: rotate(2deg);
+    }
+
+    .grass::before {
+        height: 16px;
+        transform: rotate(-1deg);
+    }
+
+    .grass::after {
+        height: 17px;
+        transform: rotate(4deg);
+    }
+}
