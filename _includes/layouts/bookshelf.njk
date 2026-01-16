@@ -6,14 +6,20 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-{% if collections.books %}
+{% if collections.booksByYear %}
 <div class="bookshelf">
-    {% for book in collections.books | reverse %}
-        <div class="book">
-            <img src="{{ book.data.thumbnail | url }}" loading="lazy" alt="{{ book.data.title }}" />
-            <p>{{ book.data.date | readableDate }}</p>
-        </div>
-    {% endfor %}
+    <div class="bookshelf__year">
+        {% for year, books in collections.booksByYear %}
+            <div class="bookshelf__year__books">
+                <h2>{{ year }}</h2>
+                <ul>
+                    {% for book in books %}
+                        <li><strong>{{ book.title }}</strong> by {{ book.author }}{% if book.reread %} (reread){% endif %}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    </div>
 </div>
 {% endif %}
 
