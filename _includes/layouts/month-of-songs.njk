@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+---
+
+{{ content | safe}}
+
+<ul>
+{% for day in collections["songs"] %}
+   <li><a href="{{day.url | url}}">{{ day.data.date | readableDate }} - {{day.data.title}}</a></li>
+{% endfor %}
+</ul>
