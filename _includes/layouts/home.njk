@@ -11,7 +11,7 @@ templateClass: tmpl-home
         <div class="site-header--header-inner">
             <div class="titles">
                 <div>
-                    <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+                    <h1 class="home home--title">{{ metadata.title }}</h1>
                     <h2 class="home home--subtitle">{{ metadata.subtitle }}</h2>
                 </div>
                 <ul class="who">
@@ -22,7 +22,66 @@ templateClass: tmpl-home
                     </li>
                 </ul>
             </div>
+            <div id="image"></div>
       </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+      <div class="grass">
+          <span></span>
+      </div>
+
+
     </header>
 
     <main{% if templateClass %} class="main-{{ templateClass }}"{% endif %}>
@@ -36,6 +95,34 @@ templateClass: tmpl-home
         </div>
     </main>
 
+    <script>
+      var animateGrass = function() {
+        var grasses = document.querySelectorAll('.grass');
+        var startTime = Date.now();
+        var amplitude = 4; // degree of rotation
+        var speed = 500; // yeah; that's speed (higher = slower)
+        var offsetBetweenTufts = (i) => i * 0.5; // higher means more variation
+
+        function sway() {
+          var elapsed = Date.now() - startTime;
+
+          grasses.forEach(function(grass, index) {
+            // Offset each grass tuft for more natural movement
+            var offset = offsetBetweenTufts(index);
+            // Slow oscillation with small amplitude
+            var angle = Math.sin((elapsed / speed) + offset) * amplitude;
+            grass.style.transform = 'rotate(' + angle + 'deg)';
+          });
+
+          requestAnimationFrame(sway);
+        }
+
+        sway();
+      };
+
+      document.addEventListener('DOMContentLoaded', animateGrass);
+
+    </script>
     {% include "footer.njk" %}
 
     <!-- Current page: {{ page.url | url }} -->
