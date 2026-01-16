@@ -189,45 +189,8 @@ postlist component
     color: var(--murky-depths);
 }
 
-.bookshelf {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
-    padding: 1em;
-}
-
-.book {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.book img {
-    height: auto;
-    width: 320px;
-}
-
-.sidebar--current {
-    margin: 1em 0;
-    padding: 1em;
-}
-
 .sidebar--current ul {
     list-style: none;
-}
-
-.sidebar--current__title {
-    font-size: 1em;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-.sidebar--current__description {
-    margin: 0;
-}
-
-.sidebar--current li {
-    margin-bottom: 1.5em;
 }
 
 .post-tag {
@@ -301,4 +264,8 @@ footer li.books:before {
 
 footer li.hash:before {
     content: "#️⃣ ";
+}
+
+.bookshelf {
+    padding-inline: 2em;
 }

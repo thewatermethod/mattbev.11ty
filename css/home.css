@@ -10,12 +10,10 @@
     src: url("../assets/Adventure-Time-Logo.ttf") format("truetype");
 }
 
-:root {
-}
-
 @media (min-width: 1200px) {
     main.main-tmpl-home {
         display: grid;
+        justify-items: center;
         grid-template-columns: 3fr 1fr;
         max-width: 100%;
     }
@@ -49,9 +47,17 @@ main.main-tmpl-home:not(.main-bookshelf) {
     padding: 0;
 }
 
+.content-section {
+    padding-inline: 1em;
+}
+
+.sidebar {
+    margin-block-start: 1em;
+}
+
 .sidebar--current {
-    margin: 1em 0;
-    padding: 1em;
+    margin-bottom: 1em;
+    max-width: max-content;
 }
 
 .sidebar--current ul {
@@ -60,7 +66,7 @@ main.main-tmpl-home:not(.main-bookshelf) {
 
 .sidebar--current__title {
     font-size: 1em;
-    margin-bottom: 0em;
+    margin-block: 0em;
 }
 
 .sidebar--current__description {
@@ -71,8 +77,7 @@ main.main-tmpl-home:not(.main-bookshelf) {
     padding-bottom: 2em;
 }
 
-.site-header,
-.sidebar {
+.site-header {
     background: var(--background-green);
     color: var(--moderate-pitch);
     font-family: var(--lemon-days);
