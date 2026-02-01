@@ -1,0 +1,32 @@
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+How to Create Your Own Bitmap Font Writer Fonts
+-----------------------------------------------
+Text by Stefan Pettersson and Michael Walden
+Created July 07, 2025 - Updated August 15, 2025
+
+Creating your own font for use in Bitmap Font Writer is really easy.  Simply use your favorite painting program, such as Adobe Photoshop, PaintShop Pro, GIMP or etc., to draw the characters you want to use in your font.  A font's characters may be any size and use any number of colors (out of up to 24 bit per pixel which has 16,777,216 colors (true color)).  All of your characters should have a uniform height cell that they fit in per each font image file.  You should arrange them in ASCII, ISO 8859-1 or Windows-1252 (ANSI code page) order, lowest value on the left and increasing in value by one as you add adjacent characters going to the right.  A Bitmap Font Writer font file is a single horizontal strip of character bitmaps with pixel delimiters on the top edge.
+
+You need to have one vertically adjacent additional pixel row on the top edge of your characters, in that row put one pixel delimiter marks between each character below so Bitmap Font Writer knows exactly how wide you intend each character to be.  The pixel column immediately below the one pixel delimiters is not used as part of the characters to its left or right.  You can make this column be blank (black) or be filled with a vertical divider color only visible in the font image file while working on it.  There are no width limitations, all characters do not need to have the same width.  The color of each delimiter pixels is defined by the color of the top-left pixel (at 0, 0) in the font image file.  All fonts start with a one pixel delimiter mark in the left most pixel column of the first character and end with one in the rightmost pixel column of the last character in the font image file.  You may start your font at any character and use that as an offset when loading the font, however, it’s recommended that you start with 32 which represents a blank space character.  All characters between the starting and ending character must be defined.  No character may be skipped, use a blank character in it’s place if you don’t want to draw it.
+
+When all this is done, simply save the image containing the font to a Windows Bitmap file (.BMP) and load it into Bitmap Font Writer.
+
+ASCII, ISO 8859-1 or Windows-1252 (ANSI code page) are character encodings for text files, all characters are arranged in one of those encoding orders.  Because this software is targeted towards those slightly more tech-savvy people, there is no need to discuss those encodings any further here in this document.
+
+Further information may be seen at the following links:
+https://en.Wikipedia.org/wiki/ASCII
+https://en.Wikipedia.org/wiki/ISO/IEC_8859-1
+https://en.Wikipedia.org/wiki/Windows-1252
+
+At first glance it may look a little bit confusing if you are not familiar with using bitmap fonts when programming, but it is actually quite simple.  Probably the easiest way to grasp it is to take a look at the fonts distributed with Bitmap Font Writer (installed in the fonts directory where you installed the program).  To get started, use one of the example fonts as a template for your own font.
+
+If you don’t get the exact expected result, use the Font Information option to "debug" your font to see if any character is missed or if there is a stray delimiter pixel.
+
+More related links:
+https://en.Wikipedia.org/wiki/BMP_file_format
+https://en.Wikipedia.org/wiki/Computer_font#Bitmap_fonts
+https://en.wikipedia.org/wiki/Adobe_Photoshop
+https://en.Wikipedia.org/wiki/PaintShop_Pro
+https://en.Wikipedia.org/wiki/GIMP
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -

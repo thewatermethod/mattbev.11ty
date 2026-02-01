@@ -11,6 +11,7 @@
 */
 
 :root {
+    /* palette 1 */
     --blackest-pitch: #000;
     --moderate-pitch: #222;
     --curdled-cream: #fffff7;
@@ -18,6 +19,16 @@
     --murky-depths: #0b2275;
     --haunted-smoke: #ddd;
     --screaming-star: #ff4500;
+
+    /* palette 2 */
+    --alabaster-grey: #dddfdf;
+    --wisteria: #c792df;
+    --plum: #dcabdf;
+
+    /* implement color slots */
+    --background-color: var(--curdled-cream);
+    --text-color: var(--moderate-pitch);
+    --link-color: var(--hardenend-blood);
 
     /* home page specific */
     --background-green: #96cd58;
@@ -63,16 +74,41 @@ ul li.triangle::marker {
 /**
 * Typography
 */
+
+@font-face {
+    font-family: "EPSON MX-80 W E";
+    src:
+        url("../assets/fonts/EPSONMX-80/EPSON\ MX-80\ W\ E.woff2")
+            format("woff2"),
+        url("../assets/fonts/EPSONMX-80/EPSON\ MX-80\ W\ Z.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Lora";
+    src:
+        url("../assets/fonts/Lora-VariableFont_wght.ttf") format("truetype"),
+        url("../assets/fonts/Lora-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src:
+        url("../assets/fonts/Ubuntu-Regular.ttf") format("truetype"),
+        url("../assets/fonts/Ubuntu-Bold.ttf") format("truetype"),
+        url("../assets/fonts/Ubuntu-BoldItalic.ttf") format("truetype"),
+        url("../assets/fonts/Ubuntu-Italic.ttf") format("truetype");
+}
+
 html {
     /** basic font reset **/
     font-family:
+        "Ubuntu",
         system-ui,
         -apple-system,
         BlinkMacSystemFont,
         "Segoe UI",
         Roboto,
         Oxygen,
-        Ubuntu,
         Cantarell,
         "Open Sans",
         "Helvetica Neue",
@@ -82,13 +118,20 @@ html * {
     font-family: inherit;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Lora";
+}
+
 html code {
     font-family: monospace;
 }
 
 body {
-    background: var(--curdled-cream);
-    color: var(--moderate-pitch);
+    background: var(--background-color);
+    color: var(--text-color);
     font-size: 18px;
     line-height: 1.6;
 }
@@ -102,8 +145,8 @@ a {
 }
 
 a:hover {
-    color: var(--hardenend-blood);
-    text-decoration-color: var(--moderate-pitch);
+    color: var(--link-color);
+    text-decoration-color: var(--text-color);
 }
 
 /**
@@ -119,7 +162,7 @@ main:not(.main-bookshelf) {
 /** header **/
 header {
     background: var(--blackest-pitch);
-    color: var(--curdled-cream);
+    color: var(--background-color);
     margin: 0;
     text-align: center;
 }
@@ -194,9 +237,8 @@ postlist component
 }
 
 .post-tag {
-    background: var(--murky-depths);
+    border: 1px solid var(--murky-depths);
     border-radius: 6px;
-    color: white;
     display: inline-block;
     font-size: 0.75em;
     padding: 0.25em 0.5em;
@@ -205,13 +247,13 @@ postlist component
 }
 
 .post-tag:hover {
-    background: var(--hardenend-blood);
+    background: var(--link-color);
     color: white;
     transform: rotate(5deg);
 }
 
 .req {
-    color: var(--hardenend-blood);
+    color: var(--link-color);
 }
 
 [name="contact"] > * {
@@ -226,9 +268,9 @@ postlist component
 }
 
 [name="contact"] [type="submit"] {
-    background: var(--hardenend-blood);
+    background: var(--link-color);
     border: none;
-    color: var(--curdled-cream);
+    color: var(--background-color);
     cursor: pointer;
     margin: auto;
     padding: 0.5em;

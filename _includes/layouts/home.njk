@@ -15,71 +15,20 @@ templateClass: tmpl-home
                     <h2 class="home home--subtitle">{{ metadata.subtitle }}</h2>
                 </div>
                 <ul class="who">
-                    <li class="triangle"><a href="mailto:matt@mattbev.com">matt@mattbev.com</a></li>
-                    <li class="triangle">
-                        <a href="https://github.com/thewatermethod">Github</a> or
+                    <li><a href="mailto:matt@mattbev.com">matt@mattbev.com</a></li>
+                    <li>
+                        <a href="https://github.com/thewatermethod">Github</a> and
                         <a href="https://gitlab.com/thewatermethod">Gitlab</a>.
+                    </li>
+                    <li>
+                        <a href="https://www.drivethrurpg.com/en/publisher/26719/twilit-grotto">DriveThruRPG</a> and
+                        <a href="https://twilitgrotto.itch.io/">Itch.io</a>.
                     </li>
                 </ul>
             </div>
             <div id="image"></div>
       </div>
 
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
-
-      <div class="grass">
-          <span></span>
-      </div>
 
 
     </header>
@@ -95,34 +44,7 @@ templateClass: tmpl-home
         </div>
     </main>
 
-    <script>
-      var animateGrass = function() {
-        var grasses = document.querySelectorAll('.grass');
-        var startTime = Date.now();
-        var amplitude = 4; // degree of rotation
-        var speed = 500; // yeah; that's speed (higher = slower)
-        var offsetBetweenTufts = (i) => i * 0.5; // higher means more variation
 
-        function sway() {
-          var elapsed = Date.now() - startTime;
-
-          grasses.forEach(function(grass, index) {
-            // Offset each grass tuft for more natural movement
-            var offset = offsetBetweenTufts(index);
-            // Slow oscillation with small amplitude
-            var angle = Math.sin((elapsed / speed) + offset) * amplitude;
-            grass.style.transform = 'rotate(' + angle + 'deg)';
-          });
-
-          requestAnimationFrame(sway);
-        }
-
-        sway();
-      };
-
-      document.addEventListener('DOMContentLoaded', animateGrass);
-
-    </script>
     {% include "footer.njk" %}
 
     <!-- Current page: {{ page.url | url }} -->
