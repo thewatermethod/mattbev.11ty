@@ -3,7 +3,7 @@
         display: grid;
         justify-items: center;
         grid-template-columns: 3fr 1fr;
-        max-width: 100%;
+        max-width: 1200px;
     }
 
     main.main-tmpl-home .page-title {
@@ -13,7 +13,7 @@
 
 .home--title {
     color: white;
-    font-family: "EPSON MX-80 W E";
+    font-family: "EPSON MX-80 W E", monospace;
     font-size: 3em;
     line-height: 1;
     margin: 0.25em 0;

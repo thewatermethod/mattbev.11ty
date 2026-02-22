@@ -15,6 +15,7 @@
     --blackest-pitch: #000;
     --moderate-pitch: #222;
     --curdled-cream: #fffff7;
+    --driven-snow: #f5f5f5;
     --hardenend-blood: #8b0000;
     --murky-depths: #0b2275;
     --haunted-smoke: #ddd;
@@ -26,7 +27,7 @@
     --plum: #dcabdf;
 
     /* implement color slots */
-    --background-color: var(--curdled-cream);
+    --background-color: var(--driven-snow);
     --text-color: var(--moderate-pitch);
     --link-color: var(--hardenend-blood);
 
@@ -78,9 +79,8 @@ ul li.triangle::marker {
 @font-face {
     font-family: "EPSON MX-80 W E";
     src:
-        url("../assets/fonts/EPSONMX-80/EPSON\ MX-80\ W\ E.woff2")
-            format("woff2"),
-        url("../assets/fonts/EPSONMX-80/EPSON\ MX-80\ W\ Z.woff") format("woff");
+        url("../assets/fonts/EPSONMX-80/EPSON MX-80 W E.woff2") format("woff2"),
+        url("../assets/fonts/EPSONMX-80/EPSON MX-80 W Z.woff") format("woff");
 }
 
 @font-face {
@@ -122,7 +122,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Lora";
+    font-family: "Lora", sans-serif;
 }
 
 html code {
@@ -192,9 +192,6 @@ header nav ul {
     font-size: 2em;
     margin: 1em 0;
     text-align: center;
-}
-.main-tmpl-home .page-title {
-    margin: 1em 0 0;
 }
 
 .subtitle {
