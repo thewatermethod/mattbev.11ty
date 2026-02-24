@@ -1,12 +1,10 @@
 ---
 title: Redesign 2026
-date: 2026-01-27
+date: 2026-02-24
 tags: [opinions, web]
 type: post
-eleventyExcludeFromCollections: true
 ---
-Just completed a redesign of this website for the new year. Hard to believe the last design stuck around for five years.
-Really, it's a very moderate reskinning rather than a rearchitecting.
+Just completed a redesign (moderate reskinning) of this website for the new year. Hard to believe the last design stuck around for five years.
 
 I consider the site's mission in flux. In the past, I've used it as an example of my work. I considered a personal website table stakes when applying to be a web developer.
 
