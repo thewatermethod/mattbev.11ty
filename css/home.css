@@ -1,0 +1,63 @@
+@media (min-width: 1200px) {
+    main.main-tmpl-home {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 3fr 1fr;
+        max-width: 1200px;
+    }
+
+    main.main-tmpl-home .page-title {
+        text-align: left;
+    }
+}
+
+.home--title {
+    color: white;
+    font-family: "EPSON MX-80 W E", monospace;
+    font-size: 3em;
+    line-height: 1;
+    margin: 0.25em 0;
+    text-decoration: none;
+}
+
+main.main-tmpl-home:not(.main-bookshelf) {
+    padding: 0;
+}
+
+.content-section {
+    padding-inline: 1em;
+}
+
+.sidebar {
+    padding-inline: 1em;
+}
+
+.sidebar--current {
+    margin-bottom: 1em;
+    max-width: max-content;
+}
+
+.sidebar--current ul {
+    list-style: none;
+}
+
+.sidebar--current__title {
+    font-size: 1em;
+    margin-block: 0em;
+}
+
+.sidebar--current__description {
+    margin: 0;
+}
+
+.site-header {
+    padding-bottom: 2em;
+}
+
+@media (min-width: 900px) {
+    .site-header {
+        position: relative;
+        padding-bottom: 6em;
+        overflow-y: hidden;
+    }
+}

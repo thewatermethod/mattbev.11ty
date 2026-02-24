@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ metadata.language }}">
   {% include "htmlhead.njk" %}
+  <link rel="stylesheet" href="{{ '/css/prism.css' | url }}">
   <body>
     <header class="site-header {% if templateClass %}header-{{ templateClass }}{% endif %}">
       {% include "navigation.njk" %}
