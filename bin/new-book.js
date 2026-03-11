@@ -17,11 +17,10 @@ async function newBook(title, author, date) {
   fs.writeFile(
     `./books/${slug}.md`,
     `---
-    title: "${title}"
-    author: "${author}"
-    date: ${date}
-    ---
-
+title: "${title}"
+author: "${author}"
+date: ${date}
+---
     `,
     (err) => {
       if (err) {

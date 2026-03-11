@@ -22,7 +22,7 @@ async function main() {
   const date = DateTime.now().toFormat("y-MM-dd");
 
   const currentShelf = await getCurrentBookshelf();
-  console.log(currentShelf);
+
   for (const book of newBooks) {
     if (!currentShelf.has(book.slug)) {
       // params: title, author, date in YYYY-MM-DD format
