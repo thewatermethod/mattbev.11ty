@@ -3,8 +3,7 @@ const slugify = require("slugify");
 
 async function newBook(title, author, date) {
   if (!title || !author || !date) {
-    console.error("Usage: book <book title> <author> <date>");
-    process.exit(1);
+    throw new Error("Usage: book <book title> <author> <date>");
   }
 
   const slug = slugify(title).toLowerCase();
@@ -14,7 +13,7 @@ async function newBook(title, author, date) {
   console.log(`Author: ${author}`);
   console.log(`Date: ${date}`);
 
-  fs.writeFile(
+  await fs.promises.writeFile(
     `./books/${slug}.md`,
     `---
 title: "${title}"
@@ -22,14 +21,9 @@ author: "${author}"
 date: ${date}
 ---
     `,
-    (err) => {
-      if (err) {
-        console.error(err);
-        process.exit(1);
-      }
-      process.exit(0);
-    },
   );
+
+  return slug;
 }
 
 module.exports = newBook;

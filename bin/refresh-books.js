@@ -23,12 +23,31 @@ async function main() {
 
   const currentShelf = await getCurrentBookshelf();
 
+  const created = [];
   for (const book of newBooks) {
     if (!currentShelf.has(book.slug)) {
       // params: title, author, date in YYYY-MM-DD format
-      await newBook(book.title, book.author, date);
+      const slug = await newBook(book.title, book.author, date);
+      created.push(slug);
     }
   }
+
+  return created;
 }
 
-main();
+main()
+  .then((created) => {
+    if (created.length > 0) {
+      console.log(`\nCreated ${created.length} new book(s)`);
+      // Output file paths for use by callers (e.g. pre-commit hook)
+      for (const slug of created) {
+        console.log(`books/${slug}.md`);
+      }
+    } else {
+      console.log("No new books to add");
+    }
+  })
+  .catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
