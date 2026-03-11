@@ -17,10 +17,10 @@ export default async (req: Request) => {
 
     if (!MASTODON_ACCESS_TOKEN || !MASTODON_API_URL || !MASTODON_ACCOUNT_ID) {
       console.error(
-        "Missing MASTODON_ACCESS_TOKEN or MASTODON_API_URL or MASTODON_ACCOUNT_ID"
+        "Missing MASTODON_ACCESS_TOKEN or MASTODON_API_URL or MASTODON_ACCOUNT_ID",
       );
       throw new Error(
-        "Missing MASTODON_ACCESS_TOKEN or MASTODON_API_URL or MASTODON_ACCOUNT_ID"
+        "Missing MASTODON_ACCESS_TOKEN or MASTODON_API_URL or MASTODON_ACCOUNT_ID",
       );
     }
 
@@ -50,7 +50,7 @@ export default async (req: Request) => {
     });
 
     const query = `SELECT id, url FROM sites WHERE url IN (${Array.from(
-      urls
+      urls,
     ).join(", ")})`;
 
     console.log(`Executing query: ${query}`);
@@ -107,5 +107,5 @@ export default async (req: Request) => {
 };
 
 export const config: Config = {
-  schedule: "@daily",
+  schedule: "@weekly",
 };
