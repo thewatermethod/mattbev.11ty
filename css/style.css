@@ -305,6 +305,33 @@ footer li.hash:before {
     content: "#️⃣ ";
 }
 
+/**
+table styles
+**/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5em 0;
+}
+
+th {
+    background: var(--blackest-pitch);
+    color: var(--driven-snow);
+    font-family: "Lora", sans-serif;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 0.6em 1em;
+    border-bottom: 1px solid var(--haunted-smoke);
+}
+
+tr:nth-child(even) {
+    background: var(--curdled-cream);
+}
+
 .bookshelf {
     padding-inline: 2em;
 }
