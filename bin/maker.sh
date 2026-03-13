@@ -16,18 +16,17 @@ echo "Creating new post: $1"
 echo "Slug: $script_name"
 echo "Date: $today"
 
-touch ./posts/$script_name.md
+touch ../posts/$script_name.md
 
-cat > ./posts/$script_name.md <<EOF
+cat > ../posts/$script_name.md <<EOF
 ---
 title: $1
 author:
 image:
-url: 
+url:
 date: $today
 tags: []
-type: 
+type:
 excerpt:
 eleventyExcludeFromCollections: true
 ---
-
