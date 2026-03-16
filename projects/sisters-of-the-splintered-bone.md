@@ -1,5 +1,5 @@
 ---
-title: Sisters of the Splintered Bone
+title: Sisterhood of the Splintered Bone
 currentProject: true
 date: 2025-07-28
 status: Backerkit!
