@@ -1,6 +1,5 @@
 const fs = require("node:fs");
 const path = require("node:path");
-const { fetchCurrentlyReading } = require("../lib/storyGraph");
 
 const BOOKS_DIR = path.join(__dirname, "..", "books");
 
@@ -34,6 +33,11 @@ async function markFinishedBooksAsRead(currentlyReading) {
 }
 
 module.exports = async () => {
+  if (process.env.SKIP_STORYGRAPH === "true") {
+    return [];
+  }
+
+  const { fetchCurrentlyReading } = require("../lib/storyGraph");
   const books = await fetchCurrentlyReading();
 
   // An empty result usually means the scrape failed, so don't touch anything.

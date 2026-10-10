@@ -4,7 +4,6 @@ var groupBy = require("object.groupby");
 const { DateTime } = require("luxon");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
-const { fetchCurrentlyReading } = require("./lib/storyGraph");
 
 module.exports = function (eleventyConfig) {
   // Copy the `img` and `css` folders to the output
