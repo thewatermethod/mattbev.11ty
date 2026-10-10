@@ -1,0 +1,88 @@
+---
+layout: layouts/recipes.njk
+pagination:
+  data: recipes
+  size: 1
+  alias: recipe
+eleventyComputed:
+  title: "{{ recipe.title | safe }}"
+permalink: /recipes/{{ recipe.slug }}/
+---
+<article class="recipe">
+  <h1>{{ recipe.title }}</h1>
+  {% if recipe.subtitle %}<p class="subtitle">{{ recipe.subtitle }}</p>{% endif %}
+
+  <p class="meta">
+    Serves {{ recipe.servings }}
+    · {{ recipe.time.min }}{% if recipe.time.max != recipe.time.min %}–{{ recipe.time.max }}{% endif %} {{ recipe.time.unit }}
+    {% if recipe.source %}· From {% if recipe.source.url %}<a href="{{ recipe.source.url }}">{{ recipe.source.name }}</a>{% else %}{{ recipe.source.name }}{% endif %}{% endif %}
+  </p>
+
+  {% if recipe.tags.length %}
+  <p class="meta">
+    {%- for tag in recipe.tags %}
+    <a href="{{ ('/recipes/tags/' + (tag | slugify) + '/') | url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
+    {%- endfor %}
+  </p>
+  {% endif %}
+
+  {% if recipe.variants.length %}
+  <fieldset class="variants" hidden>
+    <legend>Version</legend>
+    <label><input type="radio" name="variant" value="" checked> Original</label>
+    {%- for variant in recipe.variants %}
+    <label><input type="radio" name="variant" value="{{ variant.id }}"> {{ variant.label }}</label>
+    {%- endfor %}
+  </fieldset>
+  {% endif %}
+
+  <h2>Ingredients</h2>
+  <ul class="ingredients">
+    {%- for ingredient in recipe.ingredients %}
+    {%- set replacedBy = ingredient.id | recipeReplacedBy(recipe.variants) %}
+    <li{% if ingredient.variant %} data-variant="{{ ingredient.variant }}"{% endif %}{% if replacedBy %} data-hidden-for="{{ replacedBy }}"{% endif %}>
+      {{ ingredient.quantity | recipeQuantity }}{% if ingredient.unit %} {{ ingredient.unit }}{% endif %} {{ ingredient.item }}
+      {%- if ingredient.note %} <span class="note">({{ ingredient.note }})</span>{% endif %}
+      {%- if ingredient.variant %} <span class="variant-label">({{ ingredient.variant | recipeVariantLabel(recipe.variants) | lower }})</span>{% endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+
+  {% if recipe.pantry.length %}
+  <p class="pantry">Also: {{ recipe.pantry | join(", ") }}</p>
+  {% endif %}
+
+  <h2>Steps</h2>
+  <ol class="steps">
+    {%- for step in recipe.steps %}
+    <li>
+      <h3>{{ step.title }}</h3>
+      {%- if step.variantInstructions %}
+      <div data-hidden-for="{{ step.variantInstructions | recipeVariantIds }}">
+        <ul>
+          {%- for line in step.instructions %}
+          <li>{{ line }}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- for id, lines in step.variantInstructions %}
+      <div data-variant="{{ id }}">
+        <p class="variant-label">{{ id | recipeVariantLabel(recipe.variants) }}:</p>
+        <ul>
+          {%- for line in lines %}
+          <li>{{ line }}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- endfor %}
+      {%- else %}
+      <ul>
+        {%- for line in step.instructions %}
+        <li>{{ line }}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ol>
+</article>

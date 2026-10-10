@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ '/css/recipes.css' | url }}">
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | url }}">
+  </head>
+  <body>
+    <header>
+      <a href="{{ '/recipes/' | url }}">Recipes</a>
+    </header>
+    <main>
+      {{ content | safe }}
+    </main>
+    <footer>
+      <a href="{{ '/' | url }}">mattbev.com</a>
+    </footer>
+    {% if recipe and recipe.variants.length %}
+    <script src="{{ '/assets/recipes.js' | url }}"></script>
+    {% endif %}
+  </body>
+</html>

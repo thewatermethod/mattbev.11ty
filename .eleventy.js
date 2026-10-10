@@ -101,6 +101,38 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", filterTagList);
 
+  // Recipe filters
+  eleventyConfig.addFilter("recipesTagged", (recipes, tag) =>
+    recipes.filter((recipe) => (recipe.tags || []).includes(tag)),
+  );
+
+  // Render 0.25 as ¼, 1.5 as 1½, etc. Odd decimals (package sizes) pass through.
+  const fractions = { 0.25: "¼", 0.333: "⅓", 0.5: "½", 0.667: "⅔", 0.75: "¾" };
+  eleventyConfig.addFilter("recipeQuantity", (quantity) => {
+    const whole = Math.floor(quantity);
+    const part = Math.round((quantity - whole) * 1000) / 1000;
+    if (part === 0) return String(whole);
+    if (fractions[part]) return (whole || "") + fractions[part];
+    return String(quantity);
+  });
+
+  // Space-separated ids of the variants that swap out this ingredient
+  eleventyConfig.addFilter("recipeReplacedBy", (ingredientId, variants) =>
+    (variants || [])
+      .filter((variant) => (variant.replaces || []).includes(ingredientId))
+      .map((variant) => variant.id)
+      .join(" "),
+  );
+
+  eleventyConfig.addFilter("recipeVariantIds", (variantInstructions) =>
+    Object.keys(variantInstructions || {}).join(" "),
+  );
+
+  eleventyConfig.addFilter("recipeVariantLabel", (id, variants) => {
+    const variant = (variants || []).find((v) => v.id === id);
+    return variant ? variant.label : id;
+  });
+
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function (collection) {
     let tagSet = new Set();
