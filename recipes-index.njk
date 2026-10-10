@@ -5,6 +5,10 @@ permalink: /recipes/
 ---
 <h1>Recipes</h1>
 
+{% include "recipe-filter.njk" %}
+
+<hr />
+
 {% include "recipe-tags.njk" %}
 
 {% set recipeList = recipes %}

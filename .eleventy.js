@@ -6,6 +6,9 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 module.exports = function (eleventyConfig) {
+  // Re-run page scripts after HTML changes (recipe filters and variant pickers).
+  eleventyConfig.setServerOptions({ domDiff: false });
+
   // Copy the `img` and `css` folders to the output
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");

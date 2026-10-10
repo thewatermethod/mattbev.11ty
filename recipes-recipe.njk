@@ -15,7 +15,6 @@ permalink: /recipes/{{ recipe.slug }}/
   <p class="meta">
     Serves {{ recipe.servings }}
     · {{ recipe.time.min }}{% if recipe.time.max != recipe.time.min %}–{{ recipe.time.max }}{% endif %} {{ recipe.time.unit }}
-    {% if recipe.source %}· From {% if recipe.source.url %}<a href="{{ recipe.source.url }}">{{ recipe.source.name }}</a>{% else %}{{ recipe.source.name }}{% endif %}{% endif %}
   </p>
 
   {% if recipe.tags.length %}

@@ -48,10 +48,17 @@ module.exports = async () => {
   // An empty result usually means the scrape failed, so don't touch anything.
   if (books.length > 0) {
     await markFinishedBooksAsRead(books);
-    await fs.promises.writeFile(
-      SNAPSHOT_PATH,
-      `${JSON.stringify(books, null, 2)}\n`,
-    );
+    const snapshot = `${JSON.stringify(books, null, 2)}\n`;
+    const previousSnapshot = await fs.promises.readFile(SNAPSHOT_PATH, "utf8")
+      .catch((error) => {
+        if (error.code === "ENOENT") return null;
+        throw error;
+      });
+    // Build inputs must stay untouched when their contents haven't changed,
+    // otherwise development watchers can keep triggering another build.
+    if (snapshot !== previousSnapshot) {
+      await fs.promises.writeFile(SNAPSHOT_PATH, snapshot);
+    }
     return books;
   }
 

@@ -10,6 +10,10 @@ permalink: /recipes/tags/{{ currentTag | slugify }}/
 ---
 <h1>Recipes: {{ currentTag }}</h1>
 
+{% include "recipe-filter.njk" %}
+
+<hr />
+
 {% include "recipe-tags.njk" %}
 
 {% set recipeList = recipes | recipesTagged(currentTag) %}

@@ -1,5 +1,5 @@
-<ul>
+<ul id="recipe-list">
   {%- for recipe in recipeList %}
-  <li><a href="{{ ('/recipes/' + recipe.slug + '/') | url }}">{{ recipe.title }}</a>{% if recipe.subtitle %} {{ recipe.subtitle }}{% endif %}</li>
+  <li data-recipe-title="{{ recipe.title | escape }}" data-recipe-tags="{{ recipe.tags | join(' ') | escape }}"><a href="{{ ('/recipes/' + recipe.slug + '/') | url }}">{{ recipe.title }}</a>{% if recipe.subtitle %} {{ recipe.subtitle }}{% endif %}</li>
   {%- endfor %}
 </ul>
