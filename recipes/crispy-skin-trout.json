@@ -1,0 +1,85 @@
+{
+  "title": "Crispy Skin Trout",
+  "subtitle": "with Salsa Verde & Farro Salad",
+  "slug": "crispy-skin-trout",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 25, "max": 35, "unit": "minutes" },
+  "tags": ["seafood", "grain-bowl"],
+  "ingredients": [
+    { "id": "trout", "quantity": 2, "unit": null, "item": "skin-on steelhead trout fillets" },
+    { "id": "farro", "quantity": 0.5, "unit": "cup", "item": "semi-pearled farro" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "onion", "quantity": 1, "unit": null, "item": "yellow onion" },
+    { "id": "zucchini", "quantity": 1, "unit": null, "item": "zucchini" },
+    { "id": "olives", "quantity": 1, "unit": "oz", "item": "Castelvetrano olives" },
+    { "id": "lemon", "quantity": 1, "unit": null, "item": "lemon" },
+    { "id": "raisins", "quantity": 1.5, "unit": "Tbsps", "item": "golden raisins" },
+    { "id": "salsa-verde", "quantity": 0.333, "unit": "cup", "item": "salsa verde" },
+    { "id": "red-pepper-flakes", "quantity": 0.25, "unit": "tsp", "item": "crushed red pepper flakes" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Cook the farro",
+      "instructions": [
+        "Fill a medium pot 3/4 of the way up with salted water; cover and heat to boiling on high.",
+        "Once boiling, add the farro and cook, uncovered, 18 to 20 minutes, or until tender. Turn off the heat.",
+        "Drain thoroughly and return to the pot. Cover to keep warm."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Meanwhile, wash and dry the fresh produce.",
+        "Place the raisins in a bowl; cover with hot water. Set aside to rehydrate at least 10 minutes.",
+        "Halve, peel, and thinly slice the onion.",
+        "Medium dice the zucchini.",
+        "Peel and roughly chop 2 cloves of garlic.",
+        "Pit and roughly chop the olives.",
+        "Using a zester or the small side of a box grater, finely grate the lemon to get 1 teaspoon. Quarter and deseed the lemon."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the vegetables",
+      "instructions": [
+        "Drain the rehydrated raisins.",
+        "In a medium pan (nonstick, if you have one), heat a drizzle of olive oil on medium-high until hot.",
+        "Add the sliced onion; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until slightly softened.",
+        "Add the diced zucchini, chopped garlic, and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be; season with salt and pepper. Cook, stirring occasionally, 3 to 4 minutes, or until the vegetables are browned and softened.",
+        "Turn off the heat. Stir in the drained raisins and chopped olives.",
+        "Transfer to a bowl and cover with foil to keep warm.",
+        "Wipe out the pan."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the fish",
+      "instructions": [
+        "Pat the fish dry with paper towels; season with salt and pepper on both sides.",
+        "In the same pan, heat a drizzle of olive oil on medium-high until hot.",
+        "Add the seasoned fish, skin side down. Cook 5 to 7 minutes, or until the skin is browned and crispy. Flip and cook 1 to 2 minutes, or until lightly browned and cooked through.* *The USDA recommends a minimum safe cooking temperature of 145°F for fish.",
+        "Turn off the heat."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Finish the farro & serve your dish",
+      "instructions": [
+        "To the pot of cooked farro, add the cooked vegetables, lemon zest, and the juice of 2 lemon wedges; stir to combine. Taste, then season with salt and pepper if desired.",
+        "Serve the finished farro topped with the cooked fish. Drizzle with the salsa verde. Serve the remaining lemon wedges on the side."
+      ]
+    }
+  ],
+  "review": [
+    "steps[2].instructions[0..2]: the left edge of these bullets is cut off in the photo (e.g. '...f olive oil', '...dd the sliced onion', '...inutes'); reconstructed missing leading letters from context",
+    "steps[2].instructions[3]: one word is damaged on the card, read as 'as much of the red pepper flakes' (standard Blue Apron phrasing)"
+  ]
+}

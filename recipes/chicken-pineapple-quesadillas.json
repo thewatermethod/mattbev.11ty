@@ -1,0 +1,74 @@
+{
+  "title": "Chicken Pineapple Quesadillas",
+  "subtitle": "with Pico de Gallo & Southwest Spice",
+  "slug": "chicken-pineapple-quesadillas",
+  "source": {
+    "name": "HelloFresh",
+    "url": "https://www.hellofresh.com"
+  },
+  "servings": 2,
+  "time": { "min": 30, "max": 30, "unit": "minutes" },
+  "tags": ["chicken", "weeknight"],
+  "ingredients": [
+    { "id": "onion", "quantity": 1, "unit": null, "item": "yellow onion" },
+    { "id": "pineapple", "quantity": 4, "unit": "oz", "item": "pineapple" },
+    { "id": "tomato", "quantity": 1, "unit": null, "item": "Roma tomato" },
+    { "id": "cilantro", "quantity": 0.25, "unit": "oz", "item": "cilantro" },
+    { "id": "lime", "quantity": 1, "unit": null, "item": "lime" },
+    { "id": "chicken", "quantity": 10, "unit": "oz", "item": "chicken breast strips" },
+    { "id": "southwest-spice", "quantity": 1, "unit": "TBSP", "item": "Southwest Spice Blend" },
+    { "id": "tortillas", "quantity": 2, "unit": null, "item": "flour tortillas" },
+    { "id": "mozzarella", "quantity": 1, "unit": "Cup", "item": "mozzarella cheese" },
+    { "id": "sour-cream", "quantity": 2, "unit": "TBSP", "item": "sour cream" }
+  ],
+  "pantry": ["vegetable oil", "kosher salt", "black pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prep",
+      "instructions": [
+        "Heat broiler to high. Wash and dry all produce. Halve, peel, and thinly slice onion; mince a few slices until you have 2 TBSP (4 TBSP for 4 servings). Drain pineapple; discard juice."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Start filling",
+      "instructions": [
+        "Heat a drizzle of oil in a large pan over medium-high heat. Add sliced onion. Cook, stirring, until softened, 4-5 minutes. Season with salt and pepper. Add pineapple and cook, stirring, until lightly browned, 2-3 minutes. Season with salt and pepper. Turn off heat; remove from pan and set aside. Wipe out pan."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Make pico de gallo",
+      "instructions": [
+        "Meanwhile, dice tomato. Roughly chop cilantro. Halve lime. In a medium bowl, combine minced onion, tomato, half the cilantro, and a squeeze of lime juice. Season with salt and pepper."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Finish filling",
+      "instructions": [
+        "Pat chicken dry with paper towels. Heat a drizzle of oil in pan used for onion and pineapple over medium-high heat. Add chicken and Southwest Spice. Cook, stirring, until chicken is browned and cooked through, 4-6 minutes. Season with salt and pepper. Return onion and pineapple to pan along with a squeeze of lime juice and remaining cilantro. Stir to combine; turn off heat."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Make quesadillas",
+      "instructions": [
+        "Rub one side of each tortilla with a drizzle of oil. Place tortillas, oiled sides down, on a baking sheet. Evenly sprinkle with half the mozzarella. Top with filling, then sprinkle with remaining mozzarella. Fold tortillas in half to create quesadillas. (Depending on the size of your baking sheet, you may need to work in batches for 4 servings.)"
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Finish & serve",
+      "instructions": [
+        "Broil quesadillas until golden brown on top, 1-2 minutes. Flip and repeat on opposite side. (TIP: Watch carefully to avoid burning.) Cut quesadillas into wedges; top with some pico de gallo and sour cream. Serve with any remaining pico de gallo and sour cream on the side."
+      ]
+    }
+  ],
+  "review": [
+    "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 1 onion, 8 oz pineapple, 2 tomatoes, 1/4 oz cilantro, 1 lime, 20 oz chicken, 2 TBSP spice, 4 tortillas, 2 Cups mozzarella, 4 TBSP sour cream)",
+    "time: card gives prep 10 min and total 30 min; used total for min and max"
+  ]
+}

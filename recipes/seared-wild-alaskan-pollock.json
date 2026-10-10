@@ -1,0 +1,81 @@
+{
+  "title": "Seared Wild Alaskan Pollock",
+  "subtitle": "with Red Rice & Broccoli Salad",
+  "slug": "seared-wild-alaskan-pollock",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 30, "max": 40, "unit": "minutes" },
+  "tags": ["seafood", "rice"],
+  "ingredients": [
+    { "id": "pollock", "quantity": 10.5, "unit": "oz", "item": "wild Alaskan pollock fillets" },
+    { "id": "broccoli", "quantity": 0.5, "unit": "lb", "item": "broccoli" },
+    { "id": "yogurt", "quantity": 0.5, "unit": "cup", "item": "plain nonfat Greek yogurt" },
+    { "id": "vinegar", "quantity": 1, "unit": "Tbsp", "item": "white wine vinegar" },
+    { "id": "peppers", "quantity": 0.5, "unit": "oz", "item": "sweet piquante peppers" },
+    { "id": "rice", "quantity": 0.5, "unit": "cup", "item": "red rice blend" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "capers", "quantity": 1, "unit": "Tbsp", "item": "capers" },
+    {
+      "id": "spice-blend",
+      "quantity": 1,
+      "unit": "Tbsp",
+      "item": "Weeknight Hero Spice Blend",
+      "note": "Onion Powder, Garlic Powder, Smoked Paprika & Whole Dried Parsley"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Cook the rice",
+      "instructions": [
+        "Fill a medium pot with water; cover and heat to boiling on high.",
+        "Once boiling, add the rice and cook, uncovered, 30 to 32 minutes, or until tender.",
+        "Turn off the heat. Drain thoroughly and return to the pot."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prepare the ingredients & make the caper yogurt",
+      "instructions": [
+        "While the rice cooks, wash and dry the broccoli; cut off and discard the bottom 1/2 inch of the stem, then cut the broccoli into small florets.",
+        "Roughly chop the capers.",
+        "Peel 2 cloves of garlic. Roughly chop 1 clove. Using a zester, finely grate the remaining clove into a paste (or use the small side of a box grater).",
+        "Roughly chop the peppers.",
+        "In a bowl, combine the yogurt, chopped capers, and as much of the garlic paste as you'd like. Season with salt and pepper."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the broccoli",
+      "instructions": [
+        "Once the rice has cooked about 15 minutes, in a medium pan (nonstick, if you have one), heat 1 1/2 teaspoons of olive oil on medium-high until hot.",
+        "Add the broccoli florets in an even layer; season with salt and pepper. Cook, without stirring, 3 to 4 minutes, or until lightly browned and slightly softened.",
+        "Add the chopped garlic; season with salt and pepper. Cook, stirring frequently, 1 to 2 minutes, or until softened.",
+        "Add 1/3 cup of water (carefully, as the liquid may splatter); season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until the broccoli is softened and the water has cooked off.",
+        "Transfer to a bowl. Wipe out the pan."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the fish",
+      "instructions": [
+        "Pat the fish dry with paper towels. Transfer to a cutting board and cut each fillet into 2 equal-sized pieces. Season on both sides with salt, pepper, and enough of the spice blend to coat (you may have extra).",
+        "In the same pan, heat 1 1/2 teaspoons of olive oil on medium-high until hot.",
+        "Add the seasoned fish and cook 3 to 4 minutes per side, or until lightly browned and cooked through. Turn off the heat."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Finish the rice & serve your dish",
+      "instructions": [
+        "To the pot of cooked rice, add the cooked broccoli, chopped peppers, and vinegar. Season with salt and pepper; stir to combine.",
+        "Serve the finished rice topped with cooked fish and caper yogurt."
+      ]
+    }
+  ]
+}

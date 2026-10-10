@@ -1,0 +1,97 @@
+{
+  "title": "Garlic-Caper Chicken",
+  "subtitle": "with Creamy Calabrian Zucchini & Orzo",
+  "slug": "garlic-caper-chicken",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 30, "max": 40, "unit": "minutes" },
+  "tags": ["chicken", "pasta"],
+  "ingredients": [
+    { "id": "chicken", "quantity": 2, "unit": null, "item": "boneless, skinless chicken breasts" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "cream", "quantity": 0.25, "unit": "cup", "item": "cream" },
+    {
+      "id": "italian-seasoning",
+      "quantity": 1,
+      "unit": "Tbsp",
+      "item": "Italian seasoning",
+      "note": "Whole Dried Basil, Sage, Oregano, Savory, Rosemary, Thyme & Marjoram"
+    },
+    { "id": "orzo", "quantity": 4, "unit": "oz", "item": "orzo pasta" },
+    { "id": "lemon", "quantity": 1, "unit": null, "item": "lemon" },
+    { "id": "chile-paste", "quantity": 1.5, "unit": "tsps", "item": "Calabrian chile paste" },
+    { "id": "zucchini", "quantity": 1, "unit": null, "item": "zucchini" },
+    { "id": "parmesan", "quantity": 0.25, "unit": "cup", "item": "grated parmesan cheese" },
+    { "id": "capers", "quantity": 1, "unit": "Tbsp", "item": "capers" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Fill a medium pot or a large pot if you're cooking 4 servings 3/4 of the way up with salted water; cover and heat to boiling on high.",
+        "Wash and dry the fresh produce.",
+        "Halve the zucchini lengthwise, then thinly slice crosswise.",
+        "Roughly chop the capers.",
+        "Peel and roughly chop 2 cloves of garlic.",
+        "Quarter and deseed the lemon."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the pasta",
+      "instructions": [
+        "Add the pasta to the pot of boiling water. Cook, uncovered, 7 to 9 minutes, or until tender. Turn off the heat.",
+        "Drain thoroughly and return to the pot. Cover to keep warm."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the zucchini",
+      "instructions": [
+        "Meanwhile, in a medium pan or a large pan if you're cooking 4 servings (nonstick, if you have one), heat a drizzle of olive oil on medium-high until hot.",
+        "Add the sliced zucchini in an even layer. Cook, without stirring, 2 to 3 minutes, or until lightly browned.",
+        "Add as much of the chile paste as you'd like, depending on how spicy you'd like the dish to be; season with salt and pepper. Cook, stirring frequently, 2 to 3 minutes, or until thoroughly combined and the zucchini is softened.",
+        "Transfer to a plate; cover with foil to keep warm.",
+        "Rinse and wipe out the pan."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the chicken",
+      "instructions": [
+        "Pat the chicken dry with paper towels; season on both sides with salt, pepper, and enough of the Italian seasoning to coat (you may have extra).",
+        "In the same pan, heat a drizzle of olive oil on medium-high until hot.",
+        "Add the seasoned chicken. Cook 6 to 7 minutes per side, or until browned and cooked through.* *The USDA recommends a minimum safe cooking temperature of 165°F for chicken.",
+        "Leaving any browned bits (or fond) in the pan, transfer to a cutting board."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Make the garlic-caper topping",
+      "instructions": [
+        "In the pan of reserved fond, heat 1 tablespoon of olive oil or 2 tablespoons of olive oil if you're cooking 4 servings on medium-high until hot.",
+        "Add the chopped capers and chopped garlic. Cook, stirring constantly, 30 seconds to 1 minute, or until slightly softened.",
+        "Turn off the heat and stir in the juice of 2 lemon wedges."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Finish the pasta & serve your dish",
+      "instructions": [
+        "To the pot of cooked pasta, add the cooked zucchini, cream, and the juice of the remaining lemon wedges. Stir to combine.",
+        "Taste, then season with salt and pepper if desired.",
+        "Slice the cooked chicken crosswise.",
+        "Serve the finished pasta topped with the sliced chicken and garlic-caper topping. Garnish with the cheese."
+      ]
+    }
+  ],
+  "review": [
+    "servings: card is '2 or 4 servings'; transcribed the 2-serving quantities (4-serving: 4 chicken breasts, 1/2 cup cream, 1/2 lb orzo, 1 Tbsp chile paste, 2 zucchini, 2 Tbsps capers; others unchanged). The italic 4-serving notes in steps 1, 3, and 5 are kept word for word"
+  ]
+}

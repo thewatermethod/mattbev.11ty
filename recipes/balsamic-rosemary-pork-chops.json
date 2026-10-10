@@ -1,0 +1,112 @@
+{
+  "title": "Balsamic Rosemary Pork Chops",
+  "subtitle": "with Garlic Toast & Green Beans",
+  "slug": "balsamic-rosemary-pork-chops",
+  "source": {
+    "name": "HelloFresh",
+    "url": "https://www.hellofresh.com"
+  },
+  "servings": 2,
+  "time": { "min": 25, "max": 25, "unit": "minutes" },
+  "tags": ["pork", "weeknight"],
+  "ingredients": [
+    { "id": "green-beans", "quantity": 6, "unit": "oz", "item": "green beans" },
+    { "id": "rosemary", "quantity": 0.25, "unit": "oz", "item": "rosemary" },
+    { "id": "baguette", "quantity": 1, "unit": null, "item": "demi-baguette" },
+    { "id": "pork", "quantity": 10, "unit": "oz", "item": "pork chops" },
+    { "id": "stock-concentrate", "quantity": 1, "unit": null, "item": "chicken stock concentrate" },
+    { "id": "vinegar", "quantity": 5, "unit": "tsp", "item": "balsamic vinegar" },
+    { "id": "garlic-herb-butter", "quantity": 2, "unit": "TBSP", "item": "garlic herb butter" },
+    {
+      "id": "chicken",
+      "quantity": 10,
+      "unit": "oz",
+      "item": "chicken cutlets",
+      "variant": "chicken"
+    },
+    {
+      "id": "organic-chicken",
+      "quantity": 10,
+      "unit": "oz",
+      "item": "organic chicken cutlets",
+      "variant": "organic-chicken"
+    }
+  ],
+  "pantry": ["cooking oil", "sugar", "kosher salt", "black pepper"],
+  "variants": [
+    { "id": "chicken", "label": "With chicken cutlets" },
+    { "id": "organic-chicken", "label": "With organic chicken cutlets" }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Roast green beans",
+      "instructions": [
+        "Adjust rack to top position and preheat oven to 425 degrees. Wash and dry produce.",
+        "Trim green beans if necessary. Toss on a baking sheet with a drizzle of oil, salt, and pepper.",
+        "Roast on top rack until browned and tender, 12-15 minutes."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prep & cook pork",
+      "instructions": [
+        "Meanwhile, strip rosemary leaves from stems; finely chop leaves until you have 1 tsp (2 tsp for 4 servings).",
+        "Pat pork* dry with paper towels and season all over with salt and pepper. *Pork is fully cooked when internal temperature reaches 145°.",
+        "Heat a drizzle of oil in a large pan over medium-high heat. Add pork; cook until browned and cooked through, 4-6 minutes per side.",
+        "Turn off heat; transfer pork to a cutting board. Wipe out pan."
+      ],
+      "variantInstructions": {
+        "chicken": [
+          "Meanwhile, strip rosemary leaves from stems; finely chop leaves until you have 1 tsp (2 tsp for 4 servings).",
+          "Pat chicken* dry with paper towels and season all over with salt and pepper. *Chicken is fully cooked when internal temperature reaches 165°.",
+          "Heat a drizzle of oil in a large pan over medium-high heat. Add chicken; cook until browned and cooked through, 3-5 minutes per side.",
+          "Turn off heat; transfer chicken to a cutting board. Wipe out pan."
+        ],
+        "organic-chicken": [
+          "Meanwhile, strip rosemary leaves from stems; finely chop leaves until you have 1 tsp (2 tsp for 4 servings).",
+          "Pat chicken* dry with paper towels and season all over with salt and pepper. *Chicken is fully cooked when internal temperature reaches 165°.",
+          "Heat a drizzle of oil in a large pan over medium-high heat. Add chicken; cook until browned and cooked through, 3-5 minutes per side.",
+          "Turn off heat; transfer chicken to a cutting board. Wipe out pan."
+        ]
+      }
+    },
+    {
+      "number": 3,
+      "title": "Make pan sauce",
+      "instructions": [
+        "Heat a drizzle of oil in same pan over medium-high heat. Add chopped rosemary; cook, stirring, until fragrant, 30 seconds.",
+        "Stir in stock concentrate, vinegar, 1/4 cup water (1/3 cup for 4 servings), and 2 tsp sugar (4 tsp for 4). Bring to a simmer and cook, stirring occasionally, until slightly reduced, 3-4 minutes. Season generously with pepper.",
+        "Turn off heat. Stir in half the garlic herb butter until melted (you'll use the rest in the next step)."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Finish & serve",
+      "instructions": [
+        "Halve baguette lengthwise and toast; spread cut sides with remaining garlic herb butter. Season with salt and pepper. Halve on a diagonal.",
+        "Thinly slice pork crosswise.",
+        "Divide pork, garlic bread, and green beans between plates. Top pork with balsamic rosemary pan sauce and serve."
+      ],
+      "variantInstructions": {
+        "chicken": [
+          "Halve baguette lengthwise and toast; spread cut sides with remaining garlic herb butter. Season with salt and pepper. Halve on a diagonal.",
+          "Thinly slice chicken crosswise.",
+          "Divide chicken, garlic bread, and green beans between plates. Top chicken with balsamic rosemary pan sauce and serve."
+        ],
+        "organic-chicken": [
+          "Halve baguette lengthwise and toast; spread cut sides with remaining garlic herb butter. Season with salt and pepper. Halve on a diagonal.",
+          "Thinly slice chicken crosswise.",
+          "Divide chicken, garlic bread, and green beans between plates. Top chicken with balsamic rosemary pan sauce and serve."
+        ]
+      }
+    }
+  ],
+  "review": [
+    "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 12 oz green beans, 1/4 oz rosemary, 2 demi-baguettes, 20 oz pork chops, 2 stock concentrates, 10 tsp balsamic vinegar, 4 TBSP garlic herb butter; chicken / organic chicken 20 oz)",
+    "time: card gives prep 5 min and cook 20 min with no total; set min and max to the sum, 25",
+    "steps[1]: footnotes are cut off at the left edge of the photo, read as '*Pork is fully cooked when internal temperature reaches 145°' and '*Chicken is fully cooked when internal temperature reaches 165°'",
+    "variants: card swaps chicken or organic chicken FOR the pork (a replacement, not an addition); the schema has no way to mark pork as excluded in those variants",
+    "steps[3].variantInstructions: card only says 'Thinly slice chicken or organic chicken crosswise'; also changed 'Divide pork' and 'Top pork' to chicken so the variant reads on its own"
+  ]
+}

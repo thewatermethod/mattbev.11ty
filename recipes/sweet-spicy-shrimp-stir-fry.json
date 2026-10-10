@@ -1,0 +1,75 @@
+{
+  "title": "Sweet & Spicy Shrimp Stir-Fry",
+  "subtitle": "with Noodles, Cabbage & Peppers",
+  "slug": "sweet-spicy-shrimp-stir-fry",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 20, "max": 30, "unit": "minutes" },
+  "tags": ["seafood", "noodles", "weeknight"],
+  "ingredients": [
+    { "id": "shrimp", "quantity": 10, "unit": "oz", "item": "tail-on shrimp", "note": "peeled & deveined" },
+    { "id": "cabbage", "quantity": 0.5, "unit": "lb", "item": "red cabbage" },
+    { "id": "soy-sauce", "quantity": 1, "unit": "Tbsp", "item": "soy sauce" },
+    { "id": "demi-glace", "quantity": 2.5, "unit": "Tbsps", "item": "vegetable demi-glace" },
+    { "id": "noodles", "quantity": 0.5, "unit": "lb", "item": "fresh udon noodles", "note": "previously frozen" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "hoisin", "quantity": 2, "unit": "Tbsps", "item": "hoisin sauce" },
+    { "id": "rice-vinegar", "quantity": 1, "unit": "Tbsp", "item": "rice vinegar" },
+    { "id": "sweet-peppers", "quantity": 4, "unit": "oz", "item": "sweet peppers" },
+    { "id": "scallions", "quantity": 2, "unit": null, "item": "scallions" },
+    { "id": "chile", "quantity": 1, "unit": null, "item": "bird's eye chile pepper" },
+    { "id": "peanuts", "quantity": 3, "unit": "Tbsps", "item": "roasted peanuts" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients & make the sauce",
+      "instructions": [
+        "Remove the noodles from the refrigerator to bring to room temperature.",
+        "Wash and dry the fresh produce.",
+        "Cut off and discard the stems of the sweet peppers; remove the cores, then thinly slice lengthwise.",
+        "Peel and roughly chop 2 cloves of garlic.",
+        "Thinly slice the scallions, separating the white bottoms and hollow green tops.",
+        "In a bowl, combine the sliced sweet peppers, chopped garlic, and sliced white bottoms of the scallions.",
+        "Cut out and discard the core of the cabbage; thinly slice the leaves.",
+        "Roughly chop the peanuts.",
+        "Cut off and discard the stem of the chile pepper; thinly slice crosswise (for a milder dish, remove and discard the ribs and seeds). Thoroughly wash your hands immediately after handling.",
+        "In a separate bowl, combine the soy sauce, hoisin sauce, vinegar, demi-glace, and as much of the sliced chile pepper as you'd like, depending on how spicy you'd like the dish to be. Taste, then season with salt and pepper if desired."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the shrimp",
+      "instructions": [
+        "Pat the shrimp dry with paper towels; remove the tails.",
+        "In a large pan (nonstick, if you have one), heat a drizzle of olive oil on medium-high until hot.",
+        "Add the prepared shrimp. Cook, stirring occasionally, 4 to 5 minutes, or until opaque and cooked through.",
+        "Leaving any browned bits (or fond) in the pan, transfer to a plate. Cover with foil to keep warm."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Start the stir-fry",
+      "instructions": [
+        "In the pan of reserved fond, heat a drizzle of olive oil on medium-high until hot.",
+        "Add the prepared sweet pepper mixture; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until slightly softened.",
+        "Add the sliced cabbage; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until softened."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Finish the stir-fry & serve your dish",
+      "instructions": [
+        "Meanwhile, using your hands, carefully separate the noodles.",
+        "To the pan of cooked vegetables, add the noodles, cooked shrimp, and sauce (carefully, as the liquid may splatter). Cook, stirring constantly, 1 to 2 minutes, or until thoroughly combined and the noodles are heated through.",
+        "Turn off the heat. Taste, then season with salt and pepper if desired.",
+        "Serve the finished stir-fry garnished with the chopped peanuts and sliced green tops of the scallions."
+      ]
+    }
+  ]
+}

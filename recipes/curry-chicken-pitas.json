@@ -1,0 +1,73 @@
+{
+  "title": "Curry Chicken Pitas",
+  "subtitle": "with Cucumber Yogurt & Sweet Chili Slaw",
+  "slug": "curry-chicken-pitas",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 15, "max": 25, "unit": "minutes" },
+  "tags": ["chicken", "weeknight"],
+  "ingredients": [
+    { "id": "chicken", "quantity": 10, "unit": "oz", "item": "chopped chicken breast" },
+    { "id": "onion", "quantity": 1, "unit": null, "item": "red onion" },
+    { "id": "cabbage", "quantity": 0.5, "unit": "lb", "item": "cabbage" },
+    { "id": "rice-vinegar", "quantity": 1, "unit": "Tbsp", "item": "rice vinegar" },
+    { "id": "curry-powder", "quantity": 2, "unit": "tsps", "item": "vadouvan curry powder" },
+    { "id": "pitas", "quantity": 2, "unit": null, "item": "pocketless pitas" },
+    { "id": "scallions", "quantity": 2, "unit": null, "item": "scallions" },
+    { "id": "sweet-chili-sauce", "quantity": 3, "unit": "Tbsps", "item": "sweet chili sauce" },
+    { "id": "tzatziki", "quantity": 0.5, "unit": "cup", "item": "tzatziki", "note": "cucumber-yogurt sauce" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "If you prefer to use an oven to warm the pitas instead of a microwave, preheat the oven to 375°F.",
+        "Wash and dry the fresh produce.",
+        "Cut out and discard the core of the cabbage; thinly slice the leaves.",
+        "Thinly slice the scallions, separating the white bottoms and hollow green tops.",
+        "Halve, peel, and thinly slice the onion."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Make the slaw",
+      "instructions": [
+        "In a large bowl, combine the sliced cabbage and white bottoms of the scallions, sweet chili sauce, and vinegar; season with salt and pepper.",
+        "Set aside to marinate, stirring occasionally, at least 10 minutes. Taste, then season with salt and pepper if desired."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the chicken & onion",
+      "instructions": [
+        "While the slaw marinates, pat the chicken dry with paper towels. Place in a bowl and season with salt, pepper, and enough of the curry powder to coat (you may have extra). Toss to thoroughly coat.",
+        "In a large pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium-high until hot.",
+        "Add the seasoned chicken and sliced onion in an even layer; season with salt and pepper. Cook, without stirring, 3 to 4 minutes, or until lightly browned.",
+        "Continue to cook, stirring occasionally, 3 to 4 minutes, or until the chicken is browned and cooked through. Turn off the heat."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Warm the pitas",
+      "instructions": [
+        "While the chicken cooks, if using the microwave, wrap the pitas in a damp paper towel and microwave on high 1 minute, or until heated through and pliable.",
+        "If using the oven, wrap the pitas in foil and place directly onto an oven rack. Warm 7 to 9 minutes, or until heated through and pliable.",
+        "Transfer the warmed pitas to a work surface and carefully unwrap."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Finish the pitas & serve your dish",
+      "instructions": [
+        "Fill the warmed pitas with the tzatziki and cooked chicken and onion.",
+        "Serve the finished pitas with the slaw on the side. Garnish with the sliced green tops of the scallions."
+      ]
+    }
+  ]
+}

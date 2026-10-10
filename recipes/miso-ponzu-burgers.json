@@ -1,0 +1,72 @@
+{
+  "title": "Miso-Ponzu Burgers",
+  "subtitle": "with Sesame Shishitos & Mushrooms",
+  "slug": "miso-ponzu-burgers",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 25, "max": 35, "unit": "minutes" },
+  "tags": ["beef", "burgers", "weeknight"],
+  "ingredients": [
+    { "id": "beef", "quantity": 10, "unit": "oz", "item": "ground beef" },
+    { "id": "mushrooms", "quantity": 4, "unit": "oz", "item": "cremini mushrooms" },
+    { "id": "garlic", "quantity": 1, "unit": "clove", "item": "garlic" },
+    { "id": "sesame-oil", "quantity": 1, "unit": "Tbsp", "item": "sesame oil" },
+    { "id": "ponzu", "quantity": 1, "unit": "Tbsp", "item": "vegetarian ponzu sauce" },
+    { "id": "shishitos", "quantity": 3, "unit": "oz", "item": "shishito peppers" },
+    { "id": "buns", "quantity": 2, "unit": null, "item": "potato buns" },
+    { "id": "onion", "quantity": 1, "unit": null, "item": "red onion" },
+    { "id": "miso", "quantity": 1, "unit": "Tbsp", "item": "sweet white miso paste" },
+    { "id": "mayonnaise", "quantity": 2, "unit": "Tbsp", "item": "mayonnaise" },
+    { "id": "sesame-seeds", "quantity": 1, "unit": "tsp", "item": "black & white sesame seeds" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Wash and dry the fresh produce.",
+        "Cut the mushrooms into bite-sized pieces.",
+        "Peel 1 clove of garlic; using a zester, finely grate into a paste (or use the small side of a box grater).",
+        "Peel the onion and cut crosswise into 1/2-inch-thick rounds, keeping the layers intact.",
+        "Halve the buns.",
+        "Cut off and discard the stems of the peppers; cut crosswise into 1-inch pieces. Thoroughly wash your hands and cutting board immediately after handling.",
+        "In a bowl, whisk together the miso paste, ponzu sauce, and mayonnaise."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the vegetables",
+      "instructions": [
+        "In a large pan (nonstick, if you have one), heat the sesame oil on medium-high until hot.",
+        "Add the mushroom pieces and pepper pieces in an even layer. Cook, without stirring, 3 to 4 minutes, or until lightly browned. Season with salt and pepper. Continue to cook, stirring occasionally, 2 to 3 minutes, or until softened.",
+        "Transfer to a bowl; cover with foil to keep warm.",
+        "Wipe out the pan."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the patties & onion",
+      "instructions": [
+        "Meanwhile, in a bowl, combine the beef and garlic paste; season with salt and pepper. Gently mix to combine.",
+        "Form the mixture into two 1/2-inch-thick patties.",
+        "In the same pan, heat a drizzle of olive oil on medium-high until hot.",
+        "Add the patties and onion rounds in an even layer. Loosely cover the pan with foil. Cook 4 to 5 minutes per side (flipping carefully, as the oil may splatter), or until the onion rounds are lightly charred and the patties are browned and cooked through.",
+        "Leaving any browned bits (or fond) in the pan, transfer the cooked patties and onion to a work surface."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Toast the buns & serve your dish",
+      "instructions": [
+        "In the pan of reserved fond, heat a drizzle of olive oil on medium-high until hot. Add the halved buns, cut side down. Toast 30 seconds to 1 minute, or until lightly browned. Transfer to a work surface.",
+        "Assemble the burgers using the toasted buns, miso-ponzu mayo, cooked patties, and as much of the cooked onion as you'd like.",
+        "Serve the burgers with the cooked vegetables. Garnish the vegetables with the sesame seeds."
+      ]
+    }
+  ]
+}

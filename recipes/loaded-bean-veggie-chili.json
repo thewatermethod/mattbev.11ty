@@ -1,0 +1,77 @@
+{
+  "title": "Loaded Bean & Veggie Chili",
+  "subtitle": "with Scallion Rice & Hot Sauce Crema",
+  "slug": "loaded-bean-veggie-chili",
+  "source": {
+    "name": "HelloFresh",
+    "url": "https://www.hellofresh.com"
+  },
+  "servings": 2,
+  "time": { "min": 30, "max": 30, "unit": "minutes" },
+  "tags": ["vegetarian", "mexican", "weeknight"],
+  "ingredients": [
+    { "id": "scallions", "quantity": 2, "unit": null, "item": "scallions" },
+    { "id": "onion", "quantity": 1, "unit": null, "item": "yellow onion" },
+    { "id": "poblano", "quantity": 1, "unit": null, "item": "poblano pepper" },
+    { "id": "rice", "quantity": 0.5, "unit": "Cup", "item": "jasmine rice" },
+    { "id": "tomato-paste", "quantity": 1.5, "unit": "oz", "item": "tomato paste" },
+    { "id": "southwest-spice", "quantity": 1, "unit": "TBSP", "item": "Southwest Spice Blend" },
+    { "id": "mexican-spice", "quantity": 1, "unit": "TBSP", "item": "Mexican Spice Blend" },
+    { "id": "diced-tomatoes", "quantity": 14, "unit": "oz", "item": "diced tomatoes" },
+    { "id": "stock-concentrate", "quantity": 1, "unit": null, "item": "veggie stock concentrate" },
+    { "id": "kidney-beans", "quantity": 13.4, "unit": "oz", "item": "kidney beans" },
+    { "id": "sour-cream", "quantity": 2, "unit": "TBSP", "item": "sour cream" },
+    { "id": "hot-sauce", "quantity": 1, "unit": "tsp", "item": "hot sauce" },
+    { "id": "mexican-cheese", "quantity": 0.5, "unit": "Cup", "item": "Mexican cheese blend" }
+  ],
+  "pantry": ["vegetable oil", "butter", "kosher salt", "black pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prep",
+      "instructions": [
+        "Wash and dry all produce. Trim and thinly slice scallions, separating whites from greens. Halve, peel, and dice onion. Core, deseed, and dice poblano into 1/2-inch pieces."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook rice",
+      "instructions": [
+        "Melt 1 TBSP butter (2 TBSP for 4 servings) in a small pot over medium-high heat. Add scallion whites; cook, stirring occasionally, until softened, 1 minute. Add rice, 3/4 cup water (1 1/2 cups for 4), and a big pinch of salt. Bring to a boil, then cover and reduce to a low simmer. Cook until rice is tender, 15-18 minutes. Keep covered off heat until ready to serve."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Start chili",
+      "instructions": [
+        "Heat a large drizzle of oil in a medium pot over medium-high heat. Add onion and poblano; cook, stirring occasionally, until slightly softened, 4-6 minutes. Add tomato paste, Southwest Spice, Mexican Spice, and 1 tsp salt (2 tsp for 4 servings). Season generously with pepper. Cook, stirring, until fragrant, 1-2 minutes."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Finish chili",
+      "instructions": [
+        "Stir diced tomatoes, stock concentrate, beans and their liquid, and 1/2 cup water (3/4 cup water for 4 servings) into pot. Bring to a boil, then reduce heat to medium. Simmer until thickened, 15-18 minutes. Season with salt and pepper to taste."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Make crema",
+      "instructions": [
+        "Meanwhile, in a small bowl, combine sour cream and half the hot sauce. Add water 1 tsp at a time until mixture reaches a drizzling consistency. TIP: Add more hot sauce if you like things spicy."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Finish & serve",
+      "instructions": [
+        "Fluff rice with a fork and season with salt. Divide between bowls and top with chili. (TIP: Alternatively, you can serve chili on the side if you like.) Garnish with Mexican cheese, scallion greens, and hot sauce crema. Serve."
+      ]
+    }
+  ],
+  "review": [
+    "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 4 scallions, 2 onions, 2 poblanos, 1 Cup rice, 3 oz tomato paste, 2 TBSP each spice blend, 28 oz diced tomatoes, 2 stock concentrates, 26.8 oz kidney beans, 4 TBSP sour cream, 2 tsp hot sauce, 1 Cup cheese)",
+    "time: card gives prep 10 min and total 30 min; used total for min and max"
+  ]
+}

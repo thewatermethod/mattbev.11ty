@@ -1,0 +1,101 @@
+{
+  "title": "Shrimp & Spicy Sesame Sauce",
+  "subtitle": "with Snap Peas & Carrots",
+  "slug": "shrimp-spicy-sesame-sauce",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 25, "max": 35, "unit": "minutes" },
+  "tags": ["seafood", "rice", "weeknight"],
+  "ingredients": [
+    { "id": "shrimp", "quantity": 10, "unit": "oz", "item": "tail-on shrimp", "note": "peeled & deveined" },
+    { "id": "rice", "quantity": 0.5, "unit": "cup", "item": "long grain white rice" },
+    { "id": "carrots", "quantity": 6, "unit": "oz", "item": "carrots" },
+    { "id": "snap-peas", "quantity": 4, "unit": "oz", "item": "sugar snap peas" },
+    { "id": "scallions", "quantity": 2, "unit": null, "item": "scallions" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "sesame-oil", "quantity": 1, "unit": "Tbsp", "item": "sesame oil" },
+    { "id": "sambal-oelek", "quantity": 1, "unit": "Tbsp", "item": "sambal oelek" },
+    { "id": "soy-glaze", "quantity": 2, "unit": "Tbsps", "item": "soy glaze" },
+    { "id": "sesame-seeds", "quantity": 1, "unit": "tsp", "item": "black & white sesame seeds" },
+    {
+      "id": "scallops",
+      "quantity": 10,
+      "unit": "oz",
+      "item": "sustainably sourced sea scallops",
+      "variant": "scallops"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [
+    { "id": "scallops", "label": "With scallops" }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Wash and dry the fresh produce.",
+        "Thinly slice the scallions, separating the white bottoms and hollow green tops.",
+        "Peel and roughly chop 2 cloves of garlic.",
+        "Peel the carrots; thinly slice on an angle.",
+        "Pull off and discard the tough string that runs the length of each snap pea pod."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Make the garlic-scallion rice",
+      "instructions": [
+        "Carefully rinse the rice (sifting through for any impurities). Drain thoroughly.",
+        "In a small pot, heat a drizzle of olive oil on medium-high until hot.",
+        "Add the sliced white bottoms of the scallions and half the chopped garlic; season with salt and pepper. Cook, stirring constantly, 30 seconds to 1 minute, or until slightly softened.",
+        "Add the rice and 1 cup of water (carefully, as the liquid may splatter). Heat to boiling on high.",
+        "Once boiling, reduce the heat to low. Cover and cook, without stirring, 13 to 15 minutes, or until the water has been absorbed and the rice is tender.",
+        "Turn off the heat and fluff with a fork. Add the sliced green tops of the scallions; stir to combine."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the vegetables",
+      "instructions": [
+        "Meanwhile, in a medium pan (nonstick, if you have one), heat a drizzle of olive oil on medium-high until hot.",
+        "Add the sliced carrots; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until slightly softened.",
+        "Add the prepared snap peas and remaining chopped garlic. Season with salt and pepper. Cook, stirring frequently, 3 to 4 minutes, or until softened.",
+        "Transfer to a bowl; cover with foil to keep warm.",
+        "Wipe out the pan."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Make the sauce",
+      "instructions": [
+        "Meanwhile, in a bowl, combine the soy glaze, half the sesame oil, and as much of the sambal oelek as you'd like, depending on how spicy you'd like the dish to be."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Cook the shrimp & serve your dish",
+      "instructions": [
+        "Pat the shrimp dry with paper towels (remove the tails if desired). Season with salt and pepper.",
+        "In the same pan, heat the remaining sesame oil on medium-high until hot.",
+        "Add the seasoned shrimp in an even layer. Cook, without stirring, 2 to 3 minutes, or until slightly opaque. Continue to cook, stirring frequently, 1 to 2 minutes, or until opaque and cooked through.",
+        "Turn off the heat.",
+        "Serve the garlic-scallion rice topped with the cooked vegetables and cooked shrimp. Drizzle with the sauce. Garnish with the sesame seeds."
+      ],
+      "variantInstructions": {
+        "scallops": [
+          "Pat the scallops dry with paper towels. Using your hands, remove and discard the tough side muscle from each scallop. Season with salt and pepper on both sides.",
+          "In the same pan, heat the remaining sesame oil on medium-high until hot.",
+          "Add the seasoned scallops in an even layer. Cook 3 to 4 minutes, or until browned. Flip and cook 30 seconds to 1 minute, or until lightly browned and cooked through.",
+          "Turn off the heat.",
+          "Serve the garlic-scallion rice topped with the cooked vegetables and cooked scallops. Drizzle with the sauce. Garnish with the sesame seeds."
+        ]
+      }
+    }
+  ],
+  "review": [
+    "variants[scallops]: card lists scallops as SWAPPED FOR the shrimp (a replacement, not an addition); the schema has no way to mark shrimp as excluded in that variant"
+  ]
+}

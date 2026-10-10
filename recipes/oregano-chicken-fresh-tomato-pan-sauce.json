@@ -1,0 +1,85 @@
+{
+  "title": "Oregano Chicken & Fresh Tomato Pan Sauce",
+  "subtitle": "with Farro & Zucchini",
+  "slug": "oregano-chicken-fresh-tomato-pan-sauce",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 35, "max": 45, "unit": "minutes" },
+  "tags": ["chicken", "grain-bowl"],
+  "ingredients": [
+    { "id": "chicken", "quantity": 2, "unit": null, "item": "boneless, skinless chicken breasts" },
+    { "id": "zucchini", "quantity": 1, "unit": null, "item": "zucchini" },
+    { "id": "tomatoes", "quantity": 4, "unit": "oz", "item": "grape tomatoes" },
+    { "id": "capers", "quantity": 1, "unit": "Tbsp", "item": "capers" },
+    { "id": "oregano", "quantity": 1, "unit": "tsp", "item": "whole dried oregano" },
+    { "id": "farro", "quantity": 0.5, "unit": "cup", "item": "semi-pearled farro" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "creme-fraiche", "quantity": 2, "unit": "Tbsps", "item": "crème fraîche" },
+    { "id": "parmesan", "quantity": 0.25, "unit": "cup", "item": "grated parmesan cheese" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Fill a medium pot 3/4 of the way up with salted water; cover and heat to boiling on high.",
+        "Wash and dry the fresh produce.",
+        "Halve the zucchini lengthwise, then thinly slice crosswise.",
+        "Peel and roughly chop 2 cloves of garlic.",
+        "Halve the tomatoes.",
+        "Roughly chop the capers."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the farro",
+      "instructions": [
+        "Add the farro to the pot of boiling water. Cook, uncovered, 18 to 20 minutes, or until tender. Turn off the heat. Drain thoroughly and return to the pot."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the zucchini",
+      "instructions": [
+        "Meanwhile, in a medium pan (nonstick, if you have one), heat 1 teaspoon of olive oil on medium-high until hot.",
+        "Add the sliced zucchini in an even layer. Cook, without stirring, 3 to 4 minutes, or until lightly browned.",
+        "Add the chopped garlic; season with salt and pepper. Cook, stirring frequently, 1 to 2 minutes, or until softened.",
+        "Transfer to a plate. Cover with foil to keep warm. Wipe out the pan."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the chicken",
+      "instructions": [
+        "Pat the chicken dry with paper towels; season on both sides with salt, pepper, and half the oregano.",
+        "In the same pan, heat 1 teaspoon of olive oil on medium-high until hot.",
+        "Add the seasoned chicken. Cook 6 to 7 minutes per side, or until browned and cooked through.",
+        "Leaving any browned bits (or fond) in the pan, transfer to a cutting board."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Make the sauce",
+      "instructions": [
+        "In the pan of reserved fond, heat 1 teaspoon of olive oil on medium-high until hot.",
+        "Add the halved tomatoes; season with salt and pepper. Cook, stirring frequently and pressing on the tomatoes with the back of a spoon, 1 to 2 minutes, or until slightly softened.",
+        "Add the chopped capers and remaining oregano. Cook, stirring constantly, 30 seconds to 1 minute, or until combined.",
+        "Add 1/2 cup of water (carefully, as the liquid may splatter). Season with salt and pepper. Cook, stirring constantly, 1 to 2 minutes, or until the sauce is thickened. Turn off the heat. Taste, then season with salt and pepper if desired."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Finish the farro & serve your dish",
+      "instructions": [
+        "To the pot of cooked farro, add the cooked zucchini, crème fraîche, and half the cheese. Stir to combine. Taste, then season with salt and pepper if desired.",
+        "Slice the cooked chicken crosswise.",
+        "Serve the finished farro topped with the sliced chicken and sauce. Garnish with the remaining cheese."
+      ]
+    }
+  ]
+}

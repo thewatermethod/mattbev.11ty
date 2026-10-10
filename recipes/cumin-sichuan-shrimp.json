@@ -1,0 +1,79 @@
+{
+  "title": "Cumin-Sichuan Shrimp",
+  "subtitle": "with Mushrooms, Bok Choy & Jasmine Rice",
+  "slug": "cumin-sichuan-shrimp",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 20, "max": 30, "unit": "minutes" },
+  "tags": ["seafood", "rice", "weeknight"],
+  "ingredients": [
+    { "id": "shrimp", "quantity": 10, "unit": "oz", "item": "tail-on shrimp", "note": "Peeled & deveined" },
+    { "id": "mushrooms", "quantity": 4, "unit": "oz", "item": "cremini mushrooms" },
+    { "id": "ginger", "quantity": 1, "unit": "1-inch piece", "item": "ginger" },
+    { "id": "bok-choy", "quantity": 10, "unit": "oz", "item": "baby bok choy" },
+    { "id": "vinegar", "quantity": 1, "unit": "Tbsp", "item": "apple cider vinegar" },
+    { "id": "rice", "quantity": 0.5, "unit": "cup", "item": "jasmine rice" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "soy-glaze", "quantity": 2, "unit": "Tbsps", "item": "soy glaze" },
+    { "id": "cumin-sichuan-sauce", "quantity": 3, "unit": "Tbsps", "item": "cumin & Sichuan peppercorn sauce" },
+    { "id": "sesame-seeds", "quantity": 1, "unit": "tsp", "item": "black & white sesame seeds" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Cook the rice",
+      "instructions": [
+        "In a small pot, combine the rice, a big pinch of salt, and 1 cup of water. Heat to boiling on high.",
+        "Once boiling, reduce the heat to low. Cover and cook, without stirring, 12 to 14 minutes, or until the water has been absorbed and the rice is tender.",
+        "Turn off the heat and fluff with a fork."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prepare the ingredients & make the sauce",
+      "instructions": [
+        "Meanwhile, wash and dry the fresh produce.",
+        "Thinly slice the mushrooms.",
+        "Cut off and discard the root ends of the bok choy; keeping them separate, thinly slice the stems and roughly chop the leaves.",
+        "Peel and roughly chop 2 cloves of garlic.",
+        "Peel and finely chop the ginger.",
+        "In a separate bowl, combine the cumin-Sichuan sauce, soy glaze, vinegar, and 1 tablespoon of water. Taste, then season with salt and pepper if desired."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the vegetables",
+      "instructions": [
+        "In a medium pan (nonstick, if you have one), heat 1 teaspoon of olive oil on medium-high until hot.",
+        "Add the sliced mushrooms in an even layer. Cook, without stirring, 3 to 4 minutes, or until lightly browned.",
+        "Add the sliced bok choy stems; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until softened.",
+        "Transfer to a bowl. Wipe out the pan."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Start the stir-fry",
+      "instructions": [
+        "Pat the shrimp dry with paper towels.",
+        "In the same pan, heat 1 teaspoon of olive oil on medium-high until hot.",
+        "Add the shrimp and chopped garlic and ginger; season with salt and pepper. Cook, stirring occasionally, 3 to 4 minutes, or until the shrimp are slightly opaque."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Finish the stir-fry & serve your dish",
+      "instructions": [
+        "To the pan, add the cooked vegetables, chopped bok choy leaves, and sauce. Cook, stirring occasionally, 1 to 2 minutes, or until thoroughly combined and the shrimp are opaque and cooked through. Taste, then season with salt and pepper if desired.",
+        "Serve the finished stir-fry over the cooked rice. Garnish with the sesame seeds."
+      ]
+    }
+  ],
+  "review": [
+    "ingredients[shrimp].note: footnote is cut off at the left edge of the photo, read as '*Peeled & deveined' (matches the same footnote on other Blue Apron cards)"
+  ]
+}

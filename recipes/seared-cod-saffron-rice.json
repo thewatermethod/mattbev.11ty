@@ -1,0 +1,69 @@
+{
+  "title": "Seared Cod & Saffron Rice",
+  "subtitle": "with Lemon-Butter Pan Sauce",
+  "slug": "seared-cod-saffron-rice",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 15, "max": 25, "unit": "minutes" },
+  "tags": ["seafood", "rice", "weeknight"],
+  "ingredients": [
+    { "id": "cod", "quantity": 2, "unit": null, "item": "cod fillets" },
+    { "id": "kale", "quantity": 1, "unit": "bunch", "item": "kale" },
+    { "id": "lemon", "quantity": 1, "unit": null, "item": "lemon" },
+    { "id": "saffron", "quantity": 1, "unit": "pinch", "item": "saffron" },
+    { "id": "rice", "quantity": 0.5, "unit": "cup", "item": "jasmine rice" },
+    { "id": "butter", "quantity": 2, "unit": "Tbsps", "item": "butter" },
+    { "id": "red-pepper-flakes", "quantity": 0.25, "unit": "tsp", "item": "crushed red pepper flakes" },
+    {
+      "id": "spice-blend",
+      "quantity": 1,
+      "unit": "Tbsp",
+      "item": "Weeknight Hero Spice Blend",
+      "note": "Onion Powder, Garlic Powder, Smoked Paprika & Whole Dried Parsley"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Wash and dry the fresh produce.",
+        "Separate the kale leaves from the stems; discard the stems, then roughly chop the leaves.",
+        "Quarter and deseed the lemon."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Make the saffron-kale rice",
+      "instructions": [
+        "In a medium pot, combine the rice, saffron, a big pinch of salt, and 1 cup of water. Heat to boiling on high.",
+        "Once boiling, place the chopped kale on top of the rice. Reduce the heat to medium-low. Cover and cook, without stirring, 12 to 14 minutes, or until the water has been absorbed and the rice is tender.",
+        "Turn off the heat and stir to combine. Taste, then season with salt and pepper if desired."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the fish",
+      "instructions": [
+        "Meanwhile, pat the fish dry with paper towels. Season on both sides with salt, pepper, and enough of the spice blend to coat (you may have extra).",
+        "In a medium pan (nonstick, if you have one), heat 1 teaspoon of olive oil on medium until hot.",
+        "Add the seasoned fish. Cook 4 to 6 minutes per side, or until browned and cooked through.",
+        "Leaving any browned bits (or fond) in the pan, transfer to a plate."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Make the pan sauce & serve your dish",
+      "instructions": [
+        "To the pan of reserved fond, add the juice of 2 lemon wedges (carefully, as the liquid may splatter), 1 tablespoon of water, and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be. Cook on medium, stirring constantly and scraping up any fond, 30 seconds to 1 minute, or until combined and the liquid is slightly reduced in volume.",
+        "Turn off the heat. Stir in the butter until melted and combined. Taste, then season with salt and pepper if desired.",
+        "Serve the saffron-kale rice topped with the cooked fish and pan sauce. Serve the remaining lemon wedges on the side."
+      ]
+    }
+  ]
+}

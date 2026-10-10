@@ -1,0 +1,71 @@
+{
+  "title": "Romesco Chicken & Poblano Pepper",
+  "subtitle": "with Currant Couscous",
+  "slug": "romesco-chicken-poblano-pepper",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 20, "max": 30, "unit": "minutes" },
+  "tags": ["chicken", "weeknight"],
+  "ingredients": [
+    { "id": "chicken", "quantity": 10, "unit": "oz", "item": "boneless chicken breast pieces" },
+    { "id": "onion", "quantity": 1, "unit": null, "item": "red onion" },
+    { "id": "romesco", "quantity": 3, "unit": "Tbsps", "item": "romesco sauce", "note": "contains almonds" },
+    { "id": "olives", "quantity": 1, "unit": "oz", "item": "Castelvetrano olives" },
+    { "id": "couscous", "quantity": 0.5, "unit": "cup", "item": "yellow couscous" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "labneh", "quantity": 0.25, "unit": "cup", "item": "labneh cheese" },
+    { "id": "poblano", "quantity": 1, "unit": null, "item": "poblano pepper" },
+    { "id": "scallions", "quantity": 2, "unit": null, "item": "scallions" },
+    { "id": "currants", "quantity": 2, "unit": "Tbsps", "item": "dried currants" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Wash and dry the fresh produce.",
+        "Peel and roughly chop 2 cloves of garlic.",
+        "Thinly slice the scallions, separating the white bottoms and hollow green tops.",
+        "Pit and roughly chop the olives.",
+        "Halve, peel, and thinly slice the onion.",
+        "Cut off and discard the stem of the pepper. Halve lengthwise; remove the ribs and seeds, then thinly slice crosswise. Thoroughly wash your hands immediately after handling.",
+        "In a large bowl, combine the sliced onion and sliced pepper."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the couscous",
+      "instructions": [
+        "In a small pot, heat a drizzle of olive oil on medium-high until hot.",
+        "Add the chopped garlic and sliced white bottoms of the scallions; season with salt and pepper. Cook, stirring constantly, 30 seconds to 1 minute, or until slightly softened.",
+        "Add the couscous, currants, a big pinch of salt, and 3/4 cup of water (carefully, as the liquid may splatter); stir to combine. Heat to boiling on high.",
+        "Once boiling, turn off the heat. Cover and let stand 6 to 8 minutes, or until the water has been absorbed and the couscous is tender.",
+        "Fluff with a fork. Taste, then season with salt and pepper if desired. Cover to keep warm."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the chicken & vegetables",
+      "instructions": [
+        "Meanwhile, pat the chicken dry with paper towels. Add to the bowl of sliced onion and pepper. Season with salt and pepper; stir to coat.",
+        "In a medium pan (nonstick, if you have one), heat a drizzle of olive oil on medium-high until hot.",
+        "Add the seasoned chicken and vegetables in an even layer. Cook, without stirring, 3 to 4 minutes, or until lightly browned.",
+        "Add the chopped olives. Cook, stirring occasionally, 3 to 4 minutes, or until the vegetables are softened and the chicken is cooked through.",
+        "Turn off the heat. Carefully stir in the romesco sauce until thoroughly combined. Taste, then season with salt and pepper if desired."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Season the labneh & serve your dish",
+      "instructions": [
+        "Meanwhile, season the labneh with salt and pepper.",
+        "Serve the cooked couscous topped with the cooked chicken and vegetables and seasoned labneh. Garnish with the sliced green tops of the scallions."
+      ]
+    }
+  ]
+}

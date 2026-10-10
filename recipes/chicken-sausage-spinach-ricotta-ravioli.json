@@ -1,0 +1,72 @@
+{
+  "title": "Chicken Sausage & Spinach Ricotta Ravioli",
+  "subtitle": "with Tomato & Lemon",
+  "slug": "chicken-sausage-spinach-ricotta-ravioli",
+  "source": {
+    "name": "HelloFresh",
+    "url": "https://www.hellofresh.com"
+  },
+  "servings": 2,
+  "time": { "min": 20, "max": 20, "unit": "minutes" },
+  "tags": ["pasta", "chicken", "weeknight"],
+  "ingredients": [
+    { "id": "scallion", "quantity": 1, "unit": null, "item": "scallion" },
+    { "id": "tomato", "quantity": 1, "unit": null, "item": "Roma tomato" },
+    { "id": "lemon", "quantity": 1, "unit": null, "item": "lemon" },
+    { "id": "sausage", "quantity": 9, "unit": "oz", "item": "Italian chicken sausage mix" },
+    { "id": "italian-seasoning", "quantity": 1, "unit": "TBSP", "item": "Italian Seasoning" },
+    { "id": "ravioli", "quantity": 9, "unit": "oz", "item": "spinach and ricotta ravioli" },
+    { "id": "stock-concentrate", "quantity": 1, "unit": null, "item": "chicken stock concentrate" },
+    { "id": "sour-cream", "quantity": 4, "unit": "TBSP", "item": "sour cream" }
+  ],
+  "pantry": ["vegetable oil", "butter", "kosher salt", "black pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prep",
+      "instructions": [
+        "Bring a large pot of salted water to a boil. Wash and dry all produce. Trim and thinly slice scallion, separating whites from greens. Dice tomato. Quarter lemon."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook sausage",
+      "instructions": [
+        "Heat a large drizzle of oil in a large pan over medium-high heat. Add scallion whites, sausage, and Italian Seasoning. Cook, breaking up meat into pieces, until sausage is browned and scallion whites are softened, 3-5 minutes (sausage will finish cooking in step 4). Stir in tomato and cook until just softened, 1-2 minutes. Turn off heat."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook pasta",
+      "instructions": [
+        "Once water is boiling, gently add ravioli to pot. Reduce to a low simmer. Cook, stirring occasionally, until al dente and floating to the top, 4-5 minutes. Reserve 1/2 cup pasta cooking water (1 cup for 4 servings), then drain. TIP: Gently shake strainer with ravioli in it to remove as much moisture as possible."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Make sauce",
+      "instructions": [
+        "Stir stock concentrate, a squeeze of lemon juice, and a small splash of reserved pasta cooking water into pan with sausage mixture. Cook over low heat until sausage is cooked through, scraping up any browned bits from bottom of pan, 1-2 minutes. Stir in sour cream and 1 TBSP butter (2 TBSP for 4 servings). Season with salt and pepper. TIP: If needed, stir in more reserved cooking water a splash at a time until sauce reaches a creamy consistency."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Finish pasta",
+      "instructions": [
+        "Carefully stir ravioli into pan with sauce. Season with salt, pepper, and lemon juice to taste."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Serve",
+      "instructions": [
+        "Divide ravioli mixture between bowls. Garnish with scallion greens. Serve with any remaining lemon wedges on the side."
+      ]
+    }
+  ],
+  "review": [
+    "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 2 scallions, 2 tomatoes, 1 lemon, 18 oz sausage mix, 2 TBSP Italian Seasoning, 18 oz ravioli, 2 stock concentrates, 8 TBSP sour cream)",
+    "time: card gives prep 5 min and total 20 min; used total for min and max"
+  ]
+}

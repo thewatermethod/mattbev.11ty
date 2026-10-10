@@ -1,0 +1,108 @@
+{
+  "title": "Sweet Thai Chili Pork Tenderloin",
+  "subtitle": "with Zesty Rice & Roasted Broccoli",
+  "slug": "sweet-thai-chili-pork-tenderloin",
+  "source": {
+    "name": "HelloFresh",
+    "url": "https://www.hellofresh.com"
+  },
+  "servings": 2,
+  "time": { "min": 45, "max": 45, "unit": "minutes" },
+  "tags": ["pork", "rice", "weeknight"],
+  "ingredients": [
+    { "id": "shallot", "quantity": 1, "unit": null, "item": "shallot" },
+    { "id": "lime", "quantity": 1, "unit": null, "item": "lime" },
+    { "id": "cilantro", "quantity": 0.25, "unit": "oz", "item": "cilantro" },
+    { "id": "rice", "quantity": 0.5, "unit": "Cup", "item": "jasmine rice" },
+    { "id": "pork", "quantity": 10, "unit": "oz", "item": "pork tenderloin" },
+    { "id": "broccoli", "quantity": 8, "unit": "oz", "item": "broccoli florets" },
+    { "id": "chili-sauce", "quantity": 1, "unit": "oz", "item": "sweet Thai chili sauce" },
+    { "id": "stock-concentrate", "quantity": 1, "unit": null, "item": "chicken stock concentrate" },
+    { "id": "ponzu", "quantity": 6, "unit": "ml", "item": "ponzu sauce" },
+    {
+      "id": "steak",
+      "quantity": 10,
+      "unit": "oz",
+      "item": "bavette steak",
+      "variant": "steak"
+    }
+  ],
+  "pantry": ["cooking oil", "butter", "kosher salt", "black pepper"],
+  "variants": [
+    { "id": "steak", "label": "With bavette steak" }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prep",
+      "instructions": [
+        "Adjust rack to top position and preheat oven to 450 degrees. Wash and dry produce.",
+        "Cut broccoli florets into bite-size pieces if necessary. Halve, peel, and mince shallot. Zest and quarter lime. Roughly chop cilantro."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook rice",
+      "instructions": [
+        "In a small pot, combine rice, 3/4 cup water (1 1/2 cups for 4 servings), and a big pinch of salt. Bring to a boil, then cover and reduce heat to low. Cook until rice is tender, 15-18 minutes.",
+        "Keep covered off heat until ready to serve."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Sear pork",
+      "instructions": [
+        "While rice cooks, pat pork* dry with paper towels; season all over with salt and pepper. *Pork is fully cooked when internal temperature reaches 145°.",
+        "Heat a drizzle of oil in a large pan over medium-high heat. Add pork and sear, turning occasionally, until browned all over, 4-8 minutes (it'll finish cooking in the next step). Remove pan from heat.",
+        "Transfer pork to one side of a baking sheet."
+      ],
+      "variantInstructions": {
+        "steak": [
+          "While rice cooks, pat steak* dry with paper towels; season all over with salt and pepper. *Steak is fully cooked when internal temperature reaches 145°.",
+          "Heat a drizzle of oil in a large pan over medium-high heat. Add steak and cook to desired doneness, 5-7 minutes per side. Remove pan from heat.",
+          "Transfer to a cutting board to rest for at least 5 minutes."
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "title": "Roast pork & broccoli",
+      "instructions": [
+        "Toss broccoli on opposite side of sheet from pork with a drizzle of oil, salt, and pepper.",
+        "Roast on top rack until pork is cooked through and broccoli is browned and tender, 10-12 minutes.",
+        "Once pork is done, transfer to a cutting board to rest for 5 minutes. Thinly slice crosswise."
+      ],
+      "variantInstructions": {
+        "steak": [
+          "Toss broccoli on sheet with a drizzle of oil, salt, and pepper. Spread broccoli out across entire sheet.",
+          "Roast on top rack until broccoli is browned and tender, 10-12 minutes.",
+          "Thinly slice steak against the grain."
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "title": "Make pan sauce",
+      "instructions": [
+        "Heat a drizzle of oil in pan used for pork over medium-high heat. Add shallot; cook until softened and slightly browned, 1-2 minutes.",
+        "Stir in stock concentrate, chili sauce, ponzu, and 1/4 cup water (1/3 cup for 4 servings). Bring to a simmer and cook until slightly reduced, 2-3 minutes.",
+        "Stir in a big squeeze of lime juice to taste. Remove pan from heat; stir in 1 TBSP butter (2 TBSP for 4) until melted."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Finish & serve",
+      "instructions": [
+        "Fluff rice with a fork; stir in lime zest and half the cilantro. Season with salt and pepper.",
+        "Divide rice, broccoli, and pork between plates. Top pork with pan sauce. Garnish everything with remaining cilantro. Serve with any remaining lime wedges on the side."
+      ]
+    }
+  ],
+  "review": [
+    "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 2 shallots, 2 limes, 1/2 oz cilantro, 1 Cup rice, 20 oz pork, 16 oz broccoli, 2 oz chili sauce, 2 stock concentrates, 12 ml ponzu; steak 20 oz)",
+    "time: card gives prep 10 min and cook 35 min with no total; set min and max to the sum, 45",
+    "steps[2].instructions[0] and variantInstructions.steak[0]: footnotes are cut off at the left edge of the photo, read as '[Pork/Steak] is fully cooked when internal temperature reaches 145°'",
+    "variants[steak]: card swaps steak FOR the pork (a replacement, not an addition); the schema has no way to mark pork as excluded in that variant",
+    "steps[4] and steps[5]: the card does not customize these steps, but their text still refers to 'pan used for pork' and 'Top pork with pan sauce'; the steak variant will render the pork wording"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "title": "Pesto & Kale Pasta",
+  "subtitle": "with Mascarpone",
+  "slug": "pesto-kale-pasta",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 15, "max": 25, "unit": "minutes" },
+  "tags": ["pasta", "vegetarian", "weeknight"],
+  "ingredients": [
+    { "id": "cavatelli", "quantity": 10, "unit": "oz", "item": "fresh cavatelli pasta", "note": "previously frozen" },
+    { "id": "pesto", "quantity": 0.333, "unit": "cup", "item": "basil pesto" },
+    { "id": "almonds", "quantity": 2, "unit": "Tbsps", "item": "sliced roasted almonds" },
+    { "id": "kale", "quantity": 1, "unit": "bunch", "item": "kale" },
+    { "id": "romano", "quantity": 0.25, "unit": "cup", "item": "grated romano cheese" },
+    { "id": "red-pepper-flakes", "quantity": 0.25, "unit": "tsp", "item": "crushed red pepper flakes" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "mascarpone", "quantity": 2, "unit": "Tbsps", "item": "mascarpone cheese" },
+    {
+      "id": "sausage",
+      "quantity": 10,
+      "unit": "oz",
+      "item": "hot Italian pork sausage",
+      "variant": "sausage"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [
+    { "id": "sausage", "label": "With sausage" }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Fill a medium pot 3/4 of the way up with salted water; cover and heat to boiling on high.",
+        "Wash and dry the kale. Separate the leaves from the stems; discard the stems, then roughly chop the leaves.",
+        "Peel and roughly chop 2 cloves of garlic."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the pasta",
+      "instructions": [
+        "Add the pasta to the pot of boiling water and cook, stirring occasionally, 11 to 13 minutes, or until al dente (still slightly firm to the bite).",
+        "Turn off the heat. Reserving 1/4 cup of the pasta cooking water, drain thoroughly."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the kale",
+      "instructions": [
+        "Meanwhile, in a medium pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium-high until hot.",
+        "Add the chopped garlic and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be. Season with salt and pepper. Cook, stirring constantly, 30 seconds to 1 minute, or until slightly softened.",
+        "Add the chopped kale; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until slightly wilted.",
+        "Add 1/4 cup of water (carefully, as the liquid may splatter). Cook, stirring occasionally, 2 to 3 minutes, or until the kale is wilted and the water has cooked off.",
+        "Turn off the heat."
+      ],
+      "variantInstructions": {
+        "sausage": [
+          "Meanwhile, in a large pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium-high until hot.",
+          "Add the sausage. Cook, stirring frequently and breaking the meat apart with a spoon, 7 to 9 minutes, or until browned and cooked through.",
+          "Leaving any browned bits (or fond) in the pan, transfer to a plate.",
+          "In the pan of reserved fond, heat 2 teaspoons of olive oil on medium-high until hot.",
+          "Add the chopped garlic and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be. Season with salt and pepper. Cook, stirring constantly, 30 seconds to 1 minute, or until slightly softened.",
+          "Add the chopped kale; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until slightly wilted.",
+          "Add 1/4 cup of water (carefully, as the liquid may splatter). Cook, stirring occasionally, 2 to 3 minutes, or until the kale is wilted and the water has cooked off.",
+          "Turn off the heat."
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "title": "Finish & serve your dish",
+      "instructions": [
+        "To the pan of cooked kale, add the cooked pasta and half the reserved pasta cooking water. Cook on medium-high, stirring constantly, 1 to 2 minutes, or until combined. Turn off the heat.",
+        "Add the pesto and mascarpone; stir until coated and combined (if necessary, gradually add the remaining cooking water to ensure the pasta is thoroughly coated).",
+        "Taste, then season with salt and pepper if desired.",
+        "Serve the finished pasta garnished with the romano and almonds."
+      ],
+      "variantInstructions": {
+        "sausage": [
+          "To the pan of cooked kale, add the cooked sausage, cooked pasta, and half the reserved pasta cooking water. Cook on medium-high, stirring constantly, 1 to 2 minutes, or until combined. Turn off the heat.",
+          "Add the pesto and mascarpone; stir until coated and combined (if necessary, gradually add the remaining cooking water to ensure the pasta is thoroughly coated).",
+          "Taste, then season with salt and pepper if desired.",
+          "Serve the finished pasta garnished with the romano and almonds."
+        ]
+      }
+    }
+  ],
+  "review": [
+    "steps[2].variantInstructions.sausage: card prints an 'Additional Step' (cook the sausage) between steps 2 and 3 for the sausage option; the schema can't add a variant-only step, so it is folded into the start of the step 3 variant",
+    "steps[2].variantInstructions.sausage[3]: card says only 'Cook the kale as directed, using the pan of reserved fond'; expanded by changing 'Meanwhile, in a medium pan (nonstick, if you have one)' to 'In the pan of reserved fond'",
+    "steps[3].variantInstructions.sausage[0]: card says only 'Finish and serve your dish as directed, adding the cooked sausage to the pan'; expanded by adding 'the cooked sausage' to the list"
+  ]
+}

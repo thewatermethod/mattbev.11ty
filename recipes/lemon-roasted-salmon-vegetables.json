@@ -1,0 +1,72 @@
+{
+  "title": "Lemon-Roasted Salmon & Vegetables",
+  "subtitle": "with Romesco Barley & Marinated Feta",
+  "slug": "lemon-roasted-salmon-vegetables",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 30, "max": 40, "unit": "minutes" },
+  "tags": ["seafood", "grain-bowl"],
+  "ingredients": [
+    { "id": "salmon", "quantity": 2, "unit": null, "item": "skin-on salmon fillets" },
+    { "id": "bell-pepper", "quantity": 1, "unit": null, "item": "red, yellow, or orange bell pepper" },
+    { "id": "olives", "quantity": 1, "unit": "oz", "item": "pitted niçoise olives" },
+    { "id": "red-pepper-flakes", "quantity": 0.25, "unit": "tsp", "item": "crushed red pepper flakes" },
+    { "id": "barley", "quantity": 0.5, "unit": "cup", "item": "pearled barley" },
+    { "id": "tomatoes", "quantity": 4, "unit": "oz", "item": "grape tomatoes" },
+    { "id": "romesco", "quantity": 3, "unit": "Tbsps", "item": "romesco sauce", "note": "contains almonds" },
+    { "id": "oregano", "quantity": 1, "unit": "tsp", "item": "whole dried oregano" },
+    { "id": "onion", "quantity": 1, "unit": null, "item": "red onion" },
+    { "id": "lemon", "quantity": 1, "unit": null, "item": "lemon" },
+    { "id": "feta", "quantity": 1.5, "unit": "oz", "item": "feta cheese" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Cook the barley",
+      "instructions": [
+        "Place an oven rack in the center of the oven; preheat to 450°F.",
+        "Fill a medium pot 3/4 of the way up with salted water; cover and heat to boiling on high.",
+        "Once boiling, add the barley to the pot. Cook, uncovered, 28 to 30 minutes, or until tender. Turn off the heat.",
+        "Drain thoroughly and return to the pot. Cover to keep warm."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prepare the ingredients & marinate the feta",
+      "instructions": [
+        "Meanwhile, wash and dry the fresh produce.",
+        "Halve and peel the onion; cut into 1/2-inch-wide wedges, keeping the layers intact.",
+        "Cut off and discard the stem of the pepper. Halve lengthwise; remove the ribs and seeds, then thinly slice crosswise.",
+        "Halve the tomatoes.",
+        "Roughly chop the olives.",
+        "Halve the lemon crosswise. Thinly slice one half into rounds, discarding the seeds. Squeeze the juice of the remaining half into a medium bowl, straining out the seeds.",
+        "To the bowl of lemon juice, add the oregano, a drizzle of olive oil, and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be. Season with salt and pepper; whisk to thoroughly combine. Add the cheese (crumbling before adding) and stir to coat. Set aside to marinate, stirring occasionally, at least 10 minutes."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Roast the fish & vegetables",
+      "instructions": [
+        "Place the onion wedges and sliced pepper in a baking dish. Drizzle with olive oil and season with salt and pepper; toss to coat and arrange in an even layer.",
+        "Pat the fish dry with paper towels; season with salt and pepper on both sides.",
+        "Place on top of the seasoned vegetables, skin side down. Evenly top the fish with the sliced lemon.",
+        "Roast 12 to 17 minutes, or until the vegetables are tender when pierced with a fork and the fish is cooked through.* *An instant-read thermometer should register 145°F.",
+        "Remove from the oven."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Finish & serve your dish",
+      "instructions": [
+        "Meanwhile, to the bowl of marinated feta, add the halved tomatoes and chopped olives; stir to combine. Taste, then season with salt and pepper if desired.",
+        "To the pot of cooked barley, add the romesco sauce; stir to combine. Taste, then season with salt and pepper if desired.",
+        "Serve the dressed barley topped with the roasted fish and vegetables. Top the fish with the finished feta. Serve the roasted lemon slices on the side."
+      ]
+    }
+  ]
+}

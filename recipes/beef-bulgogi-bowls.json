@@ -1,0 +1,74 @@
+{
+  "title": "Beef Bulgogi Bowls",
+  "subtitle": "with Carrots, Pickled Cucumber & Sriracha Crema over Jasmine Rice",
+  "slug": "beef-bulgogi-bowls",
+  "source": {
+    "name": "HelloFresh",
+    "url": "https://www.hellofresh.com"
+  },
+  "servings": 2,
+  "time": { "min": 20, "max": 20, "unit": "minutes" },
+  "tags": ["beef", "rice", "weeknight"],
+  "ingredients": [
+    { "id": "rice", "quantity": 0.5, "unit": "Cup", "item": "jasmine rice" },
+    { "id": "scallion", "quantity": 1, "unit": null, "item": "scallion" },
+    { "id": "vinegar", "quantity": 5, "unit": "tsp", "item": "white wine vinegar" },
+    { "id": "cucumber", "quantity": 1, "unit": null, "item": "cucumber" },
+    { "id": "carrots", "quantity": 4, "unit": "oz", "item": "shredded carrots" },
+    { "id": "beef", "quantity": 10, "unit": "oz", "item": "ground beef" },
+    { "id": "sesame-seeds", "quantity": 1, "unit": "TBSP", "item": "sesame seeds" },
+    { "id": "bulgogi-sauce", "quantity": 4, "unit": "oz", "item": "bulgogi sauce" },
+    { "id": "sour-cream", "quantity": 4, "unit": "TBSP", "item": "sour cream" },
+    { "id": "sriracha", "quantity": 1, "unit": "tsp", "item": "sriracha" }
+  ],
+  "pantry": ["sugar", "vegetable oil", "butter", "kosher salt", "black pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Cook rice & prep",
+      "instructions": [
+        "Wash and dry all produce. In a small pot, combine rice, 3/4 cup water (1 1/2 cups for 4 servings), and a pinch of salt. Bring to a boil, then cover and reduce to a low simmer. Cook until rice is tender, 15-18 minutes. Keep covered off heat until ready to serve. Meanwhile, trim and thinly slice scallion, separating whites from greens."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Pickle cucumber",
+      "instructions": [
+        "In a medium bowl, combine half the vinegar (you'll use the rest later), 1/2 tsp sugar (1 tsp for 4 servings), and a pinch of salt. Trim ends from cucumber. Using a peeler, shave cucumber lengthwise into ribbons, rotating as you go, until you get to the seedy core; discard core. Toss ribbons in bowl with vinegar mixture. Set aside, tossing occasionally, until ready to serve."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook carrots",
+      "instructions": [
+        "Heat a drizzle of oil in a large, preferably nonstick, pan over medium-high heat. Add carrots and cook, stirring, until just tender, 1 minute. Season with salt and pepper. Turn off heat; transfer to a plate."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook beef",
+      "instructions": [
+        "Heat another drizzle of oil in same pan over medium-high heat. Add scallion whites and cook until fragrant, 1 minute. Add beef and a pinch of salt and pepper. Cook, breaking up meat into pieces, until browned and cooked through, 4-6 minutes. Stir in half the sesame seeds (you'll use more later) and remaining vinegar. Cook 30 seconds, then stir in bulgogi sauce. Bring to a simmer, then immediately turn off heat. Season again with salt and pepper."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Make sriracha crema",
+      "instructions": [
+        "Meanwhile, in a small bowl, combine sour cream and sriracha to taste. Stir in water 1 tsp at a time until mixture reaches a drizzling consistency. Season with salt."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Finish & serve",
+      "instructions": [
+        "Fluff rice with a fork. Stir in 1 TBSP butter (2 TBSP for 4 servings) and season with salt and pepper; divide between bowls. Arrange beef, carrots, and pickled cucumber on top. (TIP: Drain any excess liquid from cucumber before adding.) Drizzle crema over everything. Garnish with scallion greens and as many remaining sesame seeds as you like."
+      ]
+    }
+  ],
+  "review": [
+    "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 1 Cup rice, 2 scallions, 10 tsp vinegar, 2 cucumbers, 8 oz carrots, 20 oz beef, 2 TBSP sesame seeds, 8 oz bulgogi sauce, 8 TBSP sour cream, 2 tsp sriracha)",
+    "time: card gives total 20 min (prep time is cut off in the photo); used total for min and max"
+  ]
+}

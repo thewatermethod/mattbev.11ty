@@ -1,0 +1,96 @@
+{
+	"title": "Sheet Pan Pesto Salmon",
+	"subtitle": "with Roasted Vegetables",
+	"slug": "sheet-pan-pesto-salmon",
+	"source": {
+		"name": "Blue Apron",
+		"url": "https://www.blueapron.com"
+	},
+	"servings": 2,
+	"time": { "min": 30, "max": 40, "unit": "minutes" },
+	"tags": ["seafood", "weeknight"],
+	"ingredients": [
+		{
+			"id": "salmon",
+			"quantity": 2,
+			"unit": null,
+			"item": "skin-on salmon fillets"
+		},
+		{
+			"id": "panko",
+			"quantity": 0.25,
+			"unit": "cup",
+			"item": "panko breadcrumbs"
+		},
+		{ "id": "potatoes", "quantity": 0.75, "unit": "lb", "item": "potatoes" },
+		{ "id": "radishes", "quantity": 3, "unit": "oz", "item": "radishes" },
+		{ "id": "onion", "quantity": 1, "unit": null, "item": "red onion" },
+		{ "id": "lemon", "quantity": 1, "unit": null, "item": "lemon" },
+		{
+			"id": "mayonnaise",
+			"quantity": 2,
+			"unit": "Tbsps",
+			"item": "mayonnaise"
+		},
+		{ "id": "pesto", "quantity": 0.333, "unit": "cup", "item": "basil pesto" },
+		{
+			"id": "spice-blend",
+			"quantity": 1,
+			"unit": "Tbsp",
+			"item": "Weeknight Hero Spice Blend",
+			"note": "Onion Powder, Garlic Powder, Smoked Paprika & Whole Dried Parsley"
+		}
+	],
+	"pantry": ["olive oil", "salt", "pepper"],
+	"variants": [],
+	"steps": [
+		{
+			"number": 1,
+			"title": "Prepare & roast the vegetables",
+			"instructions": [
+				"Preheat the oven to 450°F.",
+				"Wash and dry the fresh produce.",
+				"Halve the radishes lengthwise.",
+				"Halve and peel the onion; cut into 1-inch-wide wedges, separating the layers.",
+				"Medium dice the potatoes.",
+				"Transfer to a sheet pan. Drizzle with olive oil and season with salt, pepper, and the spice blend; toss to coat. Arrange in an even layer.",
+				"Roast 24 to 26 minutes, or until browned and tender when pierced with a fork.",
+				"Remove from the oven."
+			]
+		},
+		{
+			"number": 2,
+			"title": "Coat the fish",
+			"instructions": [
+				"Meanwhile, lightly coat the center of a separate sheet pan with oil.",
+				"In a bowl, combine the pesto and mayonnaise.",
+				"Transfer 2/3 of the pesto mayo to a separate bowl and set aside for serving.",
+				"Pat the fish dry with paper towels. Season with salt and pepper on both sides.",
+				"Transfer the seasoned fish to the oiled portion of the sheet pan, skin side down. Evenly top with the remaining pesto mayo and enough of the breadcrumbs to coat (pressing gently to adhere). Drizzle with olive oil."
+			]
+		},
+		{
+			"number": 3,
+			"title": "Roast the fish",
+			"instructions": [
+				"Roast the coated fish 10 to 13 minutes, or until the breadcrumbs are lightly browned and the fish is cooked through.* *The USDA recommends a minimum safe cooking temperature of 145°F for fish.",
+				"Remove from the oven."
+			]
+		},
+		{
+			"number": 4,
+			"title": "Finish & serve your dish",
+			"instructions": [
+				"Meanwhile, halve the lemon crosswise; remove the seeds.",
+				"To the bowl of reserved pesto mayo, add the juice of 1 lemon half; stir to combine. Taste, then season with salt and pepper if desired.",
+				"Evenly top the roasted vegetables with the juice of the remaining lemon half.",
+				"Serve the roasted fish with the finished vegetables. Top with the pesto sauce."
+			]
+		}
+	],
+	"review": [
+		"ingredients[potatoes]: front of card has torn paper next to this label; read as '3/4 lb Potatoe(s)' (the steps say 'potatoes')",
+		"ingredients[lemon]: label is partly torn away, read as '1 Lemon'; the steps confirm a single lemon (halved, one half per use)",
+		"steps[2].instructions[0]: footnote is cut off at the right edge of the photo, read as '...145°F for fish' (matches the same footnote on other Blue Apron cards)"
+	]
+}

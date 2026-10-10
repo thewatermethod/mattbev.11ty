@@ -1,0 +1,79 @@
+{
+  "title": "Chicken Shawarma Bowls",
+  "subtitle": "with Turmeric Couscous, Roasted Veggie Medley & Garlicky White Sauce",
+  "slug": "chicken-shawarma-bowls",
+  "source": {
+    "name": "HelloFresh",
+    "url": "https://www.hellofresh.com"
+  },
+  "servings": 2,
+  "time": { "min": 35, "max": 35, "unit": "minutes" },
+  "tags": ["chicken", "grain-bowl", "weeknight"],
+  "ingredients": [
+    { "id": "garlic", "quantity": 2, "unit": "Cloves", "item": "garlic" },
+    { "id": "yogurt", "quantity": 4, "unit": "TBSP", "item": "yogurt" },
+    { "id": "shawarma-spice", "quantity": 1, "unit": "TBSP", "item": "Shawarma Spice Blend" },
+    { "id": "chicken", "quantity": 10, "unit": "oz", "item": "chicken cutlets" },
+    { "id": "zucchini", "quantity": 1, "unit": null, "item": "zucchini" },
+    { "id": "tomato", "quantity": 1, "unit": null, "item": "Roma tomato" },
+    { "id": "scallions", "quantity": 2, "unit": null, "item": "scallions" },
+    { "id": "lemon", "quantity": 1, "unit": null, "item": "lemon" },
+    { "id": "sour-cream", "quantity": 4, "unit": "TBSP", "item": "sour cream" },
+    { "id": "stock-concentrate", "quantity": 1, "unit": null, "item": "chicken stock concentrate" },
+    { "id": "turmeric", "quantity": 1, "unit": "tsp", "item": "turmeric" },
+    { "id": "couscous", "quantity": 0.5, "unit": "Cup", "item": "couscous" },
+    { "id": "hummus", "quantity": 4, "unit": "TBSP", "item": "hummus" },
+    { "id": "hot-sauce", "quantity": 1, "unit": "tsp", "item": "hot sauce" }
+  ],
+  "pantry": ["olive oil", "butter", "kosher salt", "black pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Marinate chicken",
+      "instructions": [
+        "Adjust rack to top position and preheat oven to 425 degrees. Wash and dry all produce. Mince garlic. In a medium bowl, combine yogurt, half the garlic, half the Shawarma Spice (you'll use the rest later), 1 TBSP olive oil, 1 tsp salt, and pepper. (For 4 servings, use 2 TBSP olive oil and 2 tsp salt.) Pat chicken dry with paper towels; add to bowl and turn to coat. Set aside to marinate."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prep & make white sauce",
+      "instructions": [
+        "Trim and dice zucchini into 1/2-inch pieces. Dice tomato into 1-inch pieces. Trim and thinly slice scallions, separating whites from greens. Quarter lemon. In a small bowl, combine sour cream and remaining garlic to taste. Season with salt and pepper. Stir in water 1 tsp at a time until mixture reaches a drizzling consistency."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Roast veggies",
+      "instructions": [
+        "Toss zucchini and tomato on a baking sheet with a drizzle of olive oil, remaining Shawarma Spice, salt, and pepper. Roast on top rack until veggies are browned and tender, 15-18 minutes."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook chicken",
+      "instructions": [
+        "Meanwhile, heat a drizzle of olive oil in a large, preferably nonstick, pan over medium heat. Remove chicken from marinade; allow excess to drip off. Add chicken and cook until browned and cooked through, 6-8 minutes per side. (TIP: Medium heat is key in preventing the marinade from burning. If chicken begins to brown too quickly, lower the heat.) Turn off heat; transfer chicken to a cutting board. Once cool enough to handle, slice crosswise."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Cook couscous",
+      "instructions": [
+        "While chicken cooks, heat a drizzle of olive oil in a small pot over medium-high heat. Add scallion whites; cook until slightly softened, 1 minute. Add stock concentrate, 3/4 cup water, 1/4 tsp turmeric (be sure to measure), 1 TBSP butter, and a pinch of salt. (For 4 servings, use 1 1/2 cups water, 1/2 tsp turmeric, and 2 TBSP butter.) Once boiling, stir in couscous; cover pot and remove from heat. Let stand until water has absorbed and couscous is tender, at least 5 minutes."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Finish & serve",
+      "instructions": [
+        "Fluff couscous with a fork and season with salt and pepper. Toss roasted veggies with a big squeeze of lemon juice. Divide couscous and veggies between bowls; top with chicken and dollop with hummus. Drizzle with white sauce and hot sauce to taste. Sprinkle with scallion greens. Serve with remaining lemon wedges on the side."
+      ]
+    }
+  ],
+  "review": [
+    "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 4 Cloves garlic, 8 TBSP yogurt, 2 TBSP spice, 20 oz chicken, 2 zucchini, 2 tomatoes, 4 scallions, 1 lemon, 8 TBSP sour cream, 2 stock concentrates, 1 tsp turmeric, 1 Cup couscous, 8 TBSP hummus, 2 tsp hot sauce)",
+    "time: card gives prep 10 min and total 35 min; used total for min and max",
+    "source photos: front is IMG_8048 (IMG_8049 is a second shot of the same front); back is IMG_8051, not adjacent (IMG_8050 is missing from the scans)"
+  ]
+}

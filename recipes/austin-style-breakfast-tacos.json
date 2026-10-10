@@ -1,0 +1,82 @@
+{
+  "title": "Austin-Style Breakfast Tacos",
+  "subtitle": "with Cheesy Eggs, Roasted Potatoes & Spicy Sour Cream",
+  "slug": "austin-style-breakfast-tacos",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 25, "max": 35, "unit": "minutes" },
+  "tags": ["vegetarian", "mexican", "breakfast"],
+  "ingredients": [
+    { "id": "eggs", "quantity": 2, "unit": null, "item": "pasture-raised eggs" },
+    { "id": "tortillas", "quantity": 4, "unit": null, "item": "flour tortillas" },
+    { "id": "black-beans", "quantity": 1, "unit": "15.5-oz can", "item": "black beans" },
+    { "id": "sour-cream", "quantity": 0.25, "unit": "cup", "item": "sour cream" },
+    { "id": "hot-sauce", "quantity": 1, "unit": "Tbsp", "item": "hot sauce" },
+    { "id": "potatoes", "quantity": 0.75, "unit": "lb", "item": "golden potatoes" },
+    { "id": "onion", "quantity": 1, "unit": null, "item": "sweet onion" },
+    { "id": "chile-paste", "quantity": 1, "unit": "Tbsp", "item": "ancho chile paste" },
+    { "id": "monterey-jack", "quantity": 2, "unit": "oz", "item": "Monterey Jack cheese" },
+    {
+      "id": "spice-blend",
+      "quantity": 1,
+      "unit": "Tbsp",
+      "item": "Southern Spice Blend",
+      "note": "Onion Powder, Garlic Powder, Ground Yellow Mustard, Smoked Paprika & Cayenne Pepper"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients & make the spicy sour cream",
+      "instructions": [
+        "Place an oven rack in the center of the oven, then preheat to 450°F.",
+        "Wash and dry the potatoes, then small dice.",
+        "Peel and medium dice the onion. Drain and rinse the beans.",
+        "Grate the cheese on the large side of the box grater.",
+        "In a bowl, combine the sour cream and as much of the hot sauce as you'd like, depending on how spicy you'd like the dish to be. Season with salt and pepper."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Roast the potatoes",
+      "instructions": [
+        "Place the diced potatoes in a bowl. Drizzle with 1 tablespoon of olive oil and season with salt, pepper, and enough of the spice blend to coat (you may have extra). Toss to coat and transfer to a sheet pan. Arrange in an even layer.",
+        "Roast 14 to 16 minutes, or until browned and tender when pierced with a fork. Remove from the oven."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the onion & beans",
+      "instructions": [
+        "While the potatoes roast, in a medium pan (nonstick, if you have one), heat a drizzle of olive oil on medium-high until hot.",
+        "Add the diced onion; season with salt and pepper. Cook, stirring occasionally, 4 to 5 minutes, or until lightly browned and slightly softened.",
+        "Add the beans, chile paste, and 1/2 cup of water (carefully, as the liquid may splatter). Season with salt and pepper. Cook, stirring occasionally, 5 to 6 minutes, or until slightly thickened.",
+        "Transfer to a bowl and cover with foil to keep warm. Rinse and wipe out the pan."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Warm the tortillas",
+      "instructions": [
+        "If using the microwave, wrap the tortillas in a damp paper towel; microwave on high 1 minute, or until heated through.",
+        "If using the oven, wrap the tortillas in foil and place directly onto an oven rack; warm 7 to 9 minutes, or until heated through.",
+        "Transfer the warmed tortillas to a work surface and carefully unwrap."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Make the scrambled eggs & serve your dish",
+      "instructions": [
+        "Crack the eggs into a bowl; season with salt and pepper and beat until smooth. Stir in the grated cheese.",
+        "In the same pan, heat a drizzle of olive oil on medium until hot. Add the beaten eggs and cheese. Cook, stirring constantly, 2 to 3 minutes, or until the eggs are cooked through. Turn off the heat. Taste, then season with salt and pepper if desired.",
+        "Assemble the tacos using the warmed tortillas, roasted potatoes, scrambled eggs, and spicy sour cream.",
+        "Serve the tacos with the cooked onion and beans on the side."
+      ]
+    }
+  ]
+}

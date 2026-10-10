@@ -1,0 +1,113 @@
+{
+  "title": "Garlic Shrimp & Pesto Barley",
+  "subtitle": "with Corn & Tomatoes",
+  "slug": "garlic-shrimp-pesto-barley",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 30, "max": 40, "unit": "minutes" },
+  "tags": ["seafood", "grain-bowl"],
+  "ingredients": [
+    { "id": "shrimp", "quantity": 10, "unit": "oz", "item": "tail-on shrimp", "note": "peeled & deveined" },
+    {
+      "id": "spice-blend",
+      "quantity": 1,
+      "unit": "Tbsp",
+      "item": "Weeknight Hero Spice Blend",
+      "note": "Onion Powder, Garlic Powder, Smoked Paprika & Whole Dried Parsley"
+    },
+    { "id": "red-pepper-flakes", "quantity": 0.25, "unit": "tsp", "item": "crushed red pepper flakes" },
+    { "id": "corn", "quantity": 2, "unit": "ears", "item": "corn" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "barley", "quantity": 0.5, "unit": "cup", "item": "pearled barley" },
+    { "id": "pesto", "quantity": 0.333, "unit": "cup", "item": "basil pesto" },
+    { "id": "tomatoes", "quantity": 4, "unit": "oz", "item": "grape tomatoes" },
+    { "id": "chives", "quantity": 1, "unit": "bunch", "item": "chives" },
+    { "id": "vinegar", "quantity": 1, "unit": "Tbsp", "item": "red wine vinegar" },
+    {
+      "id": "chicken",
+      "quantity": 10,
+      "unit": "oz",
+      "item": "chopped chicken breast",
+      "variant": "chicken"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [
+    { "id": "chicken", "label": "With chicken" }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Cook the barley",
+      "instructions": [
+        "Fill a medium pot 3/4 of the way up with salted water; cover and heat to boiling on high.",
+        "Once boiling, add the barley and cook, uncovered, 28 to 30 minutes, or until tender. Turn off the heat.",
+        "Drain thoroughly and return to the pot."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Meanwhile, wash and dry the fresh produce.",
+        "Remove any husks and silks from the corn; cut the kernels off the cobs.",
+        "Halve the tomatoes.",
+        "Peel and roughly chop 2 cloves of garlic.",
+        "Thinly slice the chives."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the vegetables",
+      "instructions": [
+        "In a medium pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium-high until hot.",
+        "Add the corn kernels in an even layer. Cook, without stirring, 2 to 3 minutes, or until lightly browned (be careful, as the corn may pop as it cooks).",
+        "Add the halved tomatoes and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be; season with salt and pepper. Cook, stirring occasionally, 1 to 2 minutes, or until slightly softened.",
+        "Add the vinegar (carefully, as the liquid may splatter). Cook, stirring frequently, 1 to 2 minutes, or until the vegetables are softened and the liquid has cooked off.",
+        "Transfer to a bowl; cover with foil to keep warm.",
+        "Rinse and wipe out the pan."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the shrimp",
+      "instructions": [
+        "Pat the shrimp dry with paper towels (remove the tails, if desired). Place in a bowl; season with salt, pepper, and enough of the spice blend to coat (you may have extra). Stir to coat.",
+        "In the same pan, heat 2 teaspoons of olive oil on medium-high until hot.",
+        "Add the seasoned shrimp in an even layer. Cook, without stirring, 2 to 3 minutes, or until slightly opaque.",
+        "Add the chopped garlic. Cook, stirring frequently, 1 to 2 minutes, or until the shrimp are opaque and cooked through.",
+        "Turn off the heat."
+      ],
+      "variantInstructions": {
+        "chicken": [
+          "Pat the chicken dry with paper towels; place in a bowl. Season with salt, pepper, and enough of the spice blend to coat (you may have extra). Stir to coat.",
+          "In the same pan, heat 2 teaspoons of olive oil on medium-high until hot.",
+          "Add the seasoned chicken in an even layer. Cook, without stirring, 3 to 4 minutes, or until lightly browned.",
+          "Add the chopped garlic. Cook, stirring occasionally, 3 to 4 minutes, or until the chicken is browned and cooked through.",
+          "Turn off the heat."
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "title": "Finish the barley & serve your dish",
+      "instructions": [
+        "To the pot of cooked barley, add the pesto and cooked vegetables. Stir to combine. Taste, then season with salt and pepper if desired.",
+        "Serve the finished barley topped with the cooked shrimp. Garnish with the sliced chives."
+      ],
+      "variantInstructions": {
+        "chicken": [
+          "To the pot of cooked barley, add the pesto and cooked vegetables. Stir to combine. Taste, then season with salt and pepper if desired.",
+          "Serve the finished barley topped with the cooked chicken. Garnish with the sliced chives."
+        ]
+      }
+    }
+  ],
+  "review": [
+    "variants[chicken]: card lists chicken as SWAPPED FOR the shrimp (a replacement, not an addition); the schema has no way to mark shrimp as excluded in that variant",
+    "steps[4].variantInstructions.chicken: card says only 'Finish the barley and serve your dish as directed with the cooked chicken (instead of shrimp)'; expanded by substituting 'cooked chicken' for 'cooked shrimp'"
+  ]
+}

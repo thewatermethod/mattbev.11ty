@@ -1,0 +1,84 @@
+{
+  "title": "Zucchini & Ricotta Sandwiches",
+  "subtitle": "with Butter Lettuce & Cucumber Salad",
+  "slug": "zucchini-ricotta-sandwiches",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 30, "max": 40, "unit": "minutes" },
+  "tags": ["vegetarian", "sandwiches"],
+  "ingredients": [
+    { "id": "baguettes", "quantity": 2, "unit": null, "item": "small baguettes" },
+    { "id": "lettuce", "quantity": 1, "unit": "head", "item": "butter lettuce" },
+    { "id": "garlic", "quantity": 1, "unit": "clove", "item": "garlic" },
+    { "id": "chile-paste", "quantity": 1.5, "unit": "tsps", "item": "Calabrian chile paste" },
+    { "id": "ricotta", "quantity": 0.5, "unit": "cup", "item": "part-skim ricotta cheese" },
+    { "id": "parmesan", "quantity": 0.25, "unit": "cup", "item": "grated parmesan cheese" },
+    { "id": "zucchini", "quantity": 1, "unit": null, "item": "zucchini" },
+    { "id": "cucumber", "quantity": 1, "unit": null, "item": "Persian cucumber" },
+    { "id": "peppers", "quantity": 1, "unit": "oz", "item": "sliced roasted red peppers" },
+    { "id": "olives", "quantity": 1, "unit": "oz", "item": "pitted niçoise olives" },
+    { "id": "rice-vinegar", "quantity": 1, "unit": "Tbsp", "item": "rice vinegar" },
+    {
+      "id": "italian-seasoning",
+      "quantity": 1,
+      "unit": "Tbsp",
+      "item": "Italian seasoning",
+      "note": "Whole Dried Basil, Sage, Oregano, Savory, Rosemary, Thyme & Marjoram"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients & make the Italian dressing",
+      "instructions": [
+        "Wash and dry the fresh produce.",
+        "Cut off and discard the root end of the lettuce; roughly chop the leaves. Halve the cucumber lengthwise, then thinly slice crosswise. Combine in a large bowl.",
+        "Cut the zucchini into 1/2-inch-thick rounds.",
+        "Halve the baguettes.",
+        "Peel 1 clove of garlic.",
+        "Roughly chop the peppers.",
+        "Roughly chop the olives.",
+        "In a bowl, combine the ricotta, a drizzle of olive oil, and as much of the chile paste as you'd like, depending on how spicy you'd like the dish to be; season with salt and pepper.",
+        "In a separate bowl, whisk together the vinegar, half the Italian seasoning (you will have extra), half the parmesan, and 1 tablespoon of olive oil."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Brown the zucchini",
+      "instructions": [
+        "In a large pan (nonstick, if you have one), heat 1 tablespoon of olive oil on medium-high until hot.",
+        "Add the zucchini rounds in an even layer; season with salt and pepper. Cook 2 to 3 minutes per side, or until browned.",
+        "Transfer to a plate. Wipe out the pan."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Toast the baguettes",
+      "instructions": [
+        "In the same pan, heat 1 tablespoon of olive oil on medium until hot.",
+        "Add the halved baguettes, cut side down. Cook 4 to 6 minutes, or until browned. Flip and cook 2 to 3 minutes, or until lightly browned (if the pan seems dry, add a drizzle of olive oil before flipping).",
+        "Transfer to a work surface. Carefully rub the cut sides with the peeled garlic clove, then discard the clove. Season with salt and pepper."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Assemble the sandwiches",
+      "instructions": [
+        "Assemble the sandwiches using the toasted baguettes, spicy ricotta, browned zucchini, chopped peppers, and chopped olives."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Make the salad & serve your dish",
+      "instructions": [
+        "To the bowl of prepared lettuce and cucumber, add enough of the Italian dressing to coat (you may have extra); season with salt and pepper. Toss to coat.",
+        "Serve the sandwiches with the salad on the side. Garnish the salad with the remaining parmesan."
+      ]
+    }
+  ]
+}

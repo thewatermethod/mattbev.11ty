@@ -1,0 +1,101 @@
+{
+	"title": "Creamy Pasta & Kale",
+	"subtitle": "with Fried Rosemary & Walnuts",
+	"slug": "creamy-pasta-kale",
+	"source": {
+		"name": "Blue Apron",
+		"url": "https://www.blueapron.com"
+	},
+	"servings": 2,
+	"time": { "min": 20, "max": 30, "unit": "minutes" },
+	"tags": ["pasta", "vegetarian"],
+	"ingredients": [
+		{ "id": "pasta", "quantity": 6, "unit": "oz", "item": "mafalda pasta" },
+		{ "id": "rosemary", "quantity": 1, "unit": "bunch", "item": "rosemary" },
+		{ "id": "verjus", "quantity": 1, "unit": "Tbsp", "item": "verjus blanc" },
+		{
+			"id": "red-pepper-flakes",
+			"quantity": 0.25,
+			"unit": "tsp",
+			"item": "crushed red pepper flakes"
+		},
+		{ "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+		{ "id": "shallot", "quantity": 1, "unit": null, "item": "shallot" },
+		{
+			"id": "walnuts",
+			"quantity": 0.25,
+			"unit": "cup",
+			"item": "roasted walnuts"
+		},
+		{
+			"id": "parmesan",
+			"quantity": 0.25,
+			"unit": "cup",
+			"item": "grated parmesan cheese"
+		},
+		{ "id": "kale", "quantity": 1, "unit": "bunch", "item": "kale" },
+		{ "id": "butter", "quantity": 2, "unit": "Tbsps", "item": "butter" },
+		{
+			"id": "mascarpone",
+			"quantity": 2,
+			"unit": "Tbsps",
+			"item": "mascarpone cheese"
+		}
+	],
+	"pantry": ["olive oil", "salt", "pepper"],
+	"variants": [],
+	"steps": [
+		{
+			"number": 1,
+			"title": "Prepare the ingredients",
+			"instructions": [
+				"Fill a medium pot 3/4 of the way up with salted water; cover and heat to boiling on high.",
+				"Wash and dry the fresh produce.",
+				"Pick the rosemary leaves off the stems.",
+				"Roughly chop the walnuts.",
+				"Peel and thinly slice the shallot.",
+				"Peel and roughly chop 2 cloves of garlic.",
+				"Separate the kale leaves from the stems; discard the stems, then roughly chop the leaves."
+			]
+		},
+		{
+			"number": 2,
+			"title": "Cook the pasta",
+			"instructions": [
+				"Add the pasta to the pot of boiling water. Cook 10 to 12 minutes, or until al dente (still slightly firm to the bite).",
+				"Reserving 1/2 cup of the pasta cooking water, drain thoroughly."
+			]
+		},
+		{
+			"number": 3,
+			"title": "Fry the rosemary & walnuts",
+			"instructions": [
+				"Meanwhile, in a large pan, heat a thin layer of oil on medium-high.",
+				"Once the oil is hot enough that a rosemary leaf sizzles immediately when added, add the rosemary leaves and chopped walnuts. Season with salt and pepper. Cook, stirring frequently, 2 to 3 minutes, or until fragrant and the rosemary is crispy.",
+				"Transfer to a paper towel-lined plate and immediately season with salt.",
+				"Wipe out the pan."
+			]
+		},
+		{
+			"number": 4,
+			"title": "Cook & finish the kale",
+			"instructions": [
+				"In the same pan, heat 2 teaspoons of olive oil on medium-high until hot.",
+				"Add the sliced shallot and chopped garlic; season with salt and pepper. Cook, stirring constantly, 1 to 2 minutes, or until lightly browned and slightly softened.",
+				"Add the chopped kale and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be; season with salt and pepper. Cook, stirring frequently, 2 to 3 minutes, or until the kale is slightly wilted.",
+				"Add the verjus (carefully, as the liquid may splatter) and 1/4 cup of water. Cook, stirring frequently, 2 to 3 minutes, or until the kale is wilted and the liquid has cooked off.",
+				"Turn off the heat.",
+				"Taste, then season with salt and pepper if desired."
+			]
+		},
+		{
+			"number": 5,
+			"title": "Finish & serve your dish",
+			"instructions": [
+				"To the pan of finished kale, add the cooked pasta, butter, and half the reserved pasta cooking water. Cook on medium-high, stirring constantly, 1 to 2 minutes, or until the pasta is coated (if necessary, gradually add the remaining cooking water to ensure the pasta is thoroughly coated).",
+				"Turn off the heat and stir in the mascarpone until combined. Taste, then season with salt and pepper if desired.",
+				"Serve the finished pasta garnished with the fried rosemary and walnuts and parmesan."
+			]
+		}
+	]
+}

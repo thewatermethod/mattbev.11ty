@@ -1,0 +1,72 @@
+{
+  "title": "Pesto Pasta",
+  "subtitle": "with Broccoli & Lemon Ricotta",
+  "slug": "pesto-pasta",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 15, "max": 25, "unit": "minutes" },
+  "tags": ["pasta", "vegetarian", "weeknight"],
+  "ingredients": [
+    { "id": "pasta", "quantity": 6, "unit": "oz", "item": "elicoidali pasta" },
+    { "id": "broccoli", "quantity": 0.5, "unit": "lb", "item": "broccoli" },
+    { "id": "ricotta", "quantity": 0.5, "unit": "cup", "item": "part-skim ricotta cheese" },
+    { "id": "fromage-blanc", "quantity": 2, "unit": "Tbsps", "item": "fromage blanc" },
+    { "id": "pesto", "quantity": 0.333, "unit": "cup", "item": "basil pesto" },
+    { "id": "lemon", "quantity": 1, "unit": null, "item": "pink or yellow lemon" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "peppers", "quantity": 1, "unit": "oz", "item": "sliced roasted red peppers" },
+    { "id": "parmesan", "quantity": 0.25, "unit": "cup", "item": "grated parmesan cheese" },
+    { "id": "red-pepper-flakes", "quantity": 0.25, "unit": "tsp", "item": "crushed red pepper flakes" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Fill a medium pot with salted water; cover and heat to boiling on high.",
+        "Wash and dry the fresh produce.",
+        "Cut off and discard the bottom 1/2 inch of the broccoli stem; roughly chop the broccoli. Peel and roughly chop 2 cloves of garlic.",
+        "Quarter and deseed the lemon.",
+        "Roughly chop the peppers."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the broccoli",
+      "instructions": [
+        "In a large pan (nonstick, if you have one), heat a drizzle of olive oil on medium-high until hot.",
+        "Add the chopped broccoli and garlic and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be. Season with salt and pepper. Cook, stirring occasionally, 5 to 7 minutes, or until lightly browned and slightly softened.",
+        "Add 1/2 cup of water (carefully, as the liquid may splatter). Cook, stirring occasionally, 3 to 4 minutes, or until the broccoli is softened and the water has cooked off. Turn off the heat."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the pasta",
+      "instructions": [
+        "While the broccoli cooks, add the pasta to the pot of boiling water. Cook, stirring occasionally, 10 to 12 minutes, or until al dente (still slightly firm to the bite).",
+        "Reserving 1/4 cup of the pasta cooking water, drain thoroughly."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Make the lemon ricotta",
+      "instructions": [
+        "While the pasta cooks, in a bowl, combine the ricotta, half the parmesan, and the juice of 2 lemon wedges. Season with salt and pepper."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Finish the pasta & serve your dish",
+      "instructions": [
+        "To the pan of cooked broccoli, add the cooked pasta, fromage blanc, and half the reserved pasta cooking water. Cook on medium-high, stirring constantly, 1 to 2 minutes, or until the pasta is coated.",
+        "Turn off the heat. Stir in the pesto and chopped peppers (if necessary, gradually add the remaining cooking water to ensure the pasta is thoroughly coated). Taste, then season with salt and pepper if desired.",
+        "Serve the finished pasta topped with the lemon ricotta and remaining parmesan. Serve with the remaining lemon wedges on the side."
+      ]
+    }
+  ]
+}

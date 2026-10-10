@@ -1,0 +1,65 @@
+{
+  "title": "Parsnip Potato Cakes",
+  "slug": "parsnip-potato-cakes",
+  "source": {
+    "name": "Misfits Market",
+    "url": "https://www.misfitsmarket.com"
+  },
+  "servings": 6,
+  "time": { "min": 30, "max": 30, "unit": "minutes" },
+  "tags": ["vegetarian", "side"],
+  "ingredients": [
+    { "id": "eggs", "quantity": 2, "unit": null, "item": "large eggs" },
+    { "id": "potatoes", "quantity": 1, "unit": "pound", "item": "russet potatoes, peeled and grated" },
+    { "id": "parsnips", "quantity": 0.75, "unit": "pound", "item": "parsnips, peeled and grated" },
+    { "id": "onion", "quantity": 1, "unit": null, "item": "large onion, peeled and grated" },
+    { "id": "bread-crumbs", "quantity": 0.5, "unit": "cup", "item": "bread crumbs" },
+    { "id": "olive-oil", "quantity": 0.75, "unit": "cup", "item": "olive oil" },
+    { "id": "salt", "quantity": 1, "unit": "teaspoon", "item": "salt" },
+    { "id": "pepper", "quantity": 1, "unit": "teaspoon", "item": "pepper" }
+  ],
+  "pantry": [],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "",
+      "instructions": ["Preheat oven to 250 degrees."]
+    },
+    {
+      "number": 2,
+      "title": "",
+      "instructions": ["Place grated parsnips and potatoes in a strainer and press down to remove excess liquid."]
+    },
+    {
+      "number": 3,
+      "title": "",
+      "instructions": ["In a medium bowl, use your hands to combine vegetables, eggs, breadcrumbs, salt, and pepper."]
+    },
+    {
+      "number": 4,
+      "title": "",
+      "instructions": ["In a large skillet, heat 3 tablespoons oil over medium heat. Use a 1/2-cup measuring cup to form small vegetable cakes. Drop the mixture into oil and flatten with a spatula."]
+    },
+    {
+      "number": 5,
+      "title": "",
+      "instructions": ["Cook cakes until browned, about 8-12 minutes, flipping once half way through. Once done, place on a baking sheet in the oven to keep warm."]
+    },
+    {
+      "number": 6,
+      "title": "",
+      "instructions": ["Repeat process until potato-parsnip mixture is used up, adding more oil as needed."]
+    },
+    {
+      "number": 7,
+      "title": "",
+      "instructions": ["Set cakes on paper towels to soak up any excess oil and serve warm."]
+    }
+  ],
+  "review": [
+    "steps[*].title: card's steps are numbered but untitled; left title as an empty string rather than inventing one",
+    "time: card gives only 'Prep time: 30 mins.' (no cook or total time); used 30 for min and max",
+    "ingredients: salt, pepper, and olive oil are printed in the card's ingredient list, so they are ingredients here and pantry is empty"
+  ]
+}

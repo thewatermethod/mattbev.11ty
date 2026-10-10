@@ -1,0 +1,110 @@
+{
+	"title": "Pepita & Panko-Crusted Tofu",
+	"subtitle": "with Rice & Tomatillo-Poblano Sauce",
+	"slug": "pepita-panko-crusted-tofu",
+	"source": {
+		"name": "Blue Apron",
+		"url": "https://www.blueapron.com"
+	},
+	"servings": 2,
+	"time": { "min": 25, "max": 35, "unit": "minutes" },
+	"tags": ["vegetarian", "rice", "mexican"],
+	"ingredients": [
+		{
+			"id": "tofu",
+			"quantity": 14,
+			"unit": "oz",
+			"item": "firm or extra firm tofu"
+		},
+		{ "id": "kale", "quantity": 1, "unit": "bunch", "item": "kale" },
+		{ "id": "pepitas", "quantity": 2, "unit": "Tbsps", "item": "raw pepitas" },
+		{
+			"id": "panko",
+			"quantity": 0.25,
+			"unit": "cup",
+			"item": "panko breadcrumbs"
+		},
+		{
+			"id": "tomatillo-sauce",
+			"quantity": 0.333,
+			"unit": "cup",
+			"item": "tomatillo-poblano sauce"
+		},
+		{ "id": "rice", "quantity": 0.5, "unit": "cup", "item": "brown rice" },
+		{ "id": "onion", "quantity": 1, "unit": null, "item": "red onion" },
+		{ "id": "honey", "quantity": 2, "unit": "tsps", "item": "honey" },
+		{
+			"id": "creme-fraiche",
+			"quantity": 2,
+			"unit": "Tbsps",
+			"item": "crème fraîche"
+		},
+		{
+			"id": "spice-blend",
+			"quantity": 1,
+			"unit": "Tbsp",
+			"item": "Mexican spice blend",
+			"note": "Ancho Chile Powder, Smoked Paprika, Garlic Powder, Ground Cumin & Dried Mexican Oregano"
+		}
+	],
+	"pantry": ["olive oil", "salt", "pepper"],
+	"variants": [],
+	"steps": [
+		{
+			"number": 1,
+			"title": "Prepare & press the tofu",
+			"instructions": [
+				"Remove the honey from the refrigerator to bring to room temperature.",
+				"Place an oven rack in the center of the oven, then preheat to 450°F.",
+				"Fill a medium pot 3/4 of the way up with water; add a big pinch of salt. Cover and heat to boiling on high.",
+				"Drain the tofu, then transfer to a cutting board; halve horizontally. Place on a paper towel-lined plate. Place several layers of paper towels on top, then place a separate heavy-bottomed pot (or pan) on top of the paper towels. Set aside to drain at least 10 minutes."
+			]
+		},
+		{
+			"number": 2,
+			"title": "Cook the rice",
+			"instructions": [
+				"Meanwhile, add the rice to the pot of boiling water. Cook, uncovered, 17 to 19 minutes, or until tender. Turn off the heat.",
+				"Drain thoroughly and return to the pot. Cover to keep warm."
+			]
+		},
+		{
+			"number": 3,
+			"title": "Prepare the ingredients",
+			"instructions": [
+				"Meanwhile, wash and dry the kale. Separate the leaves from the stems; discard the stems, then roughly chop the leaves.",
+				"Roughly chop the pepitas. Place in a bowl; add the breadcrumbs and 2 teaspoons of olive oil; season with salt and pepper. Stir to combine.",
+				"Halve, peel, and thinly slice the onion."
+			]
+		},
+		{
+			"number": 4,
+			"title": "Coat & bake the tofu",
+			"instructions": [
+				"Line a sheet pan with foil, then lightly oil the foil.",
+				"Transfer the pressed tofu steaks to the sheet pan. Season on both sides with salt, pepper, and enough of the spice blend to coat (you may have extra).",
+				"Using the back of a spoon, evenly spread the honey (kneading the packet before opening) onto the top side of each tofu steak, then evenly top with the pepita breadcrumbs (pressing gently to adhere). Drizzle with olive oil.",
+				"Bake 9 to 11 minutes, or until the topping is browned and the tofu is heated through. Remove from the oven."
+			]
+		},
+		{
+			"number": 5,
+			"title": "Cook the vegetables",
+			"instructions": [
+				"Meanwhile, in a medium pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium-high until hot.",
+				"Add the sliced onion; season with salt and pepper. Cook, stirring occasionally, 3 to 4 minutes, or until slightly softened.",
+				"Add the chopped kale; season with salt and pepper. Cook, stirring frequently, 2 to 3 minutes, or until slightly wilted.",
+				"Add 1/4 cup of water (carefully, as the liquid may splatter). Cook, stirring frequently, 3 to 4 minutes, or until the kale is wilted and the water has cooked off.",
+				"Turn off the heat. Stir in the crème fraîche until combined. Taste, then season with salt and pepper if desired."
+			]
+		},
+		{
+			"number": 6,
+			"title": "Finish the rice & serve your dish",
+			"instructions": [
+				"Add half the tomatillo-poblano sauce to the pot of cooked rice; stir to combine. Taste, then season with salt and pepper if desired.",
+				"Serve the baked tofu with the finished rice and cooked vegetables. Drizzle the remaining tomatillo-poblano sauce over the tofu."
+			]
+		}
+	]
+}
