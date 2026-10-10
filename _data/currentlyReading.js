@@ -2,6 +2,11 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const BOOKS_DIR = path.join(__dirname, "..", "books");
+const SNAPSHOT_PATH = path.join(__dirname, "..", "data", "currently-reading.json");
+
+async function readSnapshot() {
+  return JSON.parse(await fs.promises.readFile(SNAPSHOT_PATH, "utf8"));
+}
 
 // Mark any book flagged as currently reading that StoryGraph no longer
 // returns as read.
@@ -34,7 +39,7 @@ async function markFinishedBooksAsRead(currentlyReading) {
 
 module.exports = async () => {
   if (process.env.SKIP_STORYGRAPH === "true") {
-    return [];
+    return readSnapshot();
   }
 
   const { fetchCurrentlyReading } = require("../lib/storyGraph");
@@ -43,7 +48,12 @@ module.exports = async () => {
   // An empty result usually means the scrape failed, so don't touch anything.
   if (books.length > 0) {
     await markFinishedBooksAsRead(books);
+    await fs.promises.writeFile(
+      SNAPSHOT_PATH,
+      `${JSON.stringify(books, null, 2)}\n`,
+    );
+    return books;
   }
 
-  return books;
+  return readSnapshot();
 };
