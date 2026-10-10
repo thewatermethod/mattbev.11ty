@@ -36,7 +36,7 @@
   ],
   "pantry": ["olive oil", "salt", "pepper"],
   "variants": [
-    { "id": "chicken", "label": "With chicken" }
+    { "id": "chicken", "label": "With chicken", "replaces": ["shrimp"] }
   ],
   "steps": [
     {
@@ -107,7 +107,6 @@
     }
   ],
   "review": [
-    "variants[chicken]: card lists chicken as SWAPPED FOR the shrimp (a replacement, not an addition); the schema has no way to mark shrimp as excluded in that variant",
     "steps[4].variantInstructions.chicken: card says only 'Finish the barley and serve your dish as directed with the cooked chicken (instead of shrimp)'; expanded by substituting 'cooked chicken' for 'cooked shrimp'"
   ]
 }

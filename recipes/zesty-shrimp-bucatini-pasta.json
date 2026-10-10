@@ -29,7 +29,7 @@
   ],
   "pantry": ["olive oil", "salt", "pepper"],
   "variants": [
-    { "id": "banza", "label": "With Banza chickpea pasta" }
+    { "id": "banza", "label": "With Banza chickpea pasta", "replaces": ["bucatini"] }
   ],
   "steps": [
     {
@@ -105,7 +105,6 @@
     }
   ],
   "review": [
-    "variants[banza]: card swaps Banza rotini FOR the bucatini (a replacement, not an addition); the schema has no way to mark bucatini as excluded in that variant",
     "steps[4].variantInstructions.banza[0]: card says only 'Finish the pasta and serve your dish as directed, but stir the pasta gently'; expanded by changing 'stirring constantly' to 'stirring gently'",
     "steps[3].variantInstructions.banza[4]: card says only 'use half the cream (you will have extra)'; expanded by changing 'and cream' to 'and half the cream (you will have extra)'"
   ]

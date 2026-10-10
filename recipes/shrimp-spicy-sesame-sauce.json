@@ -30,7 +30,7 @@
   ],
   "pantry": ["olive oil", "salt", "pepper"],
   "variants": [
-    { "id": "scallops", "label": "With scallops" }
+    { "id": "scallops", "label": "With scallops", "replaces": ["shrimp"] }
   ],
   "steps": [
     {
@@ -94,8 +94,5 @@
         ]
       }
     }
-  ],
-  "review": [
-    "variants[scallops]: card lists scallops as SWAPPED FOR the shrimp (a replacement, not an addition); the schema has no way to mark shrimp as excluded in that variant"
   ]
 }

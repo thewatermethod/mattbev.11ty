@@ -30,7 +30,7 @@
   ],
   "pantry": ["olive oil", "salt", "pepper"],
   "variants": [
-    { "id": "salmon", "label": "With salmon" }
+    { "id": "salmon", "label": "With salmon", "replaces": ["tilapia"] }
   ],
   "steps": [
     {
@@ -93,8 +93,5 @@
         "Serve the glazed fish (including any glaze from the pan) with the finished rice and cooked green beans. Top the fish with the lime yogurt. Garnish with the chopped cashews. Serve the remaining lime wedges on the side."
       ]
     }
-  ],
-  "review": [
-    "variants[salmon]: card lists salmon as SWAPPED FOR the tilapia (a replacement, not an addition); the schema has no way to mark tilapia as excluded in that variant"
   ]
 }

@@ -38,9 +38,10 @@ The reference file is the canonical example. Match its shape exactly, including 
   - `unit`: as printed, with the card's abbreviation style (`oz`, `Tbsp`, `tsp`, `cup`, `cloves`). When the card gives a count of a packaged size, put the package in the unit: "1 8-oz can Tomato Sauce" is quantity `1`, unit `"8-oz can"`. For a bare count ("2 Scallions"), use `"unit": null`.
   - `item`: the ingredient name in lowercase, except proper nouns and brand names.
   - `note`: footnote text attached to the ingredient, such as the contents of a spice blend.
-  - `variant`: set only on ingredients that belong to a customized option, using that variant's `id`.
+  - `variant`: set only on ingredients that belong to a customized option, using that variant's `id`. An ingredient without `variant` shows in every variant unless that variant lists it in `replaces`.
 - `pantry`: staples the steps call for that are not in the printed ingredient list (olive oil, salt, pepper, butter, and so on). Read the steps to find them.
-- `variants`: array of `{ "id", "label" }`, one per customized option on the card. Use an empty array if there are none.
+- `variants`: array of `{ "id", "label" }`, plus optional `replaces`, one per customized option on the card. Use an empty array if there are none.
+  - `replaces`: array of base ingredient ids that the variant swaps out, placed after `label`. Use it when the card says the variant ingredient is "SWAPPED FOR" a base ingredient, or says "Swap in X for Y" or "X instead of Y": `{ "id": "pork-chops", "label": "With pork chops", "replaces": ["salmon"] }`. Those ingredients are hidden in that variant. List only ingredients without a `variant` key. Omit `replaces` when the variant only adds ingredients, as in the reference file.
 - `steps`: array of `{ "number", "title", "instructions" }`, plus optional `variantInstructions`.
   - `instructions`: one string per bullet, in order.
   - `variantInstructions`: an object keyed by variant id, each value a complete replacement array for that step. Include it only on steps the card customizes.
@@ -66,6 +67,7 @@ The reference file is the canonical example. Match its shape exactly, including 
 - `time.min` is no greater than `time.max`;
 - ingredient ids are unique;
 - every `variant` on an ingredient and every key in `variantInstructions` names an id in `variants`;
+- every `replaces` is a non-empty array of ingredient ids, none of which carries a `variant`;
 - step numbers are consecutive starting at 1;
 - every `instructions` and `variantInstructions` array is non-empty and contains only non-empty strings.
 

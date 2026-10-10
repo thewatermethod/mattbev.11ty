@@ -40,6 +40,20 @@ function validate(file) {
     }
   });
 
+  const byId = new Map(ingredients.map((ing) => [ing.id, ing]));
+  (recipe.variants || []).forEach((v, i) => {
+    if (!("replaces" in v)) return;
+    if (!Array.isArray(v.replaces) || v.replaces.length === 0) {
+      fail(`variants[${i}].replaces must be a non-empty array`);
+      return;
+    }
+    v.replaces.forEach((id, j) => {
+      const ing = byId.get(id);
+      if (!ing) fail(`variants[${i}].replaces[${j}] "${id}" is not an ingredient id`);
+      else if ("variant" in ing) fail(`variants[${i}].replaces[${j}] "${id}" is a variant ingredient, not a base one`);
+    });
+  });
+
   if (recipe.time && recipe.time.min > recipe.time.max) {
     fail(`time.min (${recipe.time.min}) is greater than time.max (${recipe.time.max})`);
   }

@@ -34,8 +34,8 @@
   ],
   "pantry": ["cooking oil", "sugar", "kosher salt", "black pepper"],
   "variants": [
-    { "id": "chicken", "label": "With chicken cutlets" },
-    { "id": "organic-chicken", "label": "With organic chicken cutlets" }
+    { "id": "chicken", "label": "With chicken cutlets", "replaces": ["pork"] },
+    { "id": "organic-chicken", "label": "With organic chicken cutlets", "replaces": ["pork"] }
   ],
   "steps": [
     {
@@ -106,7 +106,6 @@
     "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 12 oz green beans, 1/4 oz rosemary, 2 demi-baguettes, 20 oz pork chops, 2 stock concentrates, 10 tsp balsamic vinegar, 4 TBSP garlic herb butter; chicken / organic chicken 20 oz)",
     "time: card gives prep 5 min and cook 20 min with no total; set min and max to the sum, 25",
     "steps[1]: footnotes are cut off at the left edge of the photo, read as '*Pork is fully cooked when internal temperature reaches 145°' and '*Chicken is fully cooked when internal temperature reaches 165°'",
-    "variants: card swaps chicken or organic chicken FOR the pork (a replacement, not an addition); the schema has no way to mark pork as excluded in those variants",
     "steps[3].variantInstructions: card only says 'Thinly slice chicken or organic chicken crosswise'; also changed 'Divide pork' and 'Top pork' to chicken so the variant reads on its own"
   ]
 }

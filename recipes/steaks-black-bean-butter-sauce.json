@@ -32,7 +32,7 @@
   ],
   "pantry": ["olive oil", "salt", "pepper"],
   "variants": [
-    { "id": "strip-steaks", "label": "With NY strip steaks" }
+    { "id": "strip-steaks", "label": "With NY strip steaks", "replaces": ["steaks"] }
   ],
   "steps": [
     {
@@ -100,7 +100,6 @@
     }
   ],
   "review": [
-    "variants[strip-steaks]: card lists NY strip steaks as SWAPPED FOR the base steaks (a replacement, not an addition); the schema has no way to mark the base steaks as excluded in that variant",
     "ingredients[strip-steaks]: card prints '2 10-oz No Added Hormones NY Strip Steaks'; recorded as quantity 2 with unit '10-oz' (package size in the unit), check this fits the site's unit display",
     "ingredients[steaks]: card lists only '2 Steaks' with no cut or weight"
   ]

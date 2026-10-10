@@ -29,7 +29,7 @@
   ],
   "pantry": ["cooking oil", "butter", "kosher salt", "black pepper"],
   "variants": [
-    { "id": "steak", "label": "With bavette steak" }
+    { "id": "steak", "label": "With bavette steak", "replaces": ["pork"] }
   ],
   "steps": [
     {
@@ -102,7 +102,6 @@
     "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 2 shallots, 2 limes, 1/2 oz cilantro, 1 Cup rice, 20 oz pork, 16 oz broccoli, 2 oz chili sauce, 2 stock concentrates, 12 ml ponzu; steak 20 oz)",
     "time: card gives prep 10 min and cook 35 min with no total; set min and max to the sum, 45",
     "steps[2].instructions[0] and variantInstructions.steak[0]: footnotes are cut off at the left edge of the photo, read as '[Pork/Steak] is fully cooked when internal temperature reaches 145°'",
-    "variants[steak]: card swaps steak FOR the pork (a replacement, not an addition); the schema has no way to mark pork as excluded in that variant",
     "steps[4] and steps[5]: the card does not customize these steps, but their text still refers to 'pan used for pork' and 'Top pork with pan sauce'; the steak variant will render the pork wording"
   ]
 }
