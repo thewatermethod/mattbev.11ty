@@ -1,0 +1,8 @@
+<nav class="tags" aria-label="Recipe tags">
+  <ul>
+    <li>{% if not currentTag %}<strong>All</strong>{% else %}<a href="{{ '/recipes/' | url }}">All</a>{% endif %}</li>
+    {%- for tag in recipeTags %}
+    <li>{% if tag == currentTag %}<strong>{{ tag }}</strong>{% else %}<a href="{{ ('/recipes/tags/' + (tag | slugify) + '/') | url }}">{{ tag }}</a>{% endif %}</li>
+    {%- endfor %}
+  </ul>
+</nav>

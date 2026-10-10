@@ -1,0 +1,74 @@
+{
+  "title": "Roasted Veggie Farro Bowls",
+  "subtitle": "with Marinated Cranberries & Salsa Verde Sunflower Pepitas",
+  "slug": "roasted-veggie-farro-bowls",
+  "source": {
+    "name": "HelloFresh",
+    "url": "https://www.hellofresh.com"
+  },
+  "servings": 2,
+  "time": { "min": 40, "max": 40, "unit": "minutes" },
+  "tags": ["vegetarian", "grain-bowl"],
+  "ingredients": [
+    { "id": "farro", "quantity": 0.75, "unit": "Cup", "item": "farro" },
+    { "id": "stock-concentrate", "quantity": 1, "unit": null, "item": "veggie stock concentrate" },
+    { "id": "onion", "quantity": 1, "unit": null, "item": "yellow onion" },
+    { "id": "sweet-potatoes", "quantity": 2, "unit": null, "item": "sweet potatoes" },
+    { "id": "chili-powder", "quantity": 1, "unit": "tsp", "item": "chili powder" },
+    { "id": "lemon", "quantity": 1, "unit": null, "item": "lemon" },
+    { "id": "cranberries", "quantity": 1.16, "unit": "oz", "item": "Ocean Spray Craisins dried cranberries" },
+    { "id": "arugula", "quantity": 2, "unit": "oz", "item": "arugula" },
+    { "id": "parmesan", "quantity": 0.25, "unit": "Cup", "item": "Parmesan cheese" },
+    { "id": "pepitas", "quantity": 0.5, "unit": "oz", "item": "salsa verde sunflower pepitas" }
+  ],
+  "pantry": ["vegetable oil", "sugar", "olive oil", "butter", "kosher salt", "black pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Cook farro",
+      "instructions": [
+        "Place a lightly oiled baking sheet on top rack and preheat oven to 425 degrees. In a medium pot, combine farro, stock concentrate, and 3 1/2 cups water (6 cups for 4 servings). Boil until farro is tender, 25-30 minutes. TIP: If you end up with any excess stock, simply pour it out. Alternatively, if stock evaporates before farro is done, add a splash of water."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prep & roast veggies",
+      "instructions": [
+        "Meanwhile, wash and dry all produce. Halve, peel, and slice onion into 1-inch-thick wedges. Dice sweet potatoes into 1/2-inch pieces. Toss veggies in a large bowl with a large drizzle of oil, chili powder, salt, and pepper. Carefully spread out on preheated baking sheet. Roast on top rack until browned and tender, 20-25 minutes."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Marinate cranberries",
+      "instructions": [
+        "While veggies roast, zest and quarter lemon (for 4 servings, zest 1 lemon; quarter both). In a small bowl, combine juice from 2 lemon wedges (4 wedges for 4) and 1 tsp sugar (2 tsp for 4). Stir in cranberries. Let marinate, stirring occasionally, at least 15 minutes."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Make dressing",
+      "instructions": [
+        "Once cranberries are marinated, transfer lemon juice marinade to a second large bowl (leave cranberries in small bowl). Whisk 1 TBSP olive oil (2 TBSP for 4 servings) into bowl with marinade; taste and season with salt and pepper."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Finish farro & make salad",
+      "instructions": [
+        "Stir 2 TBSP butter (4 TBSP for 4 servings), half the roasted veggies, and half the dressing into pot with farro. Season with salt and pepper. To bowl with remaining dressing, add arugula, cranberries, and remaining roasted veggies; toss to coat. Season with salt and pepper."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Serve",
+      "instructions": [
+        "Divide farro mixture between bowls. Top with salad. Sprinkle with Parmesan, pepitas, and as much lemon zest as you like. Serve with remaining lemon wedges on the side."
+      ]
+    }
+  ],
+  "review": [
+    "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 1 1/2 Cups farro, 2 stock concentrates, 2 onions, 4 sweet potatoes, 2 tsp chili powder, 2 lemons, 2.32 oz cranberries, 4 oz arugula, 1/2 Cup Parmesan, 1 oz pepitas)",
+    "time: card gives prep 5 min and total 40 min; used total for min and max"
+  ]
+}

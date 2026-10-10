@@ -45,6 +45,6 @@ Personal website for Matt Bevilacqua (mattbev.com) built with Eleventy v3. Deplo
 
 ### Build Notes
 
-- Netlify build uses `xvfb-run` wrapper for Playwright headless browser support
+- Netlify build sets `SKIP_STORYGRAPH=true` to read `data/currently-reading.json` without StoryGraph scraping; local builds refresh this tracked snapshot
 - Node 22 required (see `netlify.toml`)
 - Playwright browsers install on `postinstall`

@@ -1,0 +1,73 @@
+{
+  "title": "Seared Chicken & Fregola Sarda",
+  "subtitle": "with Salsa Verde, Corn & Tomato",
+  "slug": "seared-chicken-fregola-sarda",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 35, "max": 45, "unit": "minutes" },
+  "tags": ["chicken", "pasta"],
+  "ingredients": [
+    { "id": "chicken", "quantity": 2, "unit": null, "item": "boneless, skin-on chicken breasts" },
+    { "id": "fregola", "quantity": 0.667, "unit": "Cup", "item": "fregola sarda pasta" },
+    { "id": "garlic", "quantity": 3, "unit": "Cloves", "item": "garlic" },
+    { "id": "corn", "quantity": 1, "unit": "Ear", "item": "corn" },
+    { "id": "tomato", "quantity": 1, "unit": null, "item": "plum tomato" },
+    { "id": "parsley", "quantity": 1, "unit": "Bunch", "item": "parsley" },
+    { "id": "capers", "quantity": 1, "unit": "Tablespoon", "item": "capers" },
+    { "id": "vinegar", "quantity": 1, "unit": "Tablespoon", "item": "red wine vinegar" },
+    { "id": "parmesan", "quantity": 0.25, "unit": "Cup", "item": "grated parmesan cheese" },
+    { "id": "red-pepper-flakes", "quantity": 0.25, "unit": "Teaspoon", "item": "crushed red pepper flakes" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Wash and dry the fresh produce. Heat a small pot of salted water to boiling on high. Finely chop the capers. Finely chop the parsley leaves and stems. Peel and mince the garlic; smash with the side of your knife until it resembles a paste (or use a zester). Remove and discard the husks and silks of the corn. Cut the corn kernels off the cob; discard the cob. Core and small dice the tomato."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Make the salsa verde",
+      "instructions": [
+        "In a bowl, combine the vinegar, capers, parsley, half the cheese and 1/4 of the garlic paste. Slowly stir in enough olive oil to create a rough paste; season with salt and pepper to taste."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the pasta",
+      "instructions": [
+        "Add the pasta to the pot of boiling water and cook, uncovered, 8 to 10 minutes, or until tender. Reserving 1/4 cup of the pasta cooking water, drain thoroughly."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the vegetables",
+      "instructions": [
+        "While the pasta cooks, in a large, high-sided pan (or pot), heat 2 teaspoons of olive oil on medium-high until hot. Add the corn; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until softened. Add the tomato, remaining garlic paste and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until softened. Transfer to a bowl and set aside in a warm place. Wipe out the pan."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Cook the chicken",
+      "instructions": [
+        "While the pasta continues to cook, pat the chicken dry with paper towels; season with salt and pepper on both sides. In the same pan, heat 2 teaspoons of olive oil on medium-high until hot. Add the seasoned chicken, skin sides down, and cook 5 to 7 minutes per side, or until browned and cooked through. Transfer to a cutting board, leaving any browned bits (or fond) in the pan, and set aside in a warm place."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Finish the pasta & plate your dish",
+      "instructions": [
+        "Add the cooked pasta, cooked vegetables and reserved pasta cooking water to the pan. Cook on medium-high, stirring frequently and scraping up any fond from the bottom of the pan, 1 to 2 minutes, or until thoroughly combined and heated through. Remove from heat and season with salt and pepper to taste. Cut the cooked chicken crosswise into thirds. Divide the finished pasta and chicken between 2 dishes. Top the chicken with the salsa verde. Garnish with the remaining cheese."
+      ]
+    }
+  ],
+  "review": [
+    "time: card gives prep 10 minutes and cook 25-35 minutes with no total; set min 35 and max 45 (prep + cook range)"
+  ]
+}

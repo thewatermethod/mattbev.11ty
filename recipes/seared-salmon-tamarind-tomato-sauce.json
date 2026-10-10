@@ -1,0 +1,79 @@
+{
+  "title": "Seared Salmon & Tamarind-Tomato Sauce",
+  "subtitle": "with Aromatic Rice & Marinated Vegetables",
+  "slug": "seared-salmon-tamarind-tomato-sauce",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 30, "max": 40, "unit": "minutes" },
+  "tags": ["seafood", "rice"],
+  "ingredients": [
+    { "id": "salmon", "quantity": 2, "unit": null, "item": "skin-on salmon fillets" },
+    { "id": "zucchini", "quantity": 1, "unit": null, "item": "zucchini" },
+    { "id": "radishes", "quantity": 3, "unit": "oz", "item": "radishes" },
+    { "id": "tomato-paste", "quantity": 2, "unit": "Tbsps", "item": "tomato paste" },
+    { "id": "crispy-onions", "quantity": 0.333, "unit": "cup", "item": "crispy onions" },
+    { "id": "vinegar", "quantity": 1, "unit": "Tbsp", "item": "white wine vinegar" },
+    { "id": "rice", "quantity": 0.5, "unit": "cup", "item": "jasmine rice" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "tamarind-paste", "quantity": 2, "unit": "tsps", "item": "tamarind paste" },
+    { "id": "aromatics", "quantity": 0.333, "unit": "cup", "item": "Asian-style sautéed aromatics" },
+    { "id": "shallot", "quantity": 1, "unit": null, "item": "shallot" },
+    { "id": "curry-powder", "quantity": 2, "unit": "tsps", "item": "vadouvan curry powder" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Wash and dry the fresh produce.",
+        "Halve the zucchini lengthwise, then thinly slice crosswise.",
+        "Halve the radishes lengthwise, then thinly slice crosswise.",
+        "In a large bowl, combine the sliced zucchini and sliced radishes.",
+        "Peel 2 cloves of garlic. Finely chop 1 clove. Using a zester, finely grate the remaining clove into a paste (or use the small side of a box grater).",
+        "Peel and small dice the shallot."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook & finish the rice",
+      "instructions": [
+        "In a small pot, combine the rice, a big pinch of salt, and 1 cup of water. Heat to boiling on high.",
+        "Once boiling, reduce the heat to low. Cover and cook, without stirring, 12 to 14 minutes, or until the water has been absorbed and the rice is tender. Turn off the heat and fluff with a fork.",
+        "Immediately add the sautéed aromatics; stir until combined. Taste, then season with salt and pepper if desired. Cover to keep warm."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Marinate the vegetables",
+      "instructions": [
+        "Meanwhile, to the bowl of sliced zucchini and radishes, add the vinegar, 1 tablespoon of olive oil, and as much of the garlic paste as you'd like; season with salt and pepper. Stir to coat.",
+        "Set aside to marinate, stirring occasionally, at least 10 minutes. Taste, then season with salt and pepper if desired."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the fish",
+      "instructions": [
+        "Meanwhile, pat the fish dry with paper towels; season with salt and pepper on both sides.",
+        "In a medium pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium until hot.",
+        "Add the seasoned fish, skin side down. Cook 5 to 7 minutes, or until the skin is lightly browned and crispy. Flip and cook 1 to 2 minutes, or until browned and cooked through.** **An instant-read thermometer should register 145°F.",
+        "Leaving any browned bits (or fond) in the pan, transfer to a plate."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Make the sauce & serve your dish",
+      "instructions": [
+        "To the pan of reserved fond, add the chopped garlic, diced shallot, and curry powder; season with salt and pepper (if the pan seems dry, add a drizzle of olive oil). Cook on medium-high, stirring constantly, 30 seconds to 1 minute, or until slightly softened and fragrant.",
+        "Add the tomato paste. Cook, stirring constantly, 30 seconds to 1 minute, or until thoroughly combined.",
+        "Add the tamarind paste and 1/2 cup of water (carefully, as the liquid may splatter); season with salt and pepper. Cook, stirring occasionally, 1 to 2 minutes, or until thickened. Turn off the heat. Taste, then season with salt and pepper if desired.",
+        "Serve the cooked fish (skin side up) with the finished rice and marinated vegetables (discarding any liquid). Top the fish with the sauce. Garnish with the crispy onions."
+      ]
+    }
+  ]
+}

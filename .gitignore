@@ -4,6 +4,8 @@ img/
 node_modules/
 package-lock.json
 
+scans/
+
 # Local Netlify folder
 .netlify
 

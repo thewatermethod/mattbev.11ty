@@ -1,0 +1,76 @@
+{
+  "title": "Griddled Onion Cheeseburgers",
+  "subtitle": "with Special Sauce & Garlic Potato Wedges",
+  "slug": "griddled-onion-cheeseburgers",
+  "source": {
+    "name": "HelloFresh",
+    "url": "https://www.hellofresh.com"
+  },
+  "servings": 2,
+  "time": { "min": 35, "max": 35, "unit": "minutes" },
+  "tags": ["beef", "burgers", "weeknight"],
+  "ingredients": [
+    { "id": "onion", "quantity": 1, "unit": null, "item": "yellow onion" },
+    { "id": "potatoes", "quantity": 12, "unit": "oz", "item": "Yukon Gold potatoes" },
+    { "id": "tomato", "quantity": 1, "unit": null, "item": "Roma tomato" },
+    { "id": "shallot", "quantity": 1, "unit": null, "item": "shallot" },
+    { "id": "buns", "quantity": 2, "unit": null, "item": "potato buns" },
+    { "id": "garlic-powder", "quantity": 1, "unit": "tsp", "item": "garlic powder" },
+    { "id": "vinegar", "quantity": 5, "unit": "tsp", "item": "white wine vinegar" },
+    { "id": "ketchup", "quantity": 2, "unit": "TBSP", "item": "ketchup" },
+    { "id": "mustard", "quantity": 2, "unit": "tsp", "item": "Dijon mustard" },
+    { "id": "sour-cream", "quantity": 2, "unit": "TBSP", "item": "sour cream" },
+    { "id": "beef", "quantity": 10, "unit": "oz", "item": "ground beef" },
+    { "id": "cheddar", "quantity": 0.5, "unit": "Cup", "item": "cheddar cheese" }
+  ],
+  "pantry": ["vegetable oil", "sugar", "kosher salt", "black pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prep",
+      "instructions": [
+        "Adjust rack to top position and preheat oven to 425 degrees. Wash and dry all produce. Halve, peel, and finely dice onion. Cut potatoes into 1/2-inch-thick wedges. Thinly slice tomato into rounds. Halve, peel, and mince shallot until you have 2 TBSP (4 TBSP for 4 servings). Halve buns."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Roast potatoes",
+      "instructions": [
+        "Toss potatoes on a baking sheet with a drizzle of oil, 3/4 tsp garlic powder (1 1/2 tsp for 4 servings; you'll use the rest in the next step), salt, and pepper. Roast on top rack until browned and crisp, 20-25 minutes."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Pickle shallot & make sauce",
+      "instructions": [
+        "Meanwhile, in a small bowl, combine minced shallot, vinegar, 1 tsp sugar (2 tsp for 4 servings), and a pinch of salt. In a separate small bowl, combine ketchup, mustard, sour cream, remaining garlic powder, and 1 tsp sugar (2 tsp for 4)."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook onion",
+      "instructions": [
+        "Heat a drizzle of oil in a large pan over medium-high heat. Add onion and cook, stirring occasionally, until browned and softened, 5-7 minutes. Season with salt and pepper. Transfer to a plate."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Form & cook patties",
+      "instructions": [
+        "While onion cooks, form beef into two patties (four patties for 4 servings), each slightly wider than a burger bun. Season generously with salt and pepper. Heat a drizzle of oil in pan used for onion over medium-high heat. Add patties and cook almost to desired doneness, 3-5 minutes per side. Top each patty with cheddar and cover pan until cheese melts and patties are cooked to your liking, 1-2 minutes more."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Finish & serve",
+      "instructions": [
+        "While cheese melts, toast buns until golden brown. Drain pickled shallot, discarding liquid. Stir shallot into bowl with sauce. Fill toasted buns with patties, onion, tomato, and sauce. Serve with potatoes and any remaining sauce on the side for dipping."
+      ]
+    }
+  ],
+  "review": [
+    "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 2 onions, 24 oz potatoes, 2 tomatoes, 1 shallot, 4 buns, 2 tsp garlic powder, 10 tsp vinegar, 4 TBSP ketchup, 4 tsp mustard, 4 TBSP sour cream, 20 oz beef, 1 Cup cheddar)",
+    "time: card gives prep 10 min and total 35 min; used total for min and max"
+  ]
+}

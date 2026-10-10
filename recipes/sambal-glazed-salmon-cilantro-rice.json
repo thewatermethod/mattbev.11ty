@@ -1,0 +1,100 @@
+{
+  "title": "Sambal-Glazed Salmon & Cilantro Rice",
+  "subtitle": "with Marinated Carrots & Sesame Broccoli",
+  "slug": "sambal-glazed-salmon-cilantro-rice",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 25, "max": 35, "unit": "minutes" },
+  "tags": ["seafood", "rice", "weeknight"],
+  "ingredients": [
+    { "id": "salmon", "quantity": 2, "unit": null, "item": "skin-on salmon fillets" },
+    { "id": "soy-glaze", "quantity": 2, "unit": "Tbsp", "item": "soy glaze" },
+    { "id": "sesame-seeds", "quantity": 1, "unit": "tsp", "item": "black & white sesame seeds" },
+    { "id": "rice", "quantity": 0.5, "unit": "cup", "item": "brown rice" },
+    { "id": "carrots", "quantity": 6, "unit": "oz", "item": "carrots" },
+    { "id": "cilantro-sauce", "quantity": 0.25, "unit": "cup", "item": "cilantro sauce" },
+    { "id": "rice-vinegar", "quantity": 1, "unit": "Tbsp", "item": "rice vinegar" },
+    { "id": "broccoli", "quantity": 0.5, "unit": "lb", "item": "broccoli" },
+    { "id": "jalapeno", "quantity": 1, "unit": "oz", "item": "sliced pickled jalapeño pepper" },
+    { "id": "sambal-oelek", "quantity": 1, "unit": "Tbsp", "item": "sambal oelek" },
+    { "id": "sesame-oil", "quantity": 1, "unit": "Tbsp", "item": "sesame oil" },
+    {
+      "id": "shrimp",
+      "quantity": 10,
+      "unit": "oz",
+      "item": "tail-on shrimp",
+      "note": "peeled & deveined",
+      "variant": "shrimp"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [
+    { "id": "shrimp", "label": "With shrimp", "replaces": ["salmon"] }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Make the cilantro rice",
+      "instructions": [
+        "In a small pot, combine the rice and 1/2 cup of water. Heat to boiling on high.",
+        "Once boiling, reduce the heat to low. Cover and cook, without stirring, 23 to 25 minutes, or until the water has been absorbed and the rice is tender.",
+        "Turn off the heat and fluff with a fork. Stir in the cilantro sauce until combined. Taste, then season with salt and pepper if desired.",
+        "Cover to keep warm."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prepare the ingredients & marinate the carrots",
+      "instructions": [
+        "Meanwhile, wash and dry the fresh produce.",
+        "Cut off and discard the bottom 1/2 inch of the broccoli stem; cut the broccoli into small florets.",
+        "Peel the carrots and grate on the large side of a box grater.",
+        "Roughly chop the pepper. Thoroughly wash your hands immediately after handling.",
+        "In a bowl, combine the grated carrots, half the vinegar, and as much of the chopped pepper as you'd like, depending on how spicy you'd like the dish to be. Season with salt and pepper. Set aside to marinate, stirring occasionally, at least 10 minutes. Taste, then season with salt and pepper if desired."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Make the glaze",
+      "instructions": [
+        "Meanwhile, in a bowl, combine the soy glaze, remaining vinegar, 2 tablespoons of water, and as much of the sambal oelek as you'd like, depending on how spicy you'd like the dish to be."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the broccoli",
+      "instructions": [
+        "In a large pan (nonstick, if you have one), heat the sesame oil on medium-high until hot.",
+        "Add the broccoli florets; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until lightly browned.",
+        "Add 1/4 cup of water (carefully, as the liquid may splatter). Loosely cover the pan with foil and cook, without stirring, 2 to 3 minutes, or until the broccoli is softened and the water has cooked off.",
+        "Transfer to a bowl and cover with foil to keep warm.",
+        "Wipe out the pan."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Cook the salmon & serve your dish",
+      "instructions": [
+        "Pat the salmon dry with paper towels; season with salt and pepper on both sides.",
+        "In the same pan, heat a drizzle of olive oil on medium until hot.",
+        "Add the seasoned salmon, skin side up. Loosely cover the pan with foil and cook 3 to 5 minutes, or until lightly browned. Flip and cook 2 minutes.",
+        "Add the glaze (carefully, as the liquid may splatter). Cook, constantly spooning the glaze over the fish, 1 to 2 minutes, or until the salmon is coated and cooked through.",
+        "Turn off the heat.",
+        "Serve the cilantro rice topped with the cooked salmon (including any glaze from the pan), marinated carrots (including any liquid), and cooked broccoli. Garnish with the sesame seeds."
+      ],
+      "variantInstructions": {
+        "shrimp": [
+          "Pat the shrimp dry with paper towels; remove the tails, if desired. Season with salt and pepper.",
+          "In the same pan, heat a drizzle of olive oil on medium-high until hot.",
+          "Add the seasoned shrimp in an even layer. Cook, without stirring, 2 to 3 minutes, or until slightly opaque.",
+          "Add the glaze (carefully, as the liquid may splatter). Cook, stirring frequently, 1 to 2 minutes, or until the shrimp are coated, opaque, and cooked through.",
+          "Turn off the heat.",
+          "Serve the cilantro rice topped with the cooked shrimp (including any glaze from the pan), marinated carrots (including any liquid), and cooked broccoli. Garnish with the sesame seeds."
+        ]
+      }
+    }
+  ]
+}

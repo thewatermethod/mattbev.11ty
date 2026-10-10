@@ -1,0 +1,104 @@
+{
+	"title": "Crispy Cod & Summer Squash",
+	"subtitle": "with Quinoa & Arugula Salad",
+	"slug": "crispy-cod-summer-squash",
+	"source": {
+		"name": "Blue Apron",
+		"url": "https://www.blueapron.com"
+	},
+	"servings": 2,
+	"time": { "min": 30, "max": 40, "unit": "minutes" },
+	"tags": ["seafood", "salad"],
+	"ingredients": [
+		{ "id": "cod", "quantity": 2, "unit": null, "item": "cod fillets" },
+		{ "id": "egg", "quantity": 1, "unit": null, "item": "farm egg" },
+		{ "id": "arugula", "quantity": 2, "unit": "Ounces", "item": "arugula" },
+		{ "id": "garlic", "quantity": 1, "unit": "Clove", "item": "garlic" },
+		{
+			"id": "squash",
+			"quantity": 1,
+			"unit": null,
+			"item": "yellow summer squash"
+		},
+		{
+			"id": "almonds",
+			"quantity": 2,
+			"unit": "Tablespoons",
+			"item": "almonds"
+		},
+		{
+			"id": "vinegar",
+			"quantity": 2,
+			"unit": "Tablespoons",
+			"item": "champagne vinegar"
+		},
+		{
+			"id": "mustard",
+			"quantity": 1,
+			"unit": "Tablespoon",
+			"item": "Dijon mustard"
+		},
+		{
+			"id": "panko",
+			"quantity": 0.5,
+			"unit": "Cup",
+			"item": "panko breadcrumbs"
+		},
+		{ "id": "quinoa", "quantity": 0.25, "unit": "Cup", "item": "red quinoa" },
+		{
+			"id": "flour",
+			"quantity": 0.25,
+			"unit": "Cup",
+			"item": "all-purpose flour"
+		}
+	],
+	"pantry": ["olive oil", "salt", "pepper"],
+	"variants": [],
+	"steps": [
+		{
+			"number": 1,
+			"title": "Cook the quinoa",
+			"instructions": [
+				"Heat a small pot of salted water to boiling on high. Thoroughly rinse the quinoa under cold water. Once the pot of water is boiling, add the rinsed quinoa and cook 16 to 18 minutes, or until tender. Drain thoroughly and transfer to a medium bowl."
+			]
+		},
+		{
+			"number": 2,
+			"title": "Prepare the ingredients",
+			"instructions": [
+				"While the quinoa cooks, wash and dry the fresh produce. Peel and mince the garlic; using the flat side of your knife, smash until it resembles a paste (or use a zester). Cut off and discard the ends of the squash; halve the squash crosswise, then thinly slice lengthwise into planks. Roughly chop the almonds."
+			]
+		},
+		{
+			"number": 3,
+			"title": "Make the dressing & marinate the squash",
+			"instructions": [
+				"While the quinoa continues to cook, in a large bowl, combine the mustard, vinegar and as much of the garlic paste as you'd like; season with salt and pepper to taste. Slowly whisk in 2 tablespoons of olive oil until well combined. Add the squash; season with salt and pepper and toss to coat. Set aside to marinate, stirring occasionally, for at least 10 minutes."
+			]
+		},
+		{
+			"number": 4,
+			"title": "Bread the cod",
+			"instructions": [
+				"While the squash marinates, crack the egg into a medium bowl and beat until smooth. Place the flour and breadcrumbs in 2 separate medium bowls (or plates); season both with salt and pepper. Pat the cod fillets dry with paper towels; season with salt and pepper on both sides. Working 1 at a time, thoroughly coat the seasoned fillets in the flour (tapping off any excess), then in the beaten egg (letting the excess drip off), then in the breadcrumbs (pressing to adhere). Transfer to a plate."
+			]
+		},
+		{
+			"number": 5,
+			"title": "Cook the cod",
+			"instructions": [
+				"While the squash continues to marinate, in a medium pan (nonstick, if you have one), heat a thin layer of oil on medium-high until hot. Once the oil is hot enough that a few breadcrumbs sizzle immediately when added to the pan, add the breaded cod fillets. Cook 3 to 5 minutes on the first side, or until golden brown. Flip and cook 2 to 3 minutes, or until crispy and cooked through. Transfer to a paper towel-lined plate; immediately season with salt and pepper."
+			]
+		},
+		{
+			"number": 6,
+			"title": "Make the salad & plate your dish",
+			"instructions": [
+				"Just before serving, leaving the dressing in the bowl, divide the marinated squash between 2 dishes. To the bowl of reserved dressing, add the cooked quinoa, arugula and almonds; season with salt and pepper. Toss to combine; season with salt and pepper to taste. Divide the cooked cod fillets between the dishes of squash. Top with some of the salad. Serve with any remaining salad on the side."
+			]
+		}
+	],
+	"review": [
+		"time: card gives prep 10 minutes and cook 20-30 minutes with no total; set min 30 and max 40 (prep + cook range)"
+	]
+}

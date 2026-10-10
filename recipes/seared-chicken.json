@@ -1,0 +1,83 @@
+{
+  "title": "Seared Chicken",
+  "subtitle": "with Spicy Kale & Mushroom Farro",
+  "slug": "seared-chicken",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 25, "max": 35, "unit": "minutes" },
+  "tags": ["chicken", "grain-bowl"],
+  "ingredients": [
+    { "id": "chicken", "quantity": 2, "unit": null, "item": "boneless, skinless chicken breasts" },
+    { "id": "kale", "quantity": 1, "unit": "bunch", "item": "kale" },
+    { "id": "mushrooms", "quantity": 0.5, "unit": "oz", "item": "dried shiitake mushrooms" },
+    { "id": "creme-fraiche", "quantity": 2, "unit": "Tbsps", "item": "crème fraîche" },
+    { "id": "red-pepper-flakes", "quantity": 0.25, "unit": "tsp", "item": "crushed red pepper flakes" },
+    { "id": "farro", "quantity": 0.5, "unit": "cup", "item": "semi-pearled farro" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "vinegar", "quantity": 1, "unit": "Tbsp", "item": "white wine vinegar" },
+    { "id": "parmesan", "quantity": 0.25, "unit": "cup", "item": "grated parmesan cheese" },
+    {
+      "id": "spice-blend",
+      "quantity": 1,
+      "unit": "Tbsp",
+      "item": "Weeknight Hero Spice Blend",
+      "note": "Onion Powder, Garlic Powder, Smoked Paprika & Whole Dried Parsley"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the mushrooms & cook the farro",
+      "instructions": [
+        "Fill a medium pot with salted water; cover and heat to boiling on high.",
+        "Finely chop the mushrooms.",
+        "Once the pot of water is boiling, add the farro and chopped mushrooms. Cook, uncovered, 18 to 20 minutes, or until tender.",
+        "Turn off the heat. Drain thoroughly and return to the pot. Cover to keep warm."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the chicken",
+      "instructions": [
+        "While the farro and mushrooms cook, pat the chicken dry with paper towels. Season on both sides with salt, pepper, and enough of the spice blend to coat (you may have extra).",
+        "In a medium pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium-high until hot.",
+        "Add the seasoned chicken and cook 6 to 7 minutes per side, or until browned and cooked through.",
+        "Leaving any browned bits (or fond) in the pan, transfer to a cutting board."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Prepare the remaining ingredients",
+      "instructions": [
+        "While the chicken cooks, wash and dry the kale. Separate the leaves from the stems; discard the stems, then thinly slice the leaves. Peel and roughly chop 2 cloves of garlic."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the kale",
+      "instructions": [
+        "Add 1 teaspoon of olive oil to the pan of reserved fond; heat on medium-high until hot.",
+        "Add the sliced kale and chopped garlic; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until the kale is slightly wilted.",
+        "Add the vinegar (carefully, as the liquid may splatter), 1/4 cup of water, and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be. Cook, stirring frequently, 2 to 3 minutes, or until the kale is wilted and the liquid has cooked off.",
+        "Turn off the heat. Taste, then season with salt and pepper if desired."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Finish the farro & serve your dish",
+      "instructions": [
+        "To the pot of cooked farro, add the cooked kale, crème fraîche, and half the cheese. Stir to combine. Taste, then season with salt and pepper if desired.",
+        "Slice the cooked chicken crosswise.",
+        "Serve the finished farro topped with the sliced chicken. Garnish with the remaining cheese."
+      ]
+    }
+  ],
+  "review": [
+    "slug: title is just 'Seared Chicken', so the slug 'seared-chicken' is very generic and may collide with a future card; consider whether to include the subtitle"
+  ]
+}

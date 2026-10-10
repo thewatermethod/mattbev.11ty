@@ -1,0 +1,87 @@
+{
+  "title": "Hawaiian Salmon Poke Bowl",
+  "subtitle": "Cabbage, bell pepper & orange slaw, sushi rice, ginger relish",
+  "slug": "hawaiian-salmon-poke-bowl",
+  "source": {
+    "name": "Green Chef",
+    "url": "https://www.greenchef.com"
+  },
+  "servings": 2,
+  "time": { "min": 30, "max": 30, "unit": "minutes" },
+  "tags": ["seafood", "rice", "gluten-free"],
+  "ingredients": [
+    { "id": "salmon", "quantity": 2, "unit": "5-oz", "item": "salmon fillets" },
+    { "id": "rice", "quantity": 0.5, "unit": "cup", "item": "sushi rice" },
+    { "id": "cabbage", "quantity": 3.5, "unit": "oz", "item": "red & green cabbage" },
+    { "id": "bell-pepper", "quantity": 1.75, "unit": "oz", "item": "red bell pepper" },
+    { "id": "orange", "quantity": 1, "unit": "whole", "item": "orange" },
+    { "id": "ginger-relish", "quantity": 3, "unit": "tbsp", "item": "ginger relish with lime" },
+    { "id": "scallion", "quantity": 1, "unit": "whole", "item": "scallion" },
+    { "id": "dressing", "quantity": 0.25, "unit": "cup", "item": "orange-tamari dressing" },
+    { "id": "togarashi", "quantity": 0.5, "unit": "tsp", "item": "shichimi togarashi" },
+    { "id": "sesame-seeds", "quantity": 2, "unit": "tsp", "item": "black & white sesame seeds" }
+  ],
+  "pantry": ["salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Cook rice",
+      "instructions": [
+        "Preheat oven to 425 degrees.",
+        "Bring sushi rice and 1 cup lightly salted water to a boil in a small pot. Stir. Reduce heat to medium-low and cover pot with lid. Simmer 16 minutes, or until rice is tender and water is absorbed.",
+        "Remove from heat. Let rest, covered, 3 minutes. Fluff with a fork."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Prep veggies & fruit",
+      "instructions": [
+        "Roughly chop red and green cabbage into bite-size pieces.",
+        "Small dice red bell pepper into about 1/4-inch pieces.",
+        "Cut off top and bottom of orange. Lay flat and remove peel with curved downward cuts, exposing flesh. Cut into bite-size pieces.",
+        "Thinly slice scallion; discard root end."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Season salmon",
+      "instructions": [
+        "Pat salmon fillets dry with a paper towel. Season both sides with salt and pepper.",
+        "Place salmon in a medium baking dish. Drizzle with about half of the orange-tamari dressing. Turn to evenly coat. Place skin-side down. Sprinkle black and white sesame seeds over tops of salmon."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Roast salmon",
+      "instructions": [
+        "Transfer baking dish with salmon to oven. Roast 10-12 minutes, or until fully cooked (or to desired doneness).* *Take Note: Salmon is fully cooked when internal temperature reaches 145 degrees and it easily flakes with a fork."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Make slaw",
+      "instructions": [
+        "Place cabbage, bell pepper, and orange in a medium bowl. Drizzle with remaining orange-tamari dressing. Lightly season with pepper to taste.* Toss to combine. *Heads Up: The dressing already contains salt; no additional salt is needed."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Make relish",
+      "instructions": [
+        "Place ginger relish with lime and scallion in a small bowl. Salt and pepper to taste. Stir to combine."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Plate your dish",
+      "instructions": [
+        "Divide sushi rice and cabbage, bell pepper, and orange slaw between bowls. Top with roasted salmon. Sprinkle with shichimi togarashi to taste (if heat sensitive, use sparingly or omit). Garnish dish with ginger, lime, and scallion relish."
+      ]
+    }
+  ],
+  "review": [
+    "ingredients[salmon]: card prints '2 (5 oz) Salmon fillets'; recorded as quantity 2 with unit '5-oz' (package size in the unit), check this fits the site's unit display",
+    "source photos: front is IMG_8062 (IMG_8063 is a second shot of the same front); back is IMG_8064"
+  ]
+}

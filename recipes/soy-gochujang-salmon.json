@@ -1,0 +1,99 @@
+{
+  "title": "Soy-Gochujang Salmon",
+  "subtitle": "with Broccoli & Mushroom Rice",
+  "slug": "soy-gochujang-salmon",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 25, "max": 35, "unit": "minutes" },
+  "tags": ["seafood", "rice", "weeknight"],
+  "ingredients": [
+    { "id": "salmon", "quantity": 2, "unit": null, "item": "skin-on salmon fillets" },
+    { "id": "mushrooms", "quantity": 4, "unit": "oz", "item": "mushrooms" },
+    { "id": "rice-vinegar", "quantity": 1, "unit": "Tbsp", "item": "rice vinegar" },
+    { "id": "rice", "quantity": 0.5, "unit": "cup", "item": "jasmine rice" },
+    { "id": "gochujang", "quantity": 2, "unit": "tsp", "item": "gochujang" },
+    { "id": "sesame-oil", "quantity": 1, "unit": "Tbsp", "item": "sesame oil" },
+    { "id": "broccoli", "quantity": 0.5, "unit": "lb", "item": "broccoli" },
+    { "id": "soy-glaze", "quantity": 2, "unit": "Tbsp", "item": "soy glaze" },
+    { "id": "peanuts", "quantity": 3, "unit": "Tbsp", "item": "roasted peanuts" },
+    {
+      "id": "pork-chops",
+      "quantity": 2,
+      "unit": null,
+      "item": "boneless, center-cut pork chops",
+      "variant": "pork-chops"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [
+    { "id": "pork-chops", "label": "With pork chops", "replaces": ["salmon"] }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients & make the sauce",
+      "instructions": [
+        "Place an oven rack in the center of the oven; preheat to 450°F.",
+        "Wash and dry the fresh produce.",
+        "Cut off and discard the bottom 1/2 inch of the broccoli stem; cut the broccoli into small florets.",
+        "Cut the mushrooms into bite-sized pieces.",
+        "Roughly chop the peanuts.",
+        "In a medium bowl, combine the soy glaze, half the vinegar, and as much of the gochujang as you'd like, depending on how spicy you'd like the sauce to be."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the rice",
+      "instructions": [
+        "In a small pot, combine the rice, a big pinch of salt, and 1 cup of water. Heat to boiling on high.",
+        "Once boiling, reduce the heat to low. Cover and cook, without stirring, 13 to 15 minutes, or until the water has been absorbed and the rice is tender.",
+        "Turn off the heat and fluff with a fork."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Roast the vegetables",
+      "instructions": [
+        "Meanwhile, place the broccoli florets and mushroom pieces on a sheet pan. Drizzle with olive oil and season with salt and pepper; toss to coat. Arrange in an even layer.",
+        "Roast 14 to 16 minutes, or until browned and tender when pierced with a fork.",
+        "Remove from the oven."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the fish",
+      "instructions": [
+        "Meanwhile, pat the fish dry with paper towels; season with salt and pepper on both sides.",
+        "In a medium pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium-high until hot.",
+        "Add the seasoned fish, skin side down. Cook 5 to 7 minutes, or until the skin is browned and crispy. Flip and cook 1 to 2 minutes, or until lightly browned and cooked through.",
+        "Turn off the heat."
+      ],
+      "variantInstructions": {
+        "pork-chops": [
+          "Meanwhile, pat the pork dry with paper towels; season with salt and pepper on both sides.",
+          "In a medium pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium-high until hot.",
+          "Add the seasoned pork. Cook 4 to 6 minutes per side for medium (the center may still be slightly pink), or until browned and cooked to your desired degree of doneness.",
+          "Transfer to a cutting board and let rest at least 5 minutes."
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "title": "Finish the rice & serve your dish",
+      "instructions": [
+        "To the pot of cooked rice, add the roasted vegetables, sesame oil, remaining vinegar, and a drizzle of olive oil. Season with salt and pepper; stir to combine.",
+        "Serve the finished rice topped with the cooked fish, sauce, and chopped peanuts."
+      ],
+      "variantInstructions": {
+        "pork-chops": [
+          "To the pot of cooked rice, add the roasted vegetables, sesame oil, remaining vinegar, and a drizzle of olive oil. Season with salt and pepper; stir to combine.",
+          "Slice the rested pork crosswise.",
+          "Serve the finished rice topped with the sliced pork, sauce, and chopped peanuts."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Seared Salmon & Miso Soba Noodle Salad",
+  "subtitle": "with Fairy Tale Eggplant & Baby Greens",
+  "slug": "seared-salmon-miso-soba-noodle-salad",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 25, "max": 35, "unit": "minutes" },
+  "tags": ["seafood", "noodles", "salad"],
+  "ingredients": [
+    { "id": "salmon", "quantity": 2, "unit": null, "item": "skin-on salmon fillets" },
+    { "id": "soba", "quantity": 5, "unit": "Ounces", "item": "soba noodles" },
+    { "id": "scallions", "quantity": 2, "unit": null, "item": "scallions" },
+    { "id": "eggplant", "quantity": 2, "unit": "Ounces", "item": "fairy tale eggplant" },
+    { "id": "cucumber", "quantity": 1, "unit": null, "item": "cucumber" },
+    { "id": "baby-greens", "quantity": 1, "unit": "Ounce", "item": "baby greens" },
+    { "id": "rice-vinegar", "quantity": 2, "unit": "Tablespoons", "item": "rice vinegar" },
+    { "id": "miso", "quantity": 2, "unit": "Tablespoons", "item": "sweet white miso paste" },
+    { "id": "ginger", "quantity": 1, "unit": "1-Inch Piece", "item": "ginger" },
+    { "id": "gochujang", "quantity": 1, "unit": "Tablespoon", "item": "gochujang" },
+    { "id": "sesame-oil", "quantity": 1, "unit": "Tablespoon", "item": "sesame oil" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Wash and dry the fresh produce. Heat a medium pot of salted water to boiling on high. Peel and mince the ginger. Cut off and discard the root ends of the scallions; thinly slice on an angle, separating the white bottoms and green tops. Medium dice the eggplant. Halve the cucumber lengthwise; cut crosswise into 1/4-inch-thick pieces. Transfer the cucumber to a bowl and season with salt and pepper."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Make the dressing",
+      "instructions": [
+        "In a medium pan (nonstick, if you have one), heat half the sesame oil on medium-high until hot. Add the ginger and white bottoms of the scallions; season with salt and pepper. Cook, stirring frequently, 1 to 2 minutes, or until softened and fragrant. Add the miso paste, 1/2 cup of water and as much of the gochujang as you'd like, depending on how spicy you'd like the dish to be. Cook, stirring occasionally, 1 to 2 minutes, or until thoroughly combined and slightly thickened. Transfer to a large bowl. Stir in the vinegar; season with salt and pepper to taste. Rinse and wipe out the pan."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the eggplant",
+      "instructions": [
+        "In the same pan, heat 2 teaspoons of olive oil on medium-high until hot. Add the eggplant and cook, stirring occasionally, 3 to 5 minutes, or until browned and slightly softened; season with salt and pepper. Transfer to the bowl of dressing and toss to thoroughly coat. Wipe out the pan."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook the salmon",
+      "instructions": [
+        "Pat the salmon dry with paper towels; season with salt and pepper on both sides. In the same pan, heat 2 teaspoons of olive oil on medium-high until hot. Add the seasoned salmon, skin sides down, and cook 3 to 4 minutes on the first side, or until browned and crispy. Flip and cook 1 to 2 minutes, or until cooked to your desired degree of doneness. Remove from heat."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Make the salad & plate your dish",
+      "instructions": [
+        "While the salmon cooks, add the noodles to the pot of boiling water and cook 3 to 5 minutes, or until tender. Drain thoroughly and rinse under warm water to prevent sticking. Transfer the cooked noodles, seasoned cucumber and remaining sesame oil to the bowl of dressed eggplant. Toss to thoroughly coat; season with salt and pepper to taste. Add the baby greens and toss to thoroughly combine. Divide between 2 dishes. Top with the cooked salmon. Garnish with the green tops of the scallions."
+      ]
+    }
+  ],
+  "review": [
+    "time: card gives prep 10 minutes and cook 15-25 minutes with no total; set min 25 and max 35 (prep + cook range)"
+  ]
+}

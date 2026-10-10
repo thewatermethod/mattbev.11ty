@@ -1,0 +1,111 @@
+{
+  "title": "Zesty Shrimp & Bucatini Pasta",
+  "subtitle": "with Bell Pepper",
+  "slug": "zesty-shrimp-bucatini-pasta",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 15, "max": 25, "unit": "minutes" },
+  "tags": ["pasta", "seafood", "weeknight"],
+  "ingredients": [
+    { "id": "shrimp", "quantity": 10, "unit": "oz", "item": "tail-on shrimp", "note": "peeled & deveined" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "tomato-paste", "quantity": 2, "unit": "Tbsps", "item": "tomato paste" },
+    { "id": "gochujang", "quantity": 2, "unit": "tsps", "item": "gochujang" },
+    { "id": "bucatini", "quantity": 0.5, "unit": "lb", "item": "bucatini pasta" },
+    { "id": "bell-pepper", "quantity": 1, "unit": null, "item": "red, yellow, or orange bell pepper" },
+    { "id": "cream", "quantity": 0.25, "unit": "cup", "item": "cream" },
+    { "id": "scallions", "quantity": 2, "unit": null, "item": "scallions" },
+    { "id": "verjus", "quantity": 1, "unit": "Tbsp", "item": "verjus blanc" },
+    {
+      "id": "banza",
+      "quantity": 6,
+      "unit": "oz",
+      "item": "Banza chickpea rotini pasta",
+      "variant": "banza"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [
+    { "id": "banza", "label": "With Banza chickpea pasta", "replaces": ["bucatini"] }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Fill a large pot 3/4 of the way up with salted water; cover and heat to boiling on high.",
+        "Wash and dry the fresh produce.",
+        "Cut off and discard the stem of the pepper. Quarter lengthwise; remove the ribs and seeds, then thinly slice crosswise.",
+        "Peel and roughly chop 2 cloves of garlic.",
+        "Thinly slice the scallions, separating the white bottoms and hollow green tops."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the pepper",
+      "instructions": [
+        "In a medium pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium-high until hot.",
+        "Add the sliced pepper, chopped garlic, and sliced white bottoms of the scallions; season with salt and pepper. Cook, stirring occasionally, 3 to 4 minutes, or until slightly softened. Turn off the heat.",
+        "Transfer to a bowl and cover with foil to keep warm.",
+        "Wipe out the pan."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the pasta",
+      "instructions": [
+        "Meanwhile, add the pasta to the pot of boiling water and cook 6 to 8 minutes, or until al dente (still slightly firm to the bite). Turn off the heat.",
+        "Reserving 1/2 cup of the pasta cooking water, drain thoroughly and return to the pot."
+      ],
+      "variantInstructions": {
+        "banza": [
+          "Meanwhile, add the pasta to the pot of boiling water. Cook, stirring occasionally, 4 to 6 minutes, or until al dente (still slightly firm to the bite). Turn off the heat.",
+          "Reserving 1/2 cup of the pasta cooking water, drain thoroughly and rinse under cold water to prevent sticking. Return to the pot."
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "title": "Cook the shrimp & make the sauce",
+      "instructions": [
+        "Pat the shrimp dry with paper towels (remove the tails, if desired).",
+        "In the same pan, heat 2 teaspoons of olive oil on medium-high until hot.",
+        "Add the shrimp in an even layer. Cook, without stirring, 2 to 3 minutes, or until slightly opaque.",
+        "Add the tomato paste and as much of the gochujang as you'd like, depending on how spicy you'd like the dish to be. Cook, stirring frequently, 30 seconds to 1 minute, or until thoroughly combined.",
+        "Add the verjus (carefully, as the liquid may splatter) and cream; season with salt and pepper. Cook, stirring frequently, 30 seconds to 1 minute, or until the shrimp are coated and cooked through. Turn off the heat."
+      ],
+      "variantInstructions": {
+        "banza": [
+          "Pat the shrimp dry with paper towels (remove the tails, if desired).",
+          "In the same pan, heat 2 teaspoons of olive oil on medium-high until hot.",
+          "Add the shrimp in an even layer. Cook, without stirring, 2 to 3 minutes, or until slightly opaque.",
+          "Add the tomato paste and as much of the gochujang as you'd like, depending on how spicy you'd like the dish to be. Cook, stirring frequently, 30 seconds to 1 minute, or until thoroughly combined.",
+          "Add the verjus (carefully, as the liquid may splatter) and half the cream (you will have extra); season with salt and pepper. Cook, stirring frequently, 30 seconds to 1 minute, or until the shrimp are coated and cooked through. Turn off the heat."
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "title": "Finish the pasta & serve your dish",
+      "instructions": [
+        "To the pot of cooked pasta, add the cooked shrimp and sauce, cooked pepper, and half the reserved pasta cooking water; season with salt and pepper. Cook on medium-high, stirring constantly, 1 to 2 minutes, or until the pasta is coated (if necessary, gradually add the remaining cooking water to ensure the pasta is thoroughly coated).",
+        "Turn off the heat. Taste, then season with salt and pepper if desired.",
+        "Serve the finished pasta garnished with the sliced green tops of the scallions."
+      ],
+      "variantInstructions": {
+        "banza": [
+          "To the pot of cooked pasta, add the cooked shrimp and sauce, cooked pepper, and half the reserved pasta cooking water; season with salt and pepper. Cook on medium-high, stirring gently, 1 to 2 minutes, or until the pasta is coated (if necessary, gradually add the remaining cooking water to ensure the pasta is thoroughly coated).",
+          "Turn off the heat. Taste, then season with salt and pepper if desired.",
+          "Serve the finished pasta garnished with the sliced green tops of the scallions."
+        ]
+      }
+    }
+  ],
+  "review": [
+    "steps[4].variantInstructions.banza[0]: card says only 'Finish the pasta and serve your dish as directed, but stir the pasta gently'; expanded by changing 'stirring constantly' to 'stirring gently'",
+    "steps[3].variantInstructions.banza[4]: card says only 'use half the cream (you will have extra)'; expanded by changing 'and cream' to 'and half the cream (you will have extra)'"
+  ]
+}

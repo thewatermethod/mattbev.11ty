@@ -1,5 +1,5 @@
 [build]
-  command = "xvfb-run -a npx @11ty/eleventy"
+  command = "SKIP_STORYGRAPH=true npx @11ty/eleventy"
   publish = "_site"
 
 [build.environment]

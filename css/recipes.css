@@ -1,0 +1,141 @@
+html {
+  background: #fff;
+  color: #000;
+}
+
+body {
+  margin: 0 auto;
+  padding: 1.5rem clamp(1rem, 4vw, 2rem) 3rem;
+  max-width: 42rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+
+a {
+  color: #000;
+}
+
+header,
+footer {
+  font-size: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+}
+
+h1 {
+  margin: 1.5rem 0 0.75rem;
+  line-height: 1.2;
+}
+
+h2 {
+  margin: 2.5rem 0 1rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.125rem;
+  margin: 0 0 0.5rem;
+  line-height: 1.4;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-style: italic;
+}
+
+.meta,
+.pantry,
+.note {
+  font-size: 1rem;
+}
+
+hr {
+  margin: 1.5rem 0;
+}
+
+#recipe-list,
+.ingredients,
+.steps {
+  padding-left: 1.5rem;
+}
+
+#recipe-list {
+  margin-top: 1.75rem;
+}
+
+#recipe-list > li + li {
+  margin-top: 0.75rem;
+}
+
+.ingredients > li + li,
+.steps ul > li + li {
+  margin-top: 0.5rem;
+}
+
+.steps > li + li {
+  margin-top: 1.75rem;
+}
+
+.steps ul {
+  padding-left: 1.25rem;
+}
+
+.tags ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+
+.variants {
+  border: 1px solid #000;
+  margin: 1.5rem 0;
+  padding: 0.75rem 1rem 1rem;
+  min-width: 0;
+}
+
+.recipe-filter {
+  margin-top: 1.5rem;
+}
+
+.recipe-filter label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-filter input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #000;
+  border-radius: 0;
+  background: #fff;
+  color: #000;
+  font: inherit;
+}
+
+#recipe-filter-status {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.variants label {
+  display: block;
+  padding: 0.25rem 0;
+}
+
+.variant-label {
+  font-style: italic;
+}
+
+.js .variant-label {
+  display: none;
+}
+
+[hidden] {
+  display: none !important;
+}

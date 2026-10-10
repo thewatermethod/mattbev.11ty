@@ -1,0 +1,69 @@
+{
+  "title": "Crispy Brussels Sprout & Saffron Risotto",
+  "subtitle": "with Parmesan & Goat Cheese",
+  "slug": "crispy-brussels-sprout-saffron-risotto",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 25, "max": 35, "unit": "minutes" },
+  "tags": ["vegetarian", "rice"],
+  "ingredients": [
+    { "id": "rice", "quantity": 1, "unit": "cup", "item": "carnaroli rice" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "shallot", "quantity": 1, "unit": null, "item": "shallot" },
+    { "id": "red-pepper-flakes", "quantity": 0.25, "unit": "tsp", "item": "crushed red pepper flakes" },
+    { "id": "saffron", "quantity": 1, "unit": "pinch", "item": "saffron" },
+    { "id": "brussels-sprouts", "quantity": 0.5, "unit": "lb", "item": "brussels sprouts" },
+    { "id": "lemon", "quantity": 1, "unit": null, "item": "lemon" },
+    { "id": "butter", "quantity": 2, "unit": "Tbsps", "item": "butter" },
+    { "id": "goat-cheese", "quantity": 2, "unit": "Tbsps", "item": "goat cheese" },
+    { "id": "parmesan", "quantity": 0.25, "unit": "cup", "item": "grated parmesan cheese" }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Place an oven rack in the center of the oven, then preheat to 450°F.",
+        "Wash dry the fresh produce.",
+        "Peel and finely chop the shallot. Peel and roughly chop 2 cloves of garlic. Combine in a bowl.",
+        "Quarter and deseed the lemon.",
+        "Cut off and discard the stem ends of the brussels sprouts; quarter lengthwise."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the aromatics",
+      "instructions": [
+        "In a medium pot, heat 2 teaspoons of olive oil on medium-high until hot.",
+        "Add the chopped shallot and garlic. Season with salt, pepper, and as much of the red pepper flakes as you'd like, depending on how spicy you'd like the dish to be. Cook, stirring frequently, 2 to 3 minutes, or until slightly softened."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Make the risotto",
+      "instructions": [
+        "Add the rice, saffron, and 3 cups of water (carefully, as the liquid may splatter); season with salt and pepper. Heat to boiling on high.",
+        "Once boiling, reduce the heat to medium-high. Cook, stirring occasionally, 15 to 17 minutes, or until most of the liquid has been absorbed and the rice is al dente (still slightly firm to the bite). Turn off the heat.",
+        "Add the butter, goat cheese, and the juice of 2 lemon wedges; stir until melted and thoroughly combined. Taste, then season with salt and pepper if desired."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Roast the brussels sprouts & serve your dish",
+      "instructions": [
+        "Meanwhile, place the quartered brussels sprouts on a sheet pan. Drizzle with 1 tablespoon of olive oil; season with salt and pepper. Toss to coat; arrange in an even layer.",
+        "Roast 13 to 15 minutes, or until browned and tender when pierced with a fork.",
+        "Remove from the oven. Evenly top with the juice of the remaining lemon wedges.",
+        "Serve the risotto topped with the roasted brussels sprouts. Garnish with the parmesan."
+      ]
+    }
+  ],
+  "review": [
+    "steps[0].instructions[1]: card prints 'Wash dry the fresh produce.' (missing 'and'); transcribed as printed per the no-correction rule"
+  ]
+}

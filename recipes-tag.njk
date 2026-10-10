@@ -1,0 +1,20 @@
+---
+layout: layouts/recipes.njk
+pagination:
+  data: recipeTags
+  size: 1
+  alias: currentTag
+eleventyComputed:
+  title: "Recipes: {{ currentTag | safe }}"
+permalink: /recipes/tags/{{ currentTag | slugify }}/
+---
+<h1>Recipes: {{ currentTag }}</h1>
+
+{% include "recipe-filter.njk" %}
+
+<hr />
+
+{% include "recipe-tags.njk" %}
+
+{% set recipeList = recipes | recipesTagged(currentTag) %}
+{% include "recipe-list.njk" %}

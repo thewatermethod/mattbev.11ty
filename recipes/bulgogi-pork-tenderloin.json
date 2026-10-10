@@ -1,0 +1,71 @@
+{
+  "title": "Bulgogi Pork Tenderloin",
+  "subtitle": "with Roasted Carrots & Lime Rice",
+  "slug": "bulgogi-pork-tenderloin",
+  "source": {
+    "name": "HelloFresh",
+    "url": "https://www.hellofresh.com"
+  },
+  "servings": 2,
+  "time": { "min": 30, "max": 30, "unit": "minutes" },
+  "tags": ["pork", "rice", "weeknight"],
+  "ingredients": [
+    { "id": "carrots", "quantity": 12, "unit": "oz", "item": "carrots" },
+    { "id": "lime", "quantity": 1, "unit": null, "item": "lime" },
+    { "id": "scallions", "quantity": 2, "unit": null, "item": "scallions" },
+    { "id": "rice", "quantity": 0.5, "unit": "Cup", "item": "jasmine rice" },
+    { "id": "pork", "quantity": 12, "unit": "oz", "item": "pork tenderloin" },
+    { "id": "bulgogi-sauce", "quantity": 4, "unit": "oz", "item": "bulgogi sauce" },
+    { "id": "sesame-seeds", "quantity": 1, "unit": "TBSP", "item": "sesame seeds" }
+  ],
+  "pantry": ["olive oil", "vegetable oil", "butter", "kosher salt", "black pepper"],
+  "variants": [],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prep",
+      "instructions": [
+        "Adjust rack to top position (top and middle positions for 4 servings) and preheat oven to 425 degrees. Wash and dry all produce. Trim, peel, and cut carrots into 1/2-inch-thick pieces. Zest and quarter lime. Thinly slice scallions, separating whites from greens."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook rice",
+      "instructions": [
+        "In a small pot, combine rice, 3/4 cup water (1 1/2 cups for 4 servings), and a big pinch of salt. Bring to a boil, then cover and reduce to a low simmer. Cook until rice is tender, 15-18 minutes. Keep covered off heat until ready to serve."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Roast carrots",
+      "instructions": [
+        "While rice cooks, toss carrots on one side of a baking sheet with a drizzle of olive oil, salt, and pepper. (For 4 servings, spread out across entire sheet.) Roast on top rack for 10 minutes (you'll add the pork then)."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Cook pork",
+      "instructions": [
+        "Meanwhile, pat pork dry with paper towels; season all over with salt and pepper. Heat a drizzle of oil in a large pan over medium heat. Add pork; sear, turning occasionally, until browned all over, 4-8 minutes. Once carrots have roasted 10 minutes, remove sheet from oven. Flip carrots and place seared pork on empty side. (For 4 servings, add pork to a second sheet; roast on middle rack.) Roast until pork is cooked through and carrots are tender, 10-12 minutes more. TIP: If carrots are done before pork, remove from sheet and continue roasting pork."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Simmer sauce",
+      "instructions": [
+        "When pork and carrots have 5 minutes left in the oven, melt 1 TBSP butter in pan used for pork over medium-high heat. Add scallion whites and cook until fragrant, 1-2 minutes. Stir in bulgogi sauce and 1 TBSP water. Bring to a simmer, stirring, until warmed through, 2-3 minutes. Turn off heat. TIP: If sauce is too thick, stir in a splash of water."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Finish & serve",
+      "instructions": [
+        "Fluff rice with a fork. Stir in 1 TBSP butter, a squeeze of lime juice, and half the lime zest (add more zest if you like). Season with salt and pepper. Thinly slice pork crosswise. Divide rice, pork, and carrots between plates. Drizzle pork with sauce. Sprinkle with scallion greens and sesame seeds. Serve with remaining lime wedges on the side."
+      ]
+    }
+  ],
+  "review": [
+    "servings: card prints a 2-person and a 4-person column; transcribed the 2-person quantities (4-person: 24 oz carrots, 2 limes, 4 scallions, 1 Cup rice, 24 oz pork, 8 oz bulgogi sauce, 1 TBSP sesame seeds)",
+    "time: card gives prep 10 min and total 30 min; used total for min and max"
+  ]
+}

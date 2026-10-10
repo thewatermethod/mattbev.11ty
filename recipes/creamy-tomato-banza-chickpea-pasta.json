@@ -1,0 +1,107 @@
+{
+  "title": "Creamy Tomato Banza Chickpea Pasta",
+  "subtitle": "with Mushrooms & Sweet Peppers",
+  "slug": "creamy-tomato-banza-chickpea-pasta",
+  "source": {
+    "name": "Blue Apron",
+    "url": "https://www.blueapron.com"
+  },
+  "servings": 2,
+  "time": { "min": 15, "max": 25, "unit": "minutes" },
+  "tags": ["pasta", "vegetarian", "weeknight"],
+  "ingredients": [
+    { "id": "pasta", "quantity": 6, "unit": "oz", "item": "Banza chickpea rotini pasta" },
+    { "id": "mushrooms", "quantity": 4, "unit": "oz", "item": "mushrooms" },
+    { "id": "peppers", "quantity": 4, "unit": "oz", "item": "sweet peppers" },
+    { "id": "garlic", "quantity": 2, "unit": "cloves", "item": "garlic" },
+    { "id": "mascarpone", "quantity": 2, "unit": "Tbsp", "item": "mascarpone cheese" },
+    { "id": "parmesan", "quantity": 0.25, "unit": "cup", "item": "grated parmesan cheese" },
+    { "id": "capers", "quantity": 1, "unit": "Tbsp", "item": "capers" },
+    { "id": "tomato-sauce", "quantity": 1, "unit": "8-oz can", "item": "tomato sauce" },
+    {
+      "id": "italian-seasoning",
+      "quantity": 1,
+      "unit": "Tbsp",
+      "item": "Italian seasoning",
+      "note": "Whole dried basil, sage, oregano, savory, rosemary, thyme & marjoram"
+    },
+    {
+      "id": "sausage",
+      "quantity": 10,
+      "unit": "oz",
+      "item": "hot Italian pork sausage",
+      "variant": "sausage"
+    }
+  ],
+  "pantry": ["olive oil", "salt", "pepper"],
+  "variants": [
+    { "id": "sausage", "label": "With sausage" }
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "title": "Prepare the ingredients",
+      "instructions": [
+        "Fill a medium pot 3/4 of the way up with salted water; cover and heat to boiling on high.",
+        "Wash and dry the fresh produce.",
+        "Cut the mushrooms into bite-sized pieces.",
+        "Peel and roughly chop 2 cloves of garlic.",
+        "Cut off and discard the stems of the peppers; remove the cores, then thinly slice into rings."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Cook the pasta",
+      "instructions": [
+        "Add the pasta to the pot of boiling water and cook, stirring occasionally, 4 to 6 minutes, or until al dente (still slightly firm to the bite). Turn off the heat.",
+        "Reserving 1/2 cup of the pasta cooking water, drain thoroughly and rinse under cold water to prevent sticking."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cook the vegetables",
+      "instructions": [
+        "Meanwhile, in a medium pan (nonstick, if you have one), heat a drizzle of olive oil on medium-high until hot.",
+        "Add the mushroom pieces in an even layer. Cook, without stirring, 2 to 3 minutes, or until lightly browned.",
+        "Add the capers, chopped garlic, and sliced peppers; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until slightly softened."
+      ],
+      "variantInstructions": {
+        "sausage": [
+          "Meanwhile, in a large pan (nonstick, if you have one), heat a drizzle of olive oil on medium-high until hot.",
+          "Add the sausage and mushroom pieces in an even layer. Cook, without stirring, 2 to 3 minutes, or until lightly browned.",
+          "Add the capers, chopped garlic, and sliced peppers; season with salt and pepper. Cook, stirring frequently and breaking the meat apart with a spoon, 3 to 4 minutes, or until slightly softened."
+        ]
+      }
+    },
+    {
+      "number": 4,
+      "title": "Make the sauce",
+      "instructions": [
+        "To the pan, add the tomato sauce (carefully, as the liquid may splatter) and Italian seasoning; season with salt and pepper. Cook, stirring occasionally, 1 to 2 minutes, or until combined.",
+        "Turn off the heat."
+      ],
+      "variantInstructions": {
+        "sausage": [
+          "To the pan, add the tomato sauce (carefully, as the liquid may splatter) and Italian seasoning; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until combined and the sausage is cooked through.",
+          "Turn off the heat."
+        ]
+      }
+    },
+    {
+      "number": 5,
+      "title": "Finish the pasta & serve your dish",
+      "instructions": [
+        "To the pan of cooked vegetables and sauce, add the cooked pasta and half the reserved pasta cooking water. Cook on medium-high, stirring gently, 1 to 2 minutes, or until the pasta is coated (if necessary, gradually add the remaining cooking water to ensure the pasta is thoroughly coated).",
+        "Turn off the heat. Stir in the mascarpone until combined. Taste, then season with salt and pepper if desired.",
+        "Serve the finished pasta garnished with the parmesan."
+      ],
+      "variantInstructions": {
+        "sausage": [
+          "To the pan of cooked sausage, vegetables, and sauce, add the cooked pasta and half the reserved pasta cooking water. Cook on medium-high, stirring gently, 1 to 2 minutes, or until the pasta is coated (if necessary, gradually add the remaining cooking water to ensure the pasta is thoroughly coated).",
+          "Turn off the heat. Stir in the mascarpone until combined. Taste, then season with salt and pepper if desired.",
+          "Serve the finished pasta garnished with the parmesan."
+        ]
+      }
+    }
+  ]
+}
