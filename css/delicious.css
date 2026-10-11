@@ -1,0 +1,357 @@
+/* del.icio.us, circa 2007. Standalone: shares nothing with the main site. */
+
+html {
+  background: #fff;
+  color: #000;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+a {
+  color: #1259c7;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #7a3bb6;
+}
+
+h1,
+h2,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* Header */
+
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  padding: 10px 12px 8px;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: #000;
+}
+
+.logo:visited {
+  color: #000;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.logo-mark {
+  display: grid;
+  grid-template-columns: 9px 9px;
+  grid-template-rows: 9px 9px;
+  border: 1px solid #000;
+}
+
+.logo-mark i:nth-child(1) {
+  background: #fff;
+}
+
+.logo-mark i:nth-child(2) {
+  background: #3274d0;
+}
+
+.logo-mark i:nth-child(3) {
+  background: #000;
+}
+
+.logo-mark i:nth-child(4) {
+  background: #d3d2d3;
+}
+
+.logo-word {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.crumb {
+  font-size: 22px;
+  color: #999;
+  letter-spacing: -1px;
+}
+
+.crumb a,
+.crumb a:visited {
+  color: #1259c7;
+}
+
+.toplinks {
+  margin-left: auto;
+  color: #999;
+  font-size: 11px;
+}
+
+.toplinks a,
+.toplinks a:visited {
+  color: #1259c7;
+}
+
+/* Bar under the header */
+
+.subbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px 12px;
+  padding: 5px 12px;
+  background: #3274d0;
+  color: #fff;
+}
+
+.subbar h1 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.subbar .count {
+  margin-left: 4px;
+  padding: 0 5px;
+  border-radius: 2px;
+  background: #fff;
+  color: #3274d0;
+  font-size: 11px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+}
+
+.search input {
+  width: 200px;
+  max-width: 50vw;
+  padding: 2px 4px;
+  border: 1px solid #1d4f99;
+  font: inherit;
+  font-size: 12px;
+}
+
+.welcome {
+  margin: 12px;
+  padding: 8px 10px;
+  border: 1px solid #c6d8f0;
+  background: #eef4fc;
+  color: #333;
+  font-size: 12px;
+}
+
+/* Two columns: bookmarks and tags */
+
+.page {
+  display: flex;
+  gap: 24px;
+  padding: 0 12px;
+}
+
+.posts {
+  flex: 1;
+  min-width: 0;
+}
+
+.filter-status {
+  margin-bottom: 10px;
+  padding: 4px 8px;
+  background: #ffffe0;
+  border: 1px solid #e6db55;
+  font-size: 12px;
+}
+
+.filter-status a {
+  margin-left: 6px;
+}
+
+.day {
+  display: flex;
+  gap: 10px;
+  padding: 8px 0;
+  border-top: 1px solid #ddd;
+}
+
+.day:first-child {
+  border-top: 0;
+}
+
+.date {
+  flex: 0 0 34px;
+  align-self: flex-start;
+  padding: 2px 0;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+  color: #666;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.date span {
+  display: block;
+}
+
+.date .d {
+  color: #333;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.date .m,
+.date .y {
+  font-size: 9px;
+}
+
+.bookmarks {
+  flex: 1;
+  min-width: 0;
+}
+
+.post + .post {
+  margin-top: 9px;
+}
+
+.desc {
+  font-size: 14px;
+  font-weight: normal;
+  overflow-wrap: anywhere;
+}
+
+.notes {
+  margin-top: 1px;
+  color: #333;
+  font-size: 12px;
+}
+
+.meta {
+  margin-top: 1px;
+  color: #999;
+  font-size: 11px;
+}
+
+.domain {
+  color: #3a9a3a;
+}
+
+.tags {
+  margin-left: 4px;
+}
+
+.tag,
+.tag:visited {
+  color: #4f7fc9;
+}
+
+/* Sidebar */
+
+.sidebar {
+  flex: 0 0 180px;
+  font-size: 11px;
+}
+
+.sidebar h2 {
+  padding: 2px 6px;
+  background: #d3d2d3;
+  color: #333;
+  font-size: 12px;
+}
+
+.tag-options {
+  margin: 4px 0 6px;
+}
+
+.all-tags {
+  display: block;
+  padding: 1px 6px;
+}
+
+.taglist li a {
+  display: block;
+  padding: 1px 6px;
+}
+
+.taglist li a:visited {
+  color: #1259c7;
+}
+
+.taglist .n {
+  display: inline-block;
+  min-width: 18px;
+  color: #999;
+  text-align: right;
+}
+
+.taglist a.active,
+.all-tags.active {
+  background: #3274d0;
+  color: #fff;
+}
+
+.taglist a.active .n {
+  color: #dbe7f8;
+}
+
+/* Footer */
+
+.footer {
+  margin: 24px 12px 0;
+  padding: 10px 0 24px;
+  border-top: 1px solid #ddd;
+  color: #999;
+  font-size: 11px;
+}
+
+.footer p + p {
+  margin-top: 4px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 640px) {
+  .page {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    flex-basis: auto;
+  }
+
+  .taglist {
+    columns: 2;
+  }
+
+  .toplinks {
+    margin-left: 0;
+    width: 100%;
+  }
+}
