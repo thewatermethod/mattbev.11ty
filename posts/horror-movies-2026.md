@@ -19,8 +19,9 @@ eleventyExcludeFromCollections: true
 
 
 ## Great
-
+- The Faculty
+- Baba Yaga
 
 ## Good
 - Salem's Lot (1978)
-- Dario Argento's Phantom of the Opera
+- Dario Argento's Phantom of the Opera (1998)
