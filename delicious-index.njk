@@ -1,0 +1,65 @@
+---
+layout: layouts/delicious.njk
+title: mattbev's bookmarks on del.icio.us
+description: An archive of the links Matt Bevilacqua saved to del.icio.us between 2007 and 2011.
+permalink: /delicious/
+---
+<div class="subbar">
+  <h1>mattbev's bookmarks <span class="count">{{ delicious.bookmarks | length }}</span></h1>
+  <form class="search" role="search" hidden>
+    <label for="delicious-search">search</label>
+    <input type="search" id="delicious-search" placeholder="search these bookmarks" autocomplete="off">
+  </form>
+</div>
+
+<div class="welcome">
+  <p>
+     saved from {{ delicious.first | year }} to {{ delicious.last | year }}
+  </p>
+</div>
+
+<div class="page">
+  <main class="posts">
+    <p class="filter-status" id="delicious-status" aria-live="polite" hidden></p>
+
+    <ol class="days">
+      {% for group in delicious.days %}
+        <li class="day">
+          <time class="date" datetime="{{ group.day }}">
+            <span class="d">{{ group.stamp.day }}</span>
+            <span class="m">{{ group.stamp.month }}</span>
+            <span class="y">&rsquo;{{ group.stamp.year }}</span>
+          </time>
+          <ul class="bookmarks">
+            {% for bookmark in group.bookmarks %}
+              <li class="post" data-tags="{{ bookmark.tags | join(' ') }}">
+                <h2 class="desc"><a href="{{ bookmark.url }}" rel="nofollow noopener">{{ bookmark.title }}</a></h2>
+                {% if bookmark.notes %}<p class="notes">{{ bookmark.notes }}</p>{% endif %}
+                <p class="meta">
+                  <span class="domain">{{ bookmark.domain }}</span>
+                  {% if bookmark.tags.length %}
+                    <span class="tags">to
+                      {% for tag in bookmark.tags %}<a href="#tag/{{ tag | urlencode }}" class="tag">{{ tag }}</a> {% endfor %}
+                    </span>
+                  {% endif %}
+                </p>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ol>
+  </main>
+
+  <aside class="sidebar">
+    <h2>tags</h2>
+    <p class="tag-options">
+      <a href="#" class="all-tags">all bookmarks</a>
+    </p>
+    <ul class="taglist">
+      {% for tag in delicious.tags %}
+        <li><a href="#tag/{{ tag.name | urlencode }}" data-tag="{{ tag.name }}"><span class="n">{{ tag.count }}</span> {{ tag.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </aside>
+</div>

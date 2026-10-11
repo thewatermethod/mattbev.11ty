@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="{{ '/css/delicious.css' | url }}">
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | url }}">
+  </head>
+  <body>
+    <div class="topbar">
+      <a href="{{ '/delicious/' | url }}" class="logo">
+        <span class="logo-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      </a>
+      <span class="crumb"><a href="{{ '/delicious/' | url }}">mattbev</a></span>
+      <nav class="toplinks">
+        <a href="{{ '/' | url }}">mattbev.com</a> |
+        <a href="{{ '/posts/' | url }}">archive</a> |
+        <a href="{{ '/about/' | url }}">about</a>
+      </nav>
+    </div>
+    {{ content | safe }}
+    <footer class="footer">
+      <p>
+        del.icio.us was a "web 2.0" social bookmarking tool. It was killed years ago via acquisition
+        but one of the later owners made the contents available for export. Beware; many links here are dead,
+        and others I can no longer vouch for the content of, as I was much younger and various people have
+        sadly done or said things since then I no longer approve of.
+      </p>
+      <p><a href="{{ '/' | url }}">&larr; back to mattbev.com</a></p>
+    </footer>
+    <script src="{{ '/assets/delicious.js' | url }}"></script>
+  </body>
+</html>
