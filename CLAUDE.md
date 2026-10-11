@@ -24,6 +24,10 @@ Personal website for Matt Bevilacqua (mattbev.com) built with Eleventy v3. Deplo
 - Plugins: RSS feed, YouTube embed
 - Image shortcode using `@11ty/eleventy-img`
 
+### Design System
+
+- Tokens and components live in `css/style.css` (homepage layout in `css/home.css`); `docs/index.html` documents them (ignored by Eleventy) — use its semantic `light-dark()` tokens, not raw `--ega-*` colors.
+
 ### Content Structure
 
 - `posts/` - Blog posts (markdown with frontmatter)

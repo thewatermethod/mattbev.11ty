@@ -1,12 +1,12 @@
   <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-
-    <a href="{{ post.data.url | url }}" class="postlist-link"> 🔗  {% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.data.url }}</code>{% endif %}</a>
-    <small><em>{{post.data.url}}</em></small>
+    <span class="badge badge--link">Link</span>
+    <a href="{{ post.data.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.data.url }}</code>{% endif %}</a>
     <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-    
-    {% for tag in post.data.tags | filterTagList %}
-      {% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+    <div class="postlist-extra">
+      <small class="postlist-url">{{ post.data.url }}</small>
+    {%- for tag in post.data.tags | filterTagList %}
+      {%- set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
       <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-    {% endfor %}
-
+    {%- endfor %}
+    </div>
   </li>

@@ -14,6 +14,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("favicon.ico");
+  // Syntax highlighting runtime + lazy-loaded grammars (see base layout)
+  eleventyConfig.addPassthroughCopy({
+    "node_modules/microlighter/dist/microlighter.min.js":
+      "assets/microlighter/microlighter.min.js",
+    "node_modules/microlighter/dist/grammars/*.js": "assets/microlighter/grammars",
+  });
 
   // Add plugins
   eleventyConfig.addPlugin(pluginRss);

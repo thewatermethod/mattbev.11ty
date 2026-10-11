@@ -1,0 +1,190 @@
+/**
+ * Layout for the design-system page only. Everything visual comes from
+ * ../css/style.css so the docs can't drift from the site.
+ */
+
+main.docs {
+    max-width: 72rem;
+}
+
+.docs .window__body > h2:first-child {
+    font-family: var(--font-display);
+    font-size: var(--step-3);
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.docs .window__body > * {
+    max-width: var(--measure);
+}
+
+.docs .window__body > .swatches,
+.docs .window__body > .table-scroll,
+.docs .window__body > .demo,
+.docs .window__body > .postlist,
+.docs .window__body > pre {
+    max-width: none;
+}
+
+.demo {
+    background: var(--desktop);
+    background-image: repeating-conic-gradient(var(--desktop-dither) 0 25%, transparent 0 50%);
+    background-size: 4px 4px;
+    border: var(--border);
+    margin-bottom: var(--space-5);
+    padding: var(--space-5) var(--space-5) var(--space-2);
+}
+
+.demo--narrow > * {
+    margin-bottom: var(--space-5);
+    max-width: 24rem;
+}
+
+.demo-row {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+}
+
+/* EGA swatches */
+.swatches {
+    display: grid;
+    gap: var(--space-3);
+    grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
+    list-style: none;
+    padding: 0;
+}
+
+.swatches li {
+    border: var(--border);
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    margin: 0;
+}
+
+.swatch__chip {
+    border-bottom: var(--border);
+    display: block;
+    height: 3.5rem;
+}
+
+.swatch__label {
+    display: block;
+    line-height: 1.4;
+    padding: var(--space-1) var(--space-2);
+}
+
+/* Token pair table */
+.table-scroll {
+    margin-bottom: var(--space-5);
+    overflow-x: auto;
+}
+
+.pairs {
+    margin: 0;
+    min-width: 36rem;
+}
+
+.pairs caption {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    padding-bottom: var(--space-2);
+    text-align: left;
+}
+
+.pairs td {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+}
+
+.pair-sample {
+    align-items: center;
+    border: 1px solid var(--line);
+    display: flex;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 700;
+    gap: var(--space-2);
+    justify-content: space-between;
+    padding: var(--space-1) var(--space-2);
+}
+
+.ratio {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    white-space: nowrap;
+}
+
+.ratio[data-grade="fail"] {
+    text-decoration: line-through;
+}
+
+/* Type */
+.type-specimens {
+    margin: 0 0 var(--space-5);
+}
+
+.type-specimens > div {
+    border-top: 1px dashed var(--rule);
+    padding: var(--space-4) 0;
+}
+
+.type-specimens dt {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    font-weight: 700;
+}
+
+.type-specimens dd {
+    margin: 0;
+}
+
+.specimen {
+    line-height: 1.2;
+    margin: var(--space-2) 0;
+}
+
+.specimen--display {
+    font-family: var(--font-display);
+    font-size: var(--step-4);
+}
+
+.specimen--body {
+    font-family: var(--font-body);
+    font-size: var(--step-2);
+}
+
+.specimen--mono {
+    font-family: var(--font-mono);
+    font-size: var(--step-1);
+}
+
+.specimen-note {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.scale {
+    list-style: none;
+    padding: 0;
+}
+
+.scale li {
+    align-items: baseline;
+    border-top: 1px dashed var(--rule);
+    display: grid;
+    gap: var(--space-4);
+    grid-template-columns: 7rem 1fr;
+    margin: 0;
+    padding: var(--space-2) 0;
+}
+
+.scale code {
+    font-size: var(--step--1);
+}
+
+.scale span {
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}

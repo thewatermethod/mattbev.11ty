@@ -4,7 +4,14 @@
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
     <meta name="generator" content="{{ eleventy.generator }}">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#aaaaaa" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#262626" media="(prefers-color-scheme: dark)">
+    <link rel="preload" href="{{ '/assets/fonts/atkinson-hyperlegible/atkinson-hyperlegible-latin-400-normal.woff2' | url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+    {%- for stylesheet in extraStylesheets %}
+    <link rel="stylesheet" href="{{ stylesheet | url }}">
+    {%- endfor %}
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | url }}">

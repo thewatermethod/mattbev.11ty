@@ -1,63 +1,46 @@
-@media (min-width: 1200px) {
-    main.main-tmpl-home {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: 3fr 1fr;
-        max-width: 1200px;
-    }
+/**
+ * Homepage: a DOS file-manager screen. Info panels across the top,
+ * the listing window, and a command column on the right.
+ */
+.hero {
+    display: grid;
+    gap: var(--space-4);
+    margin: 0 auto;
+    max-width: 72rem;
+    padding: var(--space-6) var(--space-4) 0;
+    width: 100%;
+}
+.hero .panel { display: flex; flex-direction: column; justify-content: center; }
 
-    main.main-tmpl-home .page-title {
-        text-align: left;
-    }
+.home--title { font: 400 var(--step-5) / 1 var(--font-display); margin: 0; }
+.home--subtitle {
+    border-top: 2px solid var(--panel-rule);
+    font: var(--step-1) var(--font-mono);
+    margin: var(--space-3) 0 0;
+    padding-top: var(--space-2);
 }
 
-.home--title {
-    color: white;
-    font-family: "EPSON MX-80 W E", monospace;
-    font-size: 3em;
-    line-height: 1;
-    margin: 0.25em 0;
-    text-decoration: none;
+.who { font: 1rem var(--font-mono); list-style: none; margin: 0; padding: 0; }
+.who li + li { margin-top: var(--space-2); }
+.who li::before { color: var(--panel-rule); content: "> " / ""; }
+
+main.main-tmpl-home { display: grid; gap: 0 var(--space-6); max-width: 72rem; }
+.main-tmpl-home .content-section > h2 { font: 400 var(--step-3) / 1.15 var(--font-display); margin: var(--space-6) 0 var(--space-3); }
+.main-tmpl-home .content-section > h2:first-child { margin-top: 0; }
+
+@media (min-width: 52em) {
+    .hero { grid-template-columns: 3fr 2fr; }
+}
+@media (min-width: 64em) {
+    main.main-tmpl-home { grid-template-columns: minmax(0, 1fr) 18rem; }
 }
 
-main.main-tmpl-home:not(.main-bookshelf) {
-    padding: 0;
-}
-
-.content-section {
-    padding-inline: 1em;
-}
-
-.sidebar {
-    padding-inline: 1em;
-}
-
-.sidebar--current {
-    margin-bottom: 1em;
-    max-width: max-content;
-}
-
-.sidebar--current ul {
-    list-style: none;
-}
-
-.sidebar--current__title {
-    font-size: 1em;
-    margin-block: 0em;
-}
-
-.sidebar--current__description {
-    margin: 0;
-}
-
-.site-header {
-    padding-bottom: 2em;
-}
-
-@media (min-width: 900px) {
-    .site-header {
-        position: relative;
-        padding-bottom: 6em;
-        overflow-y: hidden;
-    }
-}
+/* Sidebar: the command column */
+.sidebar { display: flex; flex-direction: column; gap: var(--space-5); }
+.sidebar--current ul { list-style: none; margin: 0; padding: 0; }
+.sidebar--current li + li { margin-top: var(--space-4); }
+.currently-reading li { display: grid; gap: var(--space-3); grid-template-columns: 4rem 1fr; }
+.currently-reading img { border: 2px solid var(--panel-text); display: block; width: 4rem; }
+.sidebar--current__title { font: 700 1rem / 1.3 var(--font-body); margin: 0; }
+.sidebar--current__description { font-size: var(--step--1); margin: var(--space-1) 0 0; }
+.sidebar--current__status { font: var(--step--1) var(--font-mono); }

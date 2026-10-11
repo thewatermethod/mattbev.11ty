@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C:\MATTBEV Design System</title>
+    <meta name="color-scheme" content="light dark">
+    <!-- The live site stylesheet is the source of truth; docs.css only lays out this page. -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="docs.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="menubar">
+            <span class="menubar__prompt" aria-hidden="true">C:\&gt;</span>
+            <nav aria-label="Design system sections">
+                <button class="menubar__toggle" type="button" aria-expanded="false" aria-controls="docs-menu"><span class="hotkey">M</span>enu</button>
+                <ul id="docs-menu">
+                    <li><a href="#principles"><span class="hotkey">P</span>rinciples</a></li>
+                    <li><a href="#color"><span class="hotkey">C</span>olor</a></li>
+                    <li><a href="#type"><span class="hotkey">T</span>ype</a></li>
+                    <li><a href="#components">Co<span class="hotkey">m</span>ponents</a></li>
+                    <li><a href="#a11y"><span class="hotkey">A</span>ccessibility</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="panel hero__id">
+            <h1 class="home--title">C:\MATTBEV</h1>
+            <p class="home--subtitle">design system &middot; v2026</p>
+        </div>
+        <div class="panel hero__contact">
+            <ul class="who">
+                <li>Tokens + components: <code>css/style.css</code></li>
+                <li>Homepage layout: <code>css/home.css</code></li>
+                <li>This page: <code>docs/</code> (ignored by Eleventy)</li>
+            </ul>
+        </div>
+    </div>
+
+    <main id="main" tabindex="-1" class="docs">
+
+        <!-- PRINCIPLES -->
+        <section class="window" aria-labelledby="principles">
+            <div class="window__titlebar" aria-hidden="true"><span class="window__title">README.TXT</span></div>
+            <div class="window__body">
+                <h2 id="principles">Principles</h2>
+                <p>The site is dressed as an MS-DOS shell and an EGA-era PC game: Windows 1.0 menu bars,
+                    Directory Commander info panels, Carmen Sandiego split screens, the 16-color palette.
+                    The chrome is retro. The reading is not.</p>
+                <ol>
+                    <li><strong>Chrome is nostalgic, prose is modern.</strong> Pixel type and EGA color live in
+                        bars, titlebars, panels and badges. Article text uses Atkinson Hyperlegible at 18px, 1.7
+                        leading, and a 68ch measure.</li>
+                    <li><strong>Hard edges, hard shadows.</strong> 2px borders, square corners, and a 6px offset
+                        shadow with no blur.</li>
+                    <li><strong>Semantic tokens only.</strong> Components never use <code>--ega-*</code>
+                        directly. They use slots like <code>--titlebar-bg</code>, which change with the system
+                        color scheme.</li>
+                    <li><strong>Decoration stays out of the accessibility tree.</strong> Titlebar filenames,
+                        the <code>C:\&gt;</code> prompt and the <code>&gt;</code> bullets are
+                        all <code>aria-hidden</code> or CSS-only.</li>
+                    <li><strong>No theme switcher.</strong> Light and dark follow
+                        <code>prefers-color-scheme</code>. High-contrast, reduced-motion and forced-colors
+                        preferences are respected too.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- COLOR -->
+        <section class="window" aria-labelledby="color">
+            <div class="window__titlebar" aria-hidden="true"><span class="window__title">PALETTE.EGA</span></div>
+            <div class="window__body">
+                <h2 id="color">Color</h2>
+                <h3>The EGA 16</h3>
+                <p>Raw palette. Read from <code>:root</code> in <code>style.css</code> at load time.</p>
+                <ul class="swatches" id="ega-swatches" aria-label="EGA palette"></ul>
+
+                <h3>Semantic tokens</h3>
+                <p>Every color slot in both schemes. Tokens are single <code>light-dark(light, dark)</code> values, read at runtime with <code>getComputedStyle</code>. Where a slot is a
+                    text-on-background pair, the WCAG contrast ratio is calculated here. Your system is
+                    currently in <strong id="current-scheme">…</strong> mode.</p>
+                <div class="table-scroll" tabindex="0" role="region" aria-labelledby="pairs-caption">
+                    <table class="pairs">
+                        <caption id="pairs-caption">Foreground/background pairs with contrast ratios</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Pair</th>
+                                <th scope="col">Light</th>
+                                <th scope="col">Dark</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pairs-body"></tbody>
+                    </table>
+                </div>
+                <noscript><p>Turn on JavaScript to see the token tables generated from the stylesheet.</p></noscript>
+            </div>
+        </section>
+
+        <!-- TYPE -->
+        <section class="window" aria-labelledby="type">
+            <div class="window__titlebar" aria-hidden="true"><span class="window__title">FONTS.FON</span></div>
+            <div class="window__body">
+                <h2 id="type">Typography</h2>
+                <dl class="type-specimens">
+                    <div>
+                        <dt><code>--font-display</code> · Jersey 15</dt>
+                        <dd class="specimen specimen--display">Matt Bevilacqua 1987</dd>
+                        <dd class="specimen-note">Headlines, titlebars and panel headings only. It has one
+                            heavy weight, so <code>font-weight</code> stays at 400 to avoid faux bold. Never
+                            use it below <code>--step-1</code>.</dd>
+                    </div>
+                    <div>
+                        <dt><code>--font-body</code> · Atkinson Hyperlegible</dt>
+                        <dd class="specimen specimen--body">Will your stalwart band choose to Fight, Advance or Run? Il1| O0 rn/m</dd>
+                        <dd class="specimen-note">All reading text. Designed by the Braille Institute so similar
+                            letters are easy to tell apart. Available in 400 and 700, upright and italic.</dd>
+                    </div>
+                    <div>
+                        <dt><code>--font-mono</code> · system monospace stack</dt>
+                        <dd class="specimen specimen--mono">C:\MATTBEV&gt; DIR /W  ·  13 March 2026</dd>
+                        <dd class="specimen-note">Menus, status bars, dates, badges, tags, h2/h3 inside posts,
+                            and code.</dd>
+                    </div>
+                </dl>
+
+                <h3>Scale</h3>
+                <ul class="scale" id="type-scale" aria-label="Type scale"></ul>
+            </div>
+        </section>
+
+        <!-- COMPONENTS -->
+        <section class="window" aria-labelledby="components">
+            <div class="window__titlebar" aria-hidden="true"><span class="window__title">COMPNTS.DIR</span></div>
+            <div class="window__body">
+                <h2 id="components">Components</h2>
+
+                <h3>Window</h3>
+                <p>The main container. The titlebar is decorative (<code>aria-hidden</code>). Post and page windows leave it empty; a fixed label like <code>MATTBEV.EXE</code> is fine where it adds flavor.</p>
+                <div class="demo">
+                    <div class="window">
+                        <div class="window__titlebar" aria-hidden="true"><span class="window__title">EXAMPLE.TXT</span></div>
+                        <div class="window__body"><p>Window body. Uses <code>--surface</code> and <code>--text</code>.</p></div>
+                    </div>
+                </div>
+                <pre><code>&lt;div class="window"&gt;
+  &lt;div class="window__titlebar" aria-hidden="true"&gt;
+    &lt;span class="window__title"&gt;EXAMPLE.TXT&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class="window__body"&gt;…&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+                <h3>Panel</h3>
+                <p>The blue info box from DOS file managers, used for the homepage hero and sidebar. When a panel
+                    is a <code>&lt;section&gt;</code>, label it with its heading.</p>
+                <div class="demo demo--narrow">
+                    <section class="panel" aria-labelledby="demo-panel-h">
+                        <h2 id="demo-panel-h">Free Memory</h2>
+                        <p>605,680 bytes. <a href="#components">A panel link</a>.</p>
+                    </section>
+                </div>
+
+                <h3>Badges</h3>
+                <p>Content-type labels in post lists, replacing the old emoji. The source text is
+                    sentence case (“Post”) and CSS makes it uppercase, so screen readers say the word
+                    instead of spelling out letters. The color is always paired with the word.</p>
+                <p class="demo-row">
+                    <span class="badge badge--post">Post</span>
+                    <span class="badge badge--link">Link</span>
+                    <span class="badge badge--tumblr">Tumblr</span>
+                </p>
+
+                <h3>Tags</h3>
+                <p class="demo-row">
+                    <a href="#components" class="post-tag">dev</a>
+                    <a href="#components" class="post-tag">better web</a>
+                    <a href="#components" class="post-tag">horror</a>
+                </p>
+
+                <h3>Post list</h3>
+                <p>A directory listing in a CSS grid: badge, title and date on one row, with the URL and tags
+                    below. On small screens it stacks.</p>
+                <ul class="postlist">
+                    <li class="postlist-item">
+                        <span class="badge badge--post">Post</span>
+                        <a href="#components" class="postlist-link">Opting out of the JavaScript ecosystem (sort of)</a>
+                        <time class="postlist-date" datetime="2024-02-09">09 February 2024</time>
+                        <div class="postlist-extra">
+                            <a href="#components" class="post-tag">better web</a>
+                            <a href="#components" class="post-tag">dev</a>
+                        </div>
+                    </li>
+                    <li class="postlist-item">
+                        <span class="badge badge--link">Link</span>
+                        <a href="#components" class="postlist-link">Hungrier than before</a>
+                        <time class="postlist-date" datetime="2026-07-12">12 July 2026</time>
+                        <div class="postlist-extra">
+                            <small class="postlist-url">https://aworkinglibrary.com/writing/hungrier-than-before</small>
+                        </div>
+                    </li>
+                    <li class="postlist-item">
+                        <span class="badge badge--tumblr">Tumblr</span>
+                        <a href="#components" class="postlist-link">A reblog from long ago</a>
+                        <time class="postlist-date" datetime="2014-05-01">01 May 2014</time>
+                        <div class="postlist-extra"></div>
+                    </li>
+                </ul>
+
+                <h3>Menu bar &amp; status bar</h3>
+                <p>The site header (top of this page) is a Windows 1.0 menu bar. The underlined letters are
+                    visual only, styled with <code>.hotkey</code>; there are no <code>accesskey</code>
+                    bindings to clash with assistive tech. The current page gets
+                    <code>aria-current="page"</code> and inverts. The footer (bottom of this page) is a DOS
+                    status bar with no indicators. Below 36em the menu bar collapses
+                    into a <code>Menu</code> button with a dropdown (<code>assets/menu.js</code>). It's a
+                    disclosure: <code>aria-expanded</code> on the button, and Escape, an outside click or tabbing
+                    away closes it. Without JavaScript the links simply wrap. Its last cell is the red “Press H for Help” cell.</p>
+
+                <h3>Prose</h3>
+                <div class="demo">
+                    <div class="window">
+                        <div class="window__titlebar" aria-hidden="true"><span class="window__title">SAMPLE.TXT</span></div>
+                        <article class="window__body content-section">
+                            <h1 class="page-title">A sample post title</h1>
+                            <div class="post-meta">
+                                <time datetime="2026-10-10">10 October 2026</time>
+                                <a href="#components" class="post-tag">dev</a>
+                            </div>
+                            <p>Body copy is Atkinson Hyperlegible at <code>--step-0</code> with 1.7 leading,
+                                capped at <code>--measure</code>. <a href="#components">Links</a> are underlined,
+                                and on hover they invert like a selected menu item.</p>
+                            <h2>A second-level heading</h2>
+                            <p>Headings inside posts use the system mono stack, so the pixel face is kept for page titles.</p>
+                            <blockquote><p>A blockquote gets a titlebar-colored rail.</p></blockquote>
+                            <ul><li>List item one</li><li>List item two</li></ul>
+                            <pre><code class="language-js">// Highlighted by microlighter
+const party = ["Slayer", "Palamedes"];
+function advance(steps = 20) {
+  return party.map((name) => `${name} moves ${steps}'`);
+}</code></pre>
+                            <table>
+                                <thead><tr><th scope="col">Character</th><th scope="col">AC</th><th scope="col">Hit pts</th></tr></thead>
+                                <tbody>
+                                    <tr><td>Slayer</td><td>L3</td><td>77</td></tr>
+                                    <tr><td>Palamedes</td><td>-4</td><td>218</td></tr>
+                                    <tr><td>Taliesin</td><td>-2</td><td>318</td></tr>
+                                </tbody>
+                            </table>
+                            <nav aria-label="Sample post navigation">
+                                <ul class="post-nav">
+                                    <li><span class="post-nav__label">Next:</span> <a href="#components">Next post</a></li>
+                                    <li><span class="post-nav__label">Previous:</span> <a href="#components">Previous post</a></li>
+                                </ul>
+                            </nav>
+                        </article>
+                    </div>
+                </div>
+
+                <h3>Code</h3>
+                <p>Code blocks are styled as a QBasic / MS-DOS EDIT screen in both schemes.
+                    <a href="https://davatron5000.github.io/microlighter/">microlighter</a> highlights them
+                    with the CSS Custom Highlight API, so there are no token spans in the DOM. The theme is the
+                    <code>--syntax-*</code> tokens in <code>style.css</code>; their contrast is in the color
+                    table above. The base layout loads the runtime only when the page has a
+                    <code>pre &gt; code</code> and the browser supports <code>CSS.highlights</code>.
+                    Otherwise code stays plain, readable text. Grammars load on demand from
+                    <code>/assets/microlighter/grammars/</code>, which Eleventy copies from
+                    <code>node_modules</code>. Every <code>&lt;pre&gt;</code> gets <code>tabindex="0"</code>,
+                    so keyboard users can scroll wide blocks.</p>
+
+                <h3>Button</h3>
+                <p class="demo-row"><button class="button" type="button">OK</button> <button class="button" type="button">Cancel</button></p>
+            </div>
+        </section>
+
+        <!-- A11Y -->
+        <section class="window" aria-labelledby="a11y">
+            <div class="window__titlebar" aria-hidden="true"><span class="window__title">ACCESS.DOC</span></div>
+            <div class="window__body">
+                <h2 id="a11y">Accessibility</h2>
+                <ul>
+                    <li><strong>Contrast:</strong> every text pair in the color table meets WCAG AA (4.5:1),
+                        and most meet AAA. Use the table above to check new tokens before shipping them.</li>
+                    <li><strong>Focus:</strong> a two-tone ring (<code>--focus-ring</code> outline plus
+                        <code>--focus-halo</code> shadow) stays visible on every surface, including the yellow,
+                        blue and cyan bars. Tab through this page to see it.</li>
+                    <li><strong>Skip link:</strong> the first tab stop on every page jumps to
+                        <code>&lt;main&gt;</code>.</li>
+                    <li><strong>Motion:</strong> nothing on the site animates. With <code>prefers-reduced-motion</code>, animations and transitions are also turned off globally as a safety net.</li>
+                    <li><strong>High contrast:</strong> with <code>prefers-contrast: more</code> the desktop
+                        dither is removed and muted text goes to full strength. In
+                        <code>forced-colors</code> mode, badges, tags and panels get system-color borders.</li>
+                    <li><strong>Landmarks:</strong> banner, a labelled main nav, main, and a labelled footer
+                        nav. Sidebar panels are sections labelled by their headings.</li>
+                    <li><strong>Reflow:</strong> no horizontal scrolling at 320px. Long URLs in link posts wrap
+                        anywhere.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <nav aria-label="Design system footer">
+            <ul>
+                <li><a href="#principles">Principles</a></li>
+                <li><a href="#color">Color</a></li>
+                <li><a href="#type">Type</a></li>
+                <li><a href="#main">Back to top</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="../assets/menu.js" defer></script>
+    <script src="docs.js"></script>
+    <script type="module">
+        // Browsers block module imports over file://; serve the repo root to see highlighting.
+        if ("highlights" in CSS && location.protocol !== "file:") import("../node_modules/microlighter/dist/microlighter.min.js");
+    </script>
+</body>
+</html>

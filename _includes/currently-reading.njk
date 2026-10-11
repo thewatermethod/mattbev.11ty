@@ -1,14 +1,16 @@
 {% if currentlyReading.length > 0 %}
-<div class="sidebar--current currently-reading">
-    <h2>Currently Reading</h2>
+<section class="panel sidebar--current currently-reading" aria-labelledby="currently-reading-heading">
+    <h2 id="currently-reading-heading">Currently Reading</h2>
     <ul>
     {% for book in currentlyReading %}
         <li>
             <img src="{{ book.thumbnail }}" alt="" /><!-- empty alt as title is displayed -->
-            <h3 class="sidebar--current__title">{{ book.title }}</h3>
-            <p class="sidebar--current__description">{{ book.author }}</p>
+            <div>
+                <h3 class="sidebar--current__title">{{ book.title }}</h3>
+                <p class="sidebar--current__description">{{ book.author }}</p>
+            </div>
         </li>
     {% endfor %}
     </ul>
-</div>
+</section>
 {% endif %}

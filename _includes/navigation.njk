@@ -1,19 +1,24 @@
-<nav>
-    <ul>
-        <li>
-            <a href="{{ '/' | url }}">Home</a>
-        </li>
-        <li>
-            <a href="{{ '/posts' | url }}">Writing</a>
-        </li>
-        <li>
-           <a href="{{ '/about' | url }}">About me</a>
-        </li>
-        {# <li>
-            <a href="{}">Contact</a>
-        </li> #}
-        <li>
-            <a href="https://resume.mattbev.com">🔗 Resume</a>
-        </li>
-    </ul>
-</nav>
+<div class="menubar">
+    <span class="menubar__prompt" aria-hidden="true">C:\&gt;</span>
+    <nav aria-label="Main">
+        <button class="menubar__toggle" type="button" aria-expanded="false" aria-controls="main-menu"><span class="hotkey">M</span>enu</button>
+        <ul id="main-menu">
+            <li>
+                <a href="{{ '/' | url }}"{% if page.url == '/' %} aria-current="page"{% endif %}><span class="hotkey">H</span>ome</a>
+            </li>
+            <li>
+                <a href="{{ '/posts' | url }}"{% if page.url == '/posts/' %} aria-current="page"{% endif %}><span class="hotkey">W</span>riting</a>
+            </li>
+            <li>
+               <a href="{{ '/about' | url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}><span class="hotkey">A</span>bout me</a>
+            </li>
+            {# <li>
+                <a href="{}">Contact</a>
+            </li> #}
+            <li>
+                <a href="https://resume.mattbev.com"><span class="hotkey">R</span>esume<span class="external-mark" aria-hidden="true">&#x2197;&#xFE0E;</span></a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<script src="{{ '/assets/menu.js' | url }}" defer></script>

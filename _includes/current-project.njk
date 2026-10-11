@@ -1,7 +1,7 @@
 {% set currentProjects = collections.currentProjects %}
 {% if currentProjects.length > 0 %}
-<div class="sidebar--current current-project">
-    <h2>Current Projects</h2>
+<section class="panel sidebar--current current-project" aria-labelledby="current-projects-heading">
+    <h2 id="current-projects-heading">Current Projects</h2>
     <ul class="current-project-list">
     {% for project in currentProjects | reverse %}
         <li>
@@ -13,10 +13,10 @@
                 </a>
             {% endif %}
             {% if project.data.status %}
-                <br /><em>{{ project.data.status }}</em>
+                <br /><span class="sidebar--current__status">{{ project.data.status }}</span>
             {% endif %}
         </li>
     {% endfor %}
     </ul>
-</div>
+</section>
 {% endif %}
