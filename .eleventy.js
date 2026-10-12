@@ -6,11 +6,6 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 module.exports = function (eleventyConfig) {
-  // Import locally; Netlify sets SKIP_TUMBLR and builds the committed posts.
-  eleventyConfig.on("eleventy.before", async () => {
-    if (process.env.SKIP_TUMBLR === "true") return;
-    await require("./bin/backup-tumblr").backupTumblr();
-  });
   eleventyConfig.watchIgnores.add("archive/**");
 
   // Re-run page scripts after HTML changes (recipe filters and variant pickers).
