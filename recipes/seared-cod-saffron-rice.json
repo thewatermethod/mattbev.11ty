@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 15, "max": 25, "unit": "minutes" },
-  "tags": ["seafood", "rice", "weeknight"],
+  "tags": ["seafood", "rice", "weeknight", "meredith"],
   "ingredients": [
     { "id": "cod", "quantity": 2, "unit": null, "item": "cod fillets" },
     { "id": "kale", "quantity": 1, "unit": "bunch", "item": "kale" },

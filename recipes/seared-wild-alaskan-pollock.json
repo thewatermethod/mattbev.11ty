@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 30, "max": 40, "unit": "minutes" },
-  "tags": ["seafood", "rice"],
+  "tags": ["seafood", "rice", "meredith"],
   "ingredients": [
     { "id": "pollock", "quantity": 10.5, "unit": "oz", "item": "wild Alaskan pollock fillets" },
     { "id": "broccoli", "quantity": 0.5, "unit": "lb", "item": "broccoli" },

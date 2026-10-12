@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 25, "max": 35, "unit": "minutes" },
-  "tags": ["beef", "burgers", "weeknight"],
+  "tags": ["beef", "burgers", "weeknight", "meredith"],
   "ingredients": [
     { "id": "beef", "quantity": 10, "unit": "oz", "item": "ground beef" },
     { "id": "mushrooms", "quantity": 4, "unit": "oz", "item": "cremini mushrooms" },

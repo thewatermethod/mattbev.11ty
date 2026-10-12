@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 30, "max": 40, "unit": "minutes" },
-  "tags": ["vegetarian", "sandwiches"],
+  "tags": ["vegetarian", "sandwiches", "meredith"],
   "ingredients": [
     { "id": "baguettes", "quantity": 2, "unit": null, "item": "small baguettes" },
     { "id": "lettuce", "quantity": 1, "unit": "head", "item": "butter lettuce" },

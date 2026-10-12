@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 35, "max": 45, "unit": "minutes" },
-  "tags": ["chicken", "pasta"],
+  "tags": ["chicken", "pasta", "meredith"],
   "ingredients": [
     { "id": "chicken", "quantity": 2, "unit": null, "item": "boneless, skin-on chicken breasts" },
     { "id": "fregola", "quantity": 0.667, "unit": "Cup", "item": "fregola sarda pasta" },

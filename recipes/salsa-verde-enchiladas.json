@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 45, "max": 45, "unit": "minutes" },
-  "tags": ["vegetarian", "mexican"],
+  "tags": ["vegetarian", "mexican", "meredith"],
   "ingredients": [
     { "id": "poblano", "quantity": 1, "unit": null, "item": "poblano pepper" },
     { "id": "tomato", "quantity": 1, "unit": null, "item": "Roma tomato" },

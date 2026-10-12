@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 20, "max": 30, "unit": "minutes" },
-  "tags": ["seafood", "noodles", "weeknight"],
+  "tags": ["seafood", "noodles", "weeknight", "meredith"],
   "ingredients": [
     { "id": "shrimp", "quantity": 10, "unit": "oz", "item": "tail-on shrimp", "note": "peeled & deveined" },
     { "id": "cabbage", "quantity": 0.5, "unit": "lb", "item": "red cabbage" },

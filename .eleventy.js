@@ -6,11 +6,6 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const embedYouTube = require("eleventy-plugin-youtube-embed");
 
 module.exports = function (eleventyConfig) {
-  // Import locally; Netlify sets SKIP_TUMBLR and builds the committed posts.
-  eleventyConfig.on("eleventy.before", async () => {
-    if (process.env.SKIP_TUMBLR === "true") return;
-    await require("./bin/backup-tumblr").backupTumblr();
-  });
   eleventyConfig.watchIgnores.add("archive/**");
 
   // Re-run page scripts after HTML changes (recipe filters and variant pickers).
@@ -109,6 +104,21 @@ module.exports = function (eleventyConfig) {
   }
 
   eleventyConfig.addFilter("filterTagList", filterTagList);
+
+  eleventyConfig.addFilter("withoutType", (posts, type) =>
+    (posts || []).filter((post) => post.data.type !== type),
+  );
+
+  eleventyConfig.addFilter("withType", (posts, type) =>
+    (posts || []).filter((post) => post.data.type === type),
+  );
+
+  // Drop the "Originally published on Tumblr" footer; the list shows its own tag.
+  eleventyConfig.addFilter("tumblrBody", (html) =>
+    (html || "").replace(/<p>Originally published on <a[^>]*>Tumblr<\/a>\.<\/p>\s*$/, ""),
+  );
+
+  eleventyConfig.addFilter("hasTag", (tags, tag) => (tags || []).includes(tag));
 
   // Recipe filters
   eleventyConfig.addFilter("recipesTagged", (recipes, tag) =>

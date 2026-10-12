@@ -8,7 +8,7 @@
 	},
 	"servings": 2,
 	"time": { "min": 30, "max": 40, "unit": "minutes" },
-	"tags": ["seafood", "salad"],
+	"tags": ["seafood", "salad", "meredith"],
 	"ingredients": [
 		{ "id": "cod", "quantity": 2, "unit": null, "item": "cod fillets" },
 		{ "id": "egg", "quantity": 1, "unit": null, "item": "farm egg" },

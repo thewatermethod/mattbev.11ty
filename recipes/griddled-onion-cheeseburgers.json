@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 35, "max": 35, "unit": "minutes" },
-  "tags": ["beef", "burgers", "weeknight"],
+  "tags": ["beef", "burgers", "weeknight", "meredith"],
   "ingredients": [
     { "id": "onion", "quantity": 1, "unit": null, "item": "yellow onion" },
     { "id": "potatoes", "quantity": 12, "unit": "oz", "item": "Yukon Gold potatoes" },

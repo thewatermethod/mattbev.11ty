@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 25, "max": 35, "unit": "minutes" },
-  "tags": ["seafood", "rice", "weeknight"],
+  "tags": ["seafood", "rice", "weeknight", "meredith"],
   "ingredients": [
     { "id": "shrimp", "quantity": 10, "unit": "oz", "item": "tail-on shrimp", "note": "peeled & deveined" },
     { "id": "rice", "quantity": 0.5, "unit": "cup", "item": "long grain white rice" },

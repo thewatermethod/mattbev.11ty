@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 45, "max": 45, "unit": "minutes" },
-  "tags": ["pork", "rice", "weeknight"],
+  "tags": ["pork", "rice", "weeknight", "meredith"],
   "ingredients": [
     { "id": "shallot", "quantity": 1, "unit": null, "item": "shallot" },
     { "id": "lime", "quantity": 1, "unit": null, "item": "lime" },

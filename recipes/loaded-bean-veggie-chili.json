@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 30, "max": 30, "unit": "minutes" },
-  "tags": ["vegetarian", "mexican", "weeknight"],
+  "tags": ["vegetarian", "mexican", "weeknight", "meredith"],
   "ingredients": [
     { "id": "scallions", "quantity": 2, "unit": null, "item": "scallions" },
     { "id": "onion", "quantity": 1, "unit": null, "item": "yellow onion" },

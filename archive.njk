@@ -1,13 +1,28 @@
 ---
 layout: layouts/base.njk
-permalink: /posts/
+pagination:
+  data: collections.posts
+  size: 20
+  reverse: true
+permalink: "/posts/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
 eleventyNavigation:
   key: Archive
   order: 2
 ---
 
-<h1 class="page-title">Archive</h1>
+<h1 class="page-title">Archive{% if pagination.pageNumber > 0 %} <small>page {{ pagination.pageNumber + 1 }}</small>{% endif %}</h1>
 
 {% set shouldCombine = true %}
-{% set postslist = collections.posts  %}
+{# postslist.njk reverses its input, so undo pagination's per-page newest-first order #}
+{% set postslist = pagination.items | reverse %}
 {% include "postslist.njk" %}
+
+<nav class="pagination" aria-label="Archive pages">
+  {% if pagination.href.previous %}<a href="{{ pagination.href.previous | url }}" rel="prev">← Newer</a>{% endif %}
+  <ol>
+  {% for pageUrl in pagination.hrefs %}
+    <li><a href="{{ pageUrl | url }}"{% if loop.index0 == pagination.pageNumber %} aria-current="page"{% endif %}>{{ loop.index }}</a></li>
+  {% endfor %}
+  </ol>
+  {% if pagination.href.next %}<a href="{{ pagination.href.next | url }}" rel="next">Older →</a>{% endif %}
+</nav>

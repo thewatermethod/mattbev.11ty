@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 35, "max": 35, "unit": "minutes" },
-  "tags": ["chicken", "grain-bowl", "weeknight"],
+  "tags": ["chicken", "grain-bowl", "weeknight", "meredith"],
   "ingredients": [
     { "id": "garlic", "quantity": 2, "unit": "Cloves", "item": "garlic" },
     { "id": "yogurt", "quantity": 4, "unit": "TBSP", "item": "yogurt" },

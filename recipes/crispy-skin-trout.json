@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 25, "max": 35, "unit": "minutes" },
-  "tags": ["seafood", "grain-bowl"],
+  "tags": ["seafood", "grain-bowl", "meredith"],
   "ingredients": [
     { "id": "trout", "quantity": 2, "unit": null, "item": "skin-on steelhead trout fillets" },
     { "id": "farro", "quantity": 0.5, "unit": "cup", "item": "semi-pearled farro" },

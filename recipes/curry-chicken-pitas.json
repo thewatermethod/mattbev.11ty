@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 15, "max": 25, "unit": "minutes" },
-  "tags": ["chicken", "weeknight"],
+  "tags": ["chicken", "weeknight", "meredith"],
   "ingredients": [
     { "id": "chicken", "quantity": 10, "unit": "oz", "item": "chopped chicken breast" },
     { "id": "onion", "quantity": 1, "unit": null, "item": "red onion" },
