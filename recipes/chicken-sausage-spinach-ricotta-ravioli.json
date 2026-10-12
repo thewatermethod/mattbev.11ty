@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 20, "max": 20, "unit": "minutes" },
-  "tags": ["pasta", "chicken", "weeknight"],
+  "tags": ["pasta", "chicken", "weeknight", "meredith"],
   "ingredients": [
     { "id": "scallion", "quantity": 1, "unit": null, "item": "scallion" },
     { "id": "tomato", "quantity": 1, "unit": null, "item": "Roma tomato" },

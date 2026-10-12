@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 20, "max": 20, "unit": "minutes" },
-  "tags": ["beef", "rice", "weeknight"],
+  "tags": ["beef", "rice", "weeknight", "meredith"],
   "ingredients": [
     { "id": "rice", "quantity": 0.5, "unit": "Cup", "item": "jasmine rice" },
     { "id": "scallion", "quantity": 1, "unit": null, "item": "scallion" },

@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 30, "max": 30, "unit": "minutes" },
-  "tags": ["pork", "rice", "weeknight"],
+  "tags": ["pork", "rice", "weeknight", "meredith"],
   "ingredients": [
     { "id": "carrots", "quantity": 12, "unit": "oz", "item": "carrots" },
     { "id": "lime", "quantity": 1, "unit": null, "item": "lime" },

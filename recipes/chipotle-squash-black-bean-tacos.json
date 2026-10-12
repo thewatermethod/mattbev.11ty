@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 30, "max": 40, "unit": "minutes" },
-  "tags": ["vegetarian", "mexican"],
+  "tags": ["vegetarian", "mexican", "meredith"],
   "ingredients": [
     { "id": "tortillas", "quantity": 4, "unit": null, "item": "flour tortillas" },
     { "id": "squash", "quantity": 1, "unit": null, "item": "butterbaby squash" },

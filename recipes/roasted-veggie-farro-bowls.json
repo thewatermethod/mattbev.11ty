@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 40, "max": 40, "unit": "minutes" },
-  "tags": ["vegetarian", "grain-bowl"],
+  "tags": ["vegetarian", "grain-bowl", "meredith"],
   "ingredients": [
     { "id": "farro", "quantity": 0.75, "unit": "Cup", "item": "farro" },
     { "id": "stock-concentrate", "quantity": 1, "unit": null, "item": "veggie stock concentrate" },

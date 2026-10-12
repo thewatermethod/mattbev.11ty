@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 15, "max": 25, "unit": "minutes" },
-  "tags": ["pasta", "vegetarian", "weeknight"],
+  "tags": ["pasta", "vegetarian", "weeknight", "meredith"],
   "ingredients": [
     { "id": "pasta", "quantity": 6, "unit": "oz", "item": "Banza chickpea rotini pasta" },
     { "id": "mushrooms", "quantity": 4, "unit": "oz", "item": "mushrooms" },

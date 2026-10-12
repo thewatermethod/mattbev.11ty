@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 20, "max": 30, "unit": "minutes" },
-  "tags": ["seafood", "rice", "weeknight"],
+  "tags": ["seafood", "rice", "weeknight", "meredith"],
   "ingredients": [
     { "id": "shrimp", "quantity": 10, "unit": "oz", "item": "tail-on shrimp", "note": "Peeled & deveined" },
     { "id": "mushrooms", "quantity": 4, "unit": "oz", "item": "cremini mushrooms" },

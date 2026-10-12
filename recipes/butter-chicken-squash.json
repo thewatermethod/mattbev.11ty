@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 25, "max": 35, "unit": "minutes" },
-  "tags": ["chicken", "rice", "weeknight"],
+  "tags": ["chicken", "rice", "weeknight", "meredith"],
   "ingredients": [
     { "id": "chicken", "quantity": 10, "unit": "oz", "item": "chopped chicken breast" },
     { "id": "tomato-paste", "quantity": 2, "unit": "Tbsps", "item": "tomato paste" },

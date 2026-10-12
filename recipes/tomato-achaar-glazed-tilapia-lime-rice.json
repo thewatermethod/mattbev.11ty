@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 35, "max": 45, "unit": "minutes" },
-  "tags": ["seafood", "rice"],
+  "tags": ["seafood", "rice", "meredith"],
   "ingredients": [
     { "id": "tilapia", "quantity": 2, "unit": null, "item": "tilapia fillets" },
     { "id": "yogurt", "quantity": 0.5, "unit": "cup", "item": "plain nonfat Greek yogurt" },

@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 30, "max": 40, "unit": "minutes" },
-  "tags": ["seafood", "grain-bowl"],
+  "tags": ["seafood", "grain-bowl", "meredith"],
   "ingredients": [
     { "id": "shrimp", "quantity": 10, "unit": "oz", "item": "tail-on shrimp", "note": "peeled & deveined" },
     {

@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 15, "max": 25, "unit": "minutes" },
-  "tags": ["pasta", "vegetarian", "weeknight"],
+  "tags": ["pasta", "vegetarian", "weeknight", "meredith"],
   "ingredients": [
     { "id": "pasta", "quantity": 6, "unit": "oz", "item": "elicoidali pasta" },
     { "id": "broccoli", "quantity": 0.5, "unit": "lb", "item": "broccoli" },

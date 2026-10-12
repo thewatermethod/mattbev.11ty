@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 25, "max": 35, "unit": "minutes" },
-  "tags": ["chicken", "grain-bowl"],
+  "tags": ["chicken", "grain-bowl", "meredith"],
   "ingredients": [
     { "id": "chicken", "quantity": 2, "unit": null, "item": "boneless, skinless chicken breasts" },
     { "id": "kale", "quantity": 1, "unit": "bunch", "item": "kale" },

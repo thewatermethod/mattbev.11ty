@@ -8,7 +8,7 @@
 	},
 	"servings": 2,
 	"time": { "min": 30, "max": 40, "unit": "minutes" },
-	"tags": ["seafood", "weeknight"],
+	"tags": ["seafood", "weeknight", "meredith"],
 	"ingredients": [
 		{
 			"id": "salmon",

@@ -8,7 +8,7 @@
   },
   "servings": 2,
   "time": { "min": 30, "max": 40, "unit": "minutes" },
-  "tags": ["seafood", "grain-bowl"],
+  "tags": ["seafood", "grain-bowl", "meredith"],
   "ingredients": [
     { "id": "salmon", "quantity": 2, "unit": null, "item": "skin-on salmon fillets" },
     { "id": "bell-pepper", "quantity": 1, "unit": null, "item": "red, yellow, or orange bell pepper" },

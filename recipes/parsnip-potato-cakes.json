@@ -7,7 +7,7 @@
   },
   "servings": 6,
   "time": { "min": 30, "max": 30, "unit": "minutes" },
-  "tags": ["vegetarian", "side"],
+  "tags": ["vegetarian", "side", "meredith"],
   "ingredients": [
     { "id": "eggs", "quantity": 2, "unit": null, "item": "large eggs" },
     { "id": "potatoes", "quantity": 1, "unit": "pound", "item": "russet potatoes, peeled and grated" },
