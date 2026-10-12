@@ -1,5 +1,6 @@
 [build]
-  command = "SKIP_STORYGRAPH=true npx @11ty/eleventy"
+  command = "SKIP_STORYGRAPH=true SKIP_TUMBLR=true npx @11ty/eleventy"
+  # TODO should the above more properly be moved to environment?
   publish = "_site"
 
 [build.environment]

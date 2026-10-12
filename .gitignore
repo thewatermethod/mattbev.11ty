@@ -13,3 +13,9 @@ scans/
 .DS_Store
 
 .env
+
+# Raw Tumblr payloads are backed up to R2; commit Markdown and the small ID index.
+archive/tumblr/posts/
+archive/tumblr/pending.json
+archive/tumblr/missing-images.json
+archive/tumblr/progress.json

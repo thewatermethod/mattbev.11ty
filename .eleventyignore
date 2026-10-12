@@ -2,4 +2,7 @@ README.md
 delicious
 maker
 
-bin/*
+bin/
+docs/
+archive/
+tests/
