@@ -110,6 +110,21 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", filterTagList);
 
+  eleventyConfig.addFilter("withoutType", (posts, type) =>
+    (posts || []).filter((post) => post.data.type !== type),
+  );
+
+  eleventyConfig.addFilter("withType", (posts, type) =>
+    (posts || []).filter((post) => post.data.type === type),
+  );
+
+  // Drop the "Originally published on Tumblr" footer; the list shows its own tag.
+  eleventyConfig.addFilter("tumblrBody", (html) =>
+    (html || "").replace(/<p>Originally published on <a[^>]*>Tumblr<\/a>\.<\/p>\s*$/, ""),
+  );
+
+  eleventyConfig.addFilter("hasTag", (tags, tag) => (tags || []).includes(tag));
+
   // Recipe filters
   eleventyConfig.addFilter("recipesTagged", (recipes, tag) =>
     recipes.filter((recipe) => (recipe.tags || []).includes(tag)),

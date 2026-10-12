@@ -229,6 +229,21 @@ postlist component
     color: var(--murky-depths);
 }
 
+.postlist-item-tumblr {
+    border: 1px solid var(--haunted-smoke);
+    border-radius: 4px;
+    padding: 1em;
+}
+
+.tumblr-body > :first-child {
+    margin-top: 0;
+}
+
+.tumblr-body img {
+    max-width: 100%;
+    height: auto;
+}
+
 .sidebar--current ul {
     list-style: none;
 }
@@ -334,4 +349,28 @@ tr:nth-child(even) {
 
 .bookshelf {
     padding-inline: 2em;
+}
+
+/**
+pagination component
+**/
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1em;
+}
+
+.pagination ol {
+    display: flex;
+    gap: 0.5em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination [aria-current="page"] {
+    color: var(--text-color);
+    font-weight: bold;
+    text-decoration: none;
 }
