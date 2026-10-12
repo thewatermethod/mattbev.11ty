@@ -8,4 +8,26 @@
         <li><a rel="me" href="https://dice.camp/@thewatermethod">Mastodon</a></li>
       </ul>
     </nav>
+    <form class="theme-switcher" hidden>
+      <label for="theme-select">Theme</label>
+      <select id="theme-select">
+        <option value="2026">2026</option>
+        <option value="none">No CSS/JS</option>
+      </select>
+    </form>
+    <script data-theme-allow>
+      (function () {
+        var form = document.querySelector(".theme-switcher");
+        var select = document.getElementById("theme-select");
+        try { select.value = localStorage.getItem("theme") || "2026"; } catch (e) {}
+        select.addEventListener("change", function () {
+          try {
+            if (select.value === "2026") localStorage.removeItem("theme");
+            else localStorage.setItem("theme", select.value);
+          } catch (e) {}
+          location.reload();
+        });
+        form.hidden = false;
+      })();
+    </script>
   </footer>

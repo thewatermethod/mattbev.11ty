@@ -374,3 +374,16 @@ pagination component
     font-weight: bold;
     text-decoration: none;
 }
+
+.theme-switcher {
+    margin: 1em auto 0;
+    max-width: 580px;
+    padding: 0.5em;
+    font-size: 0.9em;
+}
+
+.theme-switcher select {
+    font: inherit;
+    color: inherit;
+    margin-left: 0.5em;
+}

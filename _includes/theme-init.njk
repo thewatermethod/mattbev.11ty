@@ -1,0 +1,27 @@
+<script data-theme-allow>
+  (function () {
+    var theme;
+    try { theme = localStorage.getItem("theme"); } catch (e) {}
+    if (theme !== "none") return;
+
+    // "No CSS/JS": strip stylesheets, inline styles, and scripts as the parser adds them
+    function strip(node) {
+      if (node.nodeType !== 1) return;
+      if (node.matches('link[rel~="stylesheet"], style')) {
+        node.remove();
+        return;
+      }
+      if (node.matches("script") && !node.hasAttribute("data-theme-allow")) {
+        node.type = "javascript/blocked";
+        node.remove();
+        return;
+      }
+      if (node.hasAttribute("style")) node.removeAttribute("style");
+      node.querySelectorAll('link[rel~="stylesheet"], style, script:not([data-theme-allow]), [style]').forEach(strip);
+    }
+
+    new MutationObserver(function (mutations) {
+      mutations.forEach(function (m) { m.addedNodes.forEach(strip); });
+    }).observe(document.documentElement, { childList: true, subtree: true });
+  })();
+</script>
