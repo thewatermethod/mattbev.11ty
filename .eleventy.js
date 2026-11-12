@@ -57,6 +57,13 @@ module.exports = function (eleventyConfig) {
     return books;
   });
 
+  // Wishlist items live in wishlist/NN-slug.md; the filename is the #anchor.
+  eleventyConfig.addCollection("wishlist", (collection) =>
+    collection
+      .getFilteredByTag("wishlist")
+      .sort((a, b) => a.page.fileSlug.localeCompare(b.page.fileSlug)),
+  );
+
   eleventyConfig.addCollection("currentProjects", (collection) => {
     const projects = collection
       .getFilteredByTag("projects")
@@ -99,7 +106,7 @@ module.exports = function (eleventyConfig) {
 
   function filterTagList(tags) {
     return (tags || []).filter(
-      (tag) => ["all", "nav", "post", "posts"].indexOf(tag) === -1,
+      (tag) => ["all", "nav", "post", "posts", "wishlist"].indexOf(tag) === -1,
     );
   }
 
