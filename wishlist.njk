@@ -1,0 +1,96 @@
+---
+layout: layouts/wishlist.njk
+title: Wishlist
+description: A wishlist, for anyone who asks what I want.
+permalink: /wishlist/
+---
+{%- set items = collections.wishlist -%}
+
+<header class="menubar">
+  <a class="menubar-home" href="{{ '/' | url }}" aria-label="mattbev.com home">
+    <svg viewBox="0 0 16 16" aria-hidden="true" shape-rendering="crispEdges"><path d="M2 6h12v2H2zM3 8h10v6H3zM7 4h2v10H7zM4 2h3v2H4zM9 2h3v2H9zM3 3h1v1H3zM12 3h1v1h-1z"/></svg>
+  </a>
+  <a href="{{ '/' | url }}">mattbev.com</a>
+  <button type="button" class="menubar-btn" data-open-index hidden>All items</button>
+  <span class="menubar-spacer"></span>
+  <span class="menubar-count" data-count hidden><span data-current>1</span>/{{ items.length }}</span>
+</header>
+
+<div class="desktop">
+  <section class="window" aria-labelledby="wishlist-title">
+    <div class="titlebar">
+      <a class="closebox" href="{{ '/' | url }}" aria-label="Close wishlist and go home"></a>
+      <h1 id="wishlist-title"><span>{{ title }}</span></h1>
+    </div>
+
+    <div class="window-body">
+      <div class="canvas">
+        <p class="intro">
+          Inspired by <a href="https://wishlist.chriscoyier.net/#01-smokey-bear-sunglasses">this codepen</a>.
+        </p>
+
+        <ol class="carousel" data-carousel tabindex="0" aria-label="Wishlist items">
+          {%- for item in items %}
+          {%- set slug = item.page.fileSlug %}
+          <li class="item{% if item.data.got %} is-got{% endif %}" id="{{ slug }}" data-index="{{ loop.index0 }}" aria-label="{{ loop.index }} of {{ items.length }}: {{ item.data.title }}">
+            <figure class="item-media">
+              {%- if item.data.image %}
+              <img src="{{ item.data.image | url }}" alt="{{ item.data.imageAlt or item.data.title }}" loading="{{ 'eager' if loop.first else 'lazy' }}" decoding="async" data-dither>
+              {%- else %}
+              <svg class="placeholder" viewBox="0 0 32 32" role="img" aria-label="No picture yet" shape-rendering="crispEdges"><path d="M4 12h24v4H4zM6 16h20v12H6zM14 9h4v19h-4zM8 5h6v2H8zM18 5h6v2h-6zM6 6h2v3H6zM24 6h2v3h-2zM8 9h6v1H8zM18 9h6v1h-6z"/></svg>
+              {%- endif %}
+              {%- if item.data.got %}<span class="stamp">Got it!</span>{% endif %}
+            </figure>
+            <div class="item-copy">
+              <p class="item-num">No. {{ slug.split("-")[0] }}</p>
+              <h2>{{ item.data.title }}</h2>
+              {%- if item.data.price %}<p class="item-price">{{ item.data.price }}</p>{% endif %}
+              <div class="item-notes">{{ item.content | safe }}</div>
+              <p class="item-actions">
+                {%- if item.data.url %}
+                <a class="mac-btn is-default" href="{{ item.data.url }}" rel="noopener">Get it&hellip;</a>
+                {%- endif %}
+                <a class="mac-btn" href="#{{ slug }}" data-permalink>Link</a>
+              </p>
+            </div>
+          </li>
+          {%- endfor %}
+        </ol>
+      </div>
+    </div>
+
+    <nav class="statusbar" aria-label="Wishlist navigation" data-nav hidden>
+      <button type="button" class="mac-btn" data-prev>&#9664; Prev</button>
+      <span class="statusbar-count" aria-live="polite"><span data-current>1</span> of {{ items.length }}</span>
+      <button type="button" class="mac-btn" data-next>Next &#9654;</button>
+    </nav>
+
+    <div class="patterns" role="group" aria-label="Desktop pattern" data-patterns hidden>
+      {%- for n in range(1, 9) %}
+      <button type="button" class="swatch pattern-{{ n }}" data-pattern="{{ n }}" aria-label="Pattern {{ n }}"></button>
+      {%- endfor %}
+    </div>
+  </section>
+</div>
+
+<dialog class="index-dialog" data-index-dialog aria-labelledby="index-title">
+  <div class="titlebar">
+    <form method="dialog"><button class="closebox" aria-label="Close list"></button></form>
+    <h2 id="index-title"><span>All items</span></h2>
+  </div>
+  <ol class="index-grid">
+    {%- for item in items %}
+    <li>
+      <a href="#{{ item.page.fileSlug }}" data-index-link{% if item.data.got %} class="is-got"{% endif %}>
+        {%- if item.data.image %}
+        <img src="{{ item.data.image | url }}" alt="" loading="lazy" decoding="async">
+        {%- else %}
+        <span class="index-blank" aria-hidden="true"></span>
+        {%- endif %}
+        <span class="index-num">{{ item.page.fileSlug.split("-")[0] }}</span>
+        <span class="index-title">{{ item.data.title }}</span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ol>
+</dialog>
