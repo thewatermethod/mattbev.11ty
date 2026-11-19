@@ -6,5 +6,4 @@ image: https://www.valancourtbooks.com/uploads/2/7/0/1/27017582/strangeeons_orig
 imageAlt: Cover of the book, a cartoonish deep one on a red background
 ---
 
-This has been out of print forever, I've been hunting a used copy and just never found an affordable one. I intend to scoop this up 
-while there is some in print.
+This has been out of print forever.
