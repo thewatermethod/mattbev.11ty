@@ -2,7 +2,6 @@
 _site/
 img/
 node_modules/
-package-lock.json
 
 scans/
 
