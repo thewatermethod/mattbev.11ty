@@ -305,19 +305,7 @@ footer ul {
     padding: 0.5em;
     list-style: none;
     margin: 4em auto 0;
-    max-width: 580px;
-}
-
-footer li.gideon:before {
-    content: "💀 ";
-}
-
-footer li.books:before {
-    content: "📚 ";
-}
-
-footer li.hash:before {
-    content: "#️⃣ ";
+    max-width: 640px;
 }
 
 /**

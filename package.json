@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
-    "dev": "npx @11ty/eleventy --serve",
+    "dev": "node --env-file=.env ./node_modules/@11ty/eleventy/cmd.cjs --serve",
     "start": "npx @11ty/eleventy --serve",
     "maker": "./bin/maker.sh",
     "refresh-books": "node ./bin/refresh-books.js",

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ metadata.language }}">
+  <head>
+    <meta charset="utf-8">
+    {% include "theme-init.njk" %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    {# Wishlist-only assets: nothing here loads on the rest of the site. #}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap">
+    <link rel="stylesheet" href="{{ '/css/wishlist.css' | url }}">
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | url }}">
+  </head>
+  <body class="pattern-1">
+    {{ content | safe }}
+    <script src="{{ '/assets/wishlist.js' | url }}" defer></script>
+  </body>
+</html>
